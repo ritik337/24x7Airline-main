@@ -77,7 +77,7 @@ export const SimpleSchedule = (props) => {
     }
   }
   return (
-    <div className={props.view?"pt-8 absolute bg-white w-100":"hidden"}>
+    <div className={props.view?"pt-8 absolute bg-white w-100":"hidden"} style={{zIndex:999}}>
       <div className="mx-auto max-w-md px-4 sm:px-7 md:max-w-4xl md:px-6">
         <div className="md:grid md:divide-x md:divide-gray-200">
           <div className="">

@@ -7,28 +7,28 @@ import cardimage from './Components/img/work-1.png'
 import checkmark from './Components/img/check.png'
 import customersupport from './Components/img/support.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
-import { SimpleSchedule } from "./Components/Calander/SimpleSchedule"
+import {faMinus,faPlus } from "@fortawesome/free-solid-svg-icons";
+import {SimpleSchedule} from "./Components/Calander/SimpleSchedule"
 import Link from "next/link";
 
 export default function Home() {
   const [returns, setreturn] = useState(false)
   const [returnsval, setreturnval] = useState()
-  const [departure, setdeparture] = useState()
-  const [loading, setloading] = useState(true)
-  const [showmenue, setshowmenue] = useState(false)
-  const [adults, setadults] = useState(1)
-  const [child, setchild] = useState(0)
-  const [infants, setinfants] = useState(0)
-  const [fly_from, setflyfrom] = useState()
-  const [flyto, setflyto] = useState()
-  const [flighttype, setflighttype] = useState('return')
-  const [showCal, setshowCal] = useState(false)
-  const [showCalret, setshowCalret] = useState(false)
-  const viewmenue = () => {
+  const [departure,setdeparture] = useState()
+  const [loading,setloading]= useState(true)
+  const [showmenue,setshowmenue] = useState(false)
+  const [adults,setadults]= useState(1)
+  const [child,setchild]= useState(0)
+  const [infants,setinfants] = useState(0)
+  const [fly_from,setflyfrom] = useState()
+  const [flyto,setflyto]= useState()
+  const [flighttype,setflighttype]= useState('return')
+  const [showCal,setshowCal] = useState(false)
+  const [showCalret,setshowCalret] = useState(false)
+  const viewmenue = () =>{
     setshowmenue(true)
   }
-  const hidemenue = () => {
+  const hidemenue = () =>{
     setshowmenue(false)
   }
   const disablereturn = () => {
@@ -39,21 +39,21 @@ export default function Home() {
     setreturn(false)
     setflighttype('return')
   }
-  useEffect(() => {
+  useEffect(()=>{
     setTimeout(() => {
       setloading(false)
     }, 3);
-  }, [loading])
-  const setvaluedep = (date) => {
+  },[loading])
+  const setvaluedep = (date)=>{
     setdeparture(date)
   }
-  const setvaluedepret = (date) => {
+  const setvaluedepret = (date)=>{
     setreturnval(date)
   }
   return (
     <div className="wrapper">
-      <div id="mask" className={loading ? 'mask' : 'hide'}>
-        <div className={loading ? 'loader' : 'hide'}>
+      <div id="mask" className={loading?'mask':'hide'}>
+        <div className={loading?'loader':'hide'}>
 
         </div>
       </div>
@@ -69,7 +69,7 @@ export default function Home() {
           </div>
         </div>
         <div className="formbox">
-          <form onSubmit={(e) => e.preventDefault()} method="post">
+          <form onSubmit={(e)=>e.preventDefault()} method="post">
             <div className="ui-grid content-flex-start">
               <div className="ui-grid-row flex-start">
                 <div className="ui-grid-col-flex">
@@ -84,33 +84,29 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="ui-form-grid-row-main-form">
-                <div className="ui-form-grid-row">
-                  <div className="ui-grid-form-col">
-                    <label htmlFor="">Fly From</label>
-                    <CustomInput value={setflyfrom} />
-                  </div>
-                  <div className="ui-grid-form-col">
-                    <label htmlFor="">Fly To</label>
-                    <CustomInput value={setflyto} />
-                  </div>
+              <div className="ui-grid-row">
+                <div className="ui-grid-col">
+                  <label htmlFor="">Fly From</label>
+                  <CustomInput value={setflyfrom}/>
                 </div>
-                <div className="ui-form-grid-row">
-                  <div className="ui-grid-form-col">
-                    <label htmlFor="">Departure</label>
-                    <input type="text" name="departure" id="departure" defaultValue={departure} onClick={() => setshowCal(!showCal)} />
-                    <SimpleSchedule view={showCal} viewFun={setshowCal} valuesetter={setvaluedep} />
-                  </div>
-                  <div className="ui-grid-form-col">
-                    <label htmlFor="">Return</label>
-                    <input type="text" name="return" id="return" disabled={returns} defaultValue={returnsval} readOnly={returns} onClick={() => setshowCalret(!showCalret)} />
-                    <SimpleSchedule view={showCalret} viewFun={setshowCalret} valuesetter={setvaluedepret} />
-                  </div>
+                <div className="ui-grid-col">
+                  <label htmlFor="">Fly To</label>
+                  <CustomInput value={setflyto}/>
                 </div>
-                <div className="ui-grid-form-col-lg">
+                <div className="ui-grid-col">
+                  <label htmlFor="">Departure</label>
+                  <input type="text" name="departure" id="departure" defaultValue={departure} onClick={()=>setshowCal(!showCal)}/>
+                  <SimpleSchedule view={showCal} viewFun = {setshowCal} valuesetter={setvaluedep}/>
+                </div>
+                <div className="ui-grid-col">
+                  <label htmlFor="">Return</label>
+                  <input type="text" name="return" id="return" disabled={returns} defaultValue={returnsval} readOnly={returns} onClick={()=>setshowCalret(!showCalret)}/>
+                  <SimpleSchedule view={showCalret} viewFun = {setshowCalret} valuesetter={setvaluedepret}/>
+                </div>
+                <div className="ui-grid-col">
                   <label htmlFor="">Travlers</label>
-                  <input type="number" name="travlers" id="travlers" onClick={viewmenue} value={adults + child + infants} readOnly={true} />
-                  <div className={showmenue ? "travlers-info-box" : "hide"} id="travlerhtmlFormMain">
+                  <input type="number" name="travlers" id="travlers" onClick={viewmenue} value={adults+child+infants} readOnly={true}  />
+                  <div className={showmenue?"travlers-info-box":"hide"} id="travlerhtmlFormMain">
                     <div className="text-header">
                       <h4>Add Travlers</h4>
                     </div>
@@ -121,9 +117,9 @@ export default function Home() {
                         </div>
                         <div className="ui-passenger-right-col">
                           <div className="ui-passenger-col-button">
-                            <button type="button" className="btnm-sm" onClick={() => {
-                              if (adults > 1) {
-                                setadults(adults - 1)
+                            <button type="button" className="btnm-sm" onClick={()=>{
+                              if (adults>1){
+                                setadults(adults-1)
                               }
                             }}><FontAwesomeIcon icon={faMinus} /></button>
                           </div>
@@ -131,7 +127,7 @@ export default function Home() {
                             <input type="number" name="" id="inputAdult" className="valueHolder" value={adults} readOnly={true} disabled={true} />
                           </div>
                           <div className="ui-passenger-col-button">
-                            <button type="button" className="btnm-sm" onClick={() => setadults(adults + 1)}><FontAwesomeIcon icon={faPlus} /></button>
+                            <button type="button" className="btnm-sm" onClick={()=>setadults(adults+1)}><FontAwesomeIcon icon={faPlus} /></button>
                           </div>
                         </div>
                       </div>
@@ -141,9 +137,9 @@ export default function Home() {
                         </div>
                         <div className="ui-passenger-right-col">
                           <div className="ui-passenger-col-button">
-                            <button type="button" className="btnm-sm" onClick={() => {
-                              if (child > 0) {
-                                setadults(child - 1)
+                            <button type="button" className="btnm-sm" onClick={()=>{
+                              if (child>0){
+                                setadults(child-1)
                               }
                             }}><FontAwesomeIcon icon={faMinus} /></button>
                           </div>
@@ -151,7 +147,7 @@ export default function Home() {
                             <input type="number" name="" id="inputChildern" className="valueHolder" value={child} readOnly={true} disabled={true} />
                           </div>
                           <div className="ui-passenger-col-button">
-                            <button type="button" className="btnm-sm" onClick={() => setchild(child + 1)}><FontAwesomeIcon icon={faPlus} /></button>
+                            <button type="button" className="btnm-sm" onClick={()=>setchild(child+1)}><FontAwesomeIcon icon={faPlus} /></button>
                           </div>
                         </div>
                       </div>
@@ -161,9 +157,9 @@ export default function Home() {
                         </div>
                         <div className="ui-passenger-right-col">
                           <div className="ui-passenger-col-button">
-                            <button type="button" className="btnm-sm" onClick={() => {
-                              if (infants > 0) {
-                                setadults(infants - 1)
+                            <button type="button" className="btnm-sm" onClick={()=>{
+                              if (infants>0){
+                                setadults(infants-1)
                               }
                             }}><FontAwesomeIcon icon={faMinus} /></button>
                           </div>
@@ -171,7 +167,7 @@ export default function Home() {
                             <input type="number" name="" id="inputInfants" className="valueHolder" value={infants} readOnly={true} disabled={true} />
                           </div>
                           <div className="ui-passenger-col-button">
-                            <button type="button" className="btnm-sm" onClick={() => setinfants(infants + 1)}><FontAwesomeIcon icon={faPlus} /></button>
+                            <button type="button" className="btnm-sm" onClick={()=>setinfants(infants+1)}><FontAwesomeIcon icon={faPlus} /></button>
                           </div>
                         </div>
                       </div>
@@ -183,20 +179,16 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="ui-grid-form-col-lg-btn">
-                  <button id="submitbtn" className="btnsubmit btnm"><Link href={{
-                    pathname: 'results', query: {
-                      "from": fly_from,
-                      "to": flyto,
-                      "type": flighttype,
-                      "departure": departure,
-                      "return": returnsval,
-                      "child": child,
-                      "infant": infants,
-                      "adults": adults,
-                    }
-                  }}>Search</Link></button>
-                </div>
+                <button id="submitbtn" className="btnsubmit btnm"><Link href={{pathname:'results',query:{
+                  "from":fly_from,
+                  "to":flyto,
+                  "type":flighttype,
+                  "departure":departure,
+                  "return":returnsval,
+                  "child":child,
+                  "infant":infants,
+                  "adults":adults,
+                }}}>Search</Link></button>
               </div>
             </div>
           </form>
@@ -210,7 +202,7 @@ export default function Home() {
                     <h3>Need help booking? Our agents are ready!</h3>
                   </div>
                   <div className="text-sm">
-                    <h3>Call us 24/7 at <a href="tel:+917027506275">7027506275</a></h3>
+                    <h5>Call us 24/7 at <a href="tel:+917027506275">7027506275</a></h5>
                   </div>
                 </div>
                 <div className="card-image-main">
@@ -225,7 +217,7 @@ export default function Home() {
               <div className="table-head">
                 <h3>Here's why travelers choose 24X7Airline</h3>
               </div>
-              <div className="ui-grid-row" style={{ padding: '0' }}>
+              <div className="ui-grid-row" style={{padding:'0'}}>
                 <div className="ui-grid-col-lg">
                   <div className="col-head">
                     <span className="image-check"><Image alt="this is check sign" src={checkmark} /></span><h4>Get Great Deals!</h4>
@@ -310,7 +302,7 @@ export default function Home() {
                 <div className="ui-grid-row">
                   <div className="ui-grid-col full">
                     <div className="work">
-                      <Image alt="this image htmlFor cards" src={cardimage} />
+                      <Image alt="this image htmlFor cards" src={cardimage}/>
                       <div className="layer">
                         <h3>Social Media App</h3>
                         <p>This app helps you to connect people globally install it from playstore</p>
