@@ -1,4 +1,12 @@
 @media (max-width:480px) {
+    .travlers-info-box button{
+        background-color: #FF4600;
+        color: white;
+    }
+    .btnm-sm{
+        border-radius: 4px;
+        height: 38px;
+    }
     .navbar nav ul li {
         font-size: 8px;
     }
@@ -126,5 +134,77 @@
     }
     .table-head{
         font-size: 8px;
+    }
+    .list{
+        background-color: white;
+        height: 160px;
+        width: 164px;
+        padding: .5% 0;
+        overflow-y: scroll;
+        position: absolute;
+        border-radius: 4px;
+        z-index: 100;
+    }
+    .list::-webkit-scrollbar{
+        width: 0;
+    }
+    .list li{
+        list-style: none;
+        font-size: 8px;
+        cursor: pointer;
+        margin: 0;
+        border: .5px solid rgb(180, 175, 175);
+        padding: 1.2% 0;
+        height: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .travlers-info-box {
+        position: absolute;
+        height: 280px;
+        width: 338px;
+        border: .2px solid grey;
+        margin: auto;
+        border-radius: 6px;
+        background-color: white;
+        padding: 2% 1%;
+        /* border-top: 0; */
+        margin-top: -2px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .travlerCounter{
+        border: .2px solid grey;
+        outline: none;
+    }
+    .sectionHalf{
+        font-size: 12px;
+    }
+    .sectionHalf-lg{
+        font-size: 8px;
+        height: 10%;
+        margin-top: -10%;
+    }
+    .departure-date-time{
+        font-size: 6px;
+    }
+    .plane-holder{
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 35.6%;
+        top: 10.7%;
+    }
+    .filter-option {
+        width: 30%;
+        height: 50%;
+        align-items: center;
+        justify-content: end;
+        display: flex;
+        padding: 0 4%;
+        padding-right: 6%;
     }
 }

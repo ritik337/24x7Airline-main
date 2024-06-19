@@ -10,11 +10,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
 import { SimpleSchedule } from "./Components/Calander/SimpleSchedule"
 import Link from "next/link";
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 
 export default function Home() {
   const [returns, setreturn] = useState(false)
-  const [returnsval, setreturnval] = useState()
-  const [departure, setdeparture] = useState()
+  // const [returnsval, setreturnval] = useState()
+  // const [departure, setdeparture] = useState()
   const [loading, setloading] = useState(true)
   const [showmenue, setshowmenue] = useState(false)
   const [adults, setadults] = useState(1)
@@ -44,12 +46,52 @@ export default function Home() {
       setloading(false)
     }, 3);
   }, [loading])
-  const setvaluedep = (date) => {
-    setdeparture(date)
+  const [StartDateDeparture, setStartDateDeparture] = useState(new Date());
+  const [startDateReturn, setStartDateReturn] = useState(new Date());
+  const [country, setCountry] = useState("india")
+  const [currncy, setCurrency] = useState("INR")
+  const [departure,setdeparture] = useState("")
+  const [returnsDate,setReturnDate] = useState("")
+  useEffect(() => {
+    fetch("https://ipapi.co/json/")
+      .then((response) => response.json())
+      .then((data) => {
+        setCountry(data.country_name);
+        setCurrency(data.currency)
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+
+  }, [])
+
+  const ChangeFormat = (date) => {
+    setStartDateDeparture(date)
+    let dateString = date.toString();
+    let dateObject = new Date(dateString);
+
+    let day = ("0" + dateObject.getDate()).slice(-2);
+    let month = ("0" + (dateObject.getMonth() + 1)).slice(-2);
+    let year = dateObject.getFullYear();
+
+    let formattedDate = `${day}/${month}/${year}`;
+    setdeparture(formattedDate);
   }
-  const setvaluedepret = (date) => {
-    setreturnval(date)
+
+  const ChangeFormatRet = (date) => {
+    setStartDateReturn(date)
+    let dateString = date.toString();
+    let dateObject = new Date(dateString);
+
+    let day = ("0" + dateObject.getDate()).slice(-2);
+    let month = ("0" + (dateObject.getMonth() + 1)).slice(-2);
+    let year = dateObject.getFullYear();
+
+    let formattedDate = `${day}/${month}/${year}`;
+    setReturnDate(formattedDate);
   }
+
+
   return (
     <div className="wrapper">
       <div id="mask" className={loading ? 'mask' : 'hide'}>
@@ -98,18 +140,29 @@ export default function Home() {
                 <div className="ui-form-grid-row">
                   <div className="ui-grid-form-col">
                     <label htmlFor="">Departure</label>
-                    <input type="text" name="departure" id="departure" defaultValue={departure} onClick={() => setshowCal(!showCal)} />
-                    <SimpleSchedule view={showCal} viewFun={setshowCal} valuesetter={setvaluedep} />
+                    <DatePicker
+                      selected={StartDateDeparture}
+                      onChange={date => ChangeFormat(date)}
+                      minDate={new Date()}
+                      placeholderText="Select a date"
+                      dateFormat="dd/MM/yyyy"
+                    />
                   </div>
                   <div className="ui-grid-form-col">
                     <label htmlFor="">Return</label>
-                    <input type="text" name="return" id="return" disabled={returns} defaultValue={returnsval} readOnly={returns} onClick={() => setshowCalret(!showCalret)} />
-                    <SimpleSchedule view={showCalret} viewFun={setshowCalret} valuesetter={setvaluedepret} />
+                    <DatePicker
+                      selected={startDateReturn}
+                      onChange={date => ChangeFormatRet(date)}
+                      minDate={new Date()}
+                      placeholderText="Select a date"
+                      dateFormat="dd/MM/yyyy"
+                      disabled={returns}
+                    />
                   </div>
                 </div>
                 <div className="ui-grid-form-col-lg">
                   <label htmlFor="">Travlers</label>
-                  <input type="number" name="travlers" id="travlers" onClick={viewmenue} value={adults + child + infants} readOnly={true} />
+                  <input type="number" name="travlers" className="travlerCounter" id="travlers" onClick={viewmenue} value={adults + child + infants} readOnly={true} />
                   <div className={showmenue ? "travlers-info-box" : "hide"} id="travlerhtmlFormMain">
                     <div className="text-header">
                       <h4>Add Travlers</h4>
@@ -184,18 +237,19 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="ui-grid-form-col-lg-btn">
-                  <button id="submitbtn" className="btnsubmit btnm"><Link href={{
+                  <Link href={{
                     pathname: 'results', query: {
                       "from": fly_from,
                       "to": flyto,
                       "type": flighttype,
                       "departure": departure,
-                      "return": returnsval,
+                      "return": returnsDate,
                       "child": child,
                       "infant": infants,
                       "adults": adults,
+                      "curr": currncy
                     }
-                  }}>Search</Link></button>
+                  }}><button id="submitbtn" className="btnsubmit btnm">Search</button></Link>
                 </div>
               </div>
             </div>

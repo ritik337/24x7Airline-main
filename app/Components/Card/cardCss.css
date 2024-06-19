@@ -1,0 +1,55 @@
+.cardbody {
+    width: 96%;
+    border: 1px solid black;
+    height: 180px;
+    margin: 14px auto;
+    border-radius: 8px;
+    display: flex;
+}
+
+.card-Image-Airline img {
+    width: 120px;
+    height: 40px;
+    margin: auto;
+}
+
+.width-20 {
+    width: 20%;
+    border: 1px solid black;
+}
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.d-block-main {
+    display: block;
+    height: 100%;
+}
+.height-50{
+    height: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BookBtn{
+    width: 60%;
+    height: 40%;
+    color: white;
+    background-color: #FF4600;
+    border-radius: 4px;
+}
+.Line-dotted{
+    width: 60%;
+    height: 1px;
+    border: .4px dotted grey;
+    margin: 0 24px;
+}

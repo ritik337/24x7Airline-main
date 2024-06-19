@@ -1,65 +1,65 @@
-{
+const airlines = {
     "count": 1520,
     "data": [
         {
             "name": "US Air Force",
-            "logo": "./images/RCH.png",
+            "logo": "/RCH.png",
             "iata_code": null,
             "icao_code": "RCH",
             "num_aircraft": 3259
         },
         {
             "name": "American Airlines",
-            "logo": "./images/AAL.png",
+            "logo": "/AAL.png",
             "iata_code": "AA",
             "icao_code": "AAL",
             "num_aircraft": 1517
         },
         {
             "name": "United Airlines",
-            "logo": "./images/UAL.png",
+            "logo": "/UAL.png",
             "iata_code": "UA",
             "icao_code": "UAL",
             "num_aircraft": 1455
         },
         {
             "name": "Delta Air Lines",
-            "logo": "./images/DAL.png",
+            "logo": "/DAL.png",
             "iata_code": "DL",
             "icao_code": "DAL",
             "num_aircraft": 1316
         },
         {
             "name": "Airbus",
-            "logo": "./images/AIB.png",
-            "iata_code": null,
+            "logo": "/AIB.png",
+            "iata_code": "AP",
             "icao_code": "AIB",
             "num_aircraft": 874
         },
         {
             "name": "Southwest Airlines",
-            "logo": "./images/SWA.png",
+            "logo": "/SWA.png",
             "iata_code": "WN",
             "icao_code": "SWA",
             "num_aircraft": 825
         },
         {
             "name": "FedEx",
-            "logo": "./images/FDX.png",
+            "logo": "/FDX.png",
             "iata_code": "FX",
             "icao_code": "FDX",
             "num_aircraft": 725
         },
         {
             "name": "China Southern Airlines",
-            "logo": "./images/CSN.png",
+            "logo": "/CSN.png",
             "iata_code": "CZ",
             "icao_code": "CSN",
             "num_aircraft": 676
         },
         {
             "name": "China Eastern Airlines",
-            "logo": "./images/CES.png",
+            "logo": "/CES.png",
             "iata_code": "MU",
             "icao_code": "CES",
             "num_aircraft": 629
@@ -73,238 +73,238 @@
         },
         {
             "name": "NetJets",
-            "logo": "./images/EJA.png",
+            "logo": "/EJA.png",
             "iata_code": "1I",
             "icao_code": "EJA",
             "num_aircraft": 545
         },
         {
             "name": "Air China",
-            "logo": "./images/CCA.png",
+            "logo": "/CCA.png",
             "iata_code": "CA",
             "icao_code": "CCA",
             "num_aircraft": 503
         },
         {
             "name": "Ryanair",
-            "logo": "./images/RYR.png",
+            "logo": "/RYR.png",
             "iata_code": "FR",
             "icao_code": "RYR",
             "num_aircraft": 500
         },
         {
             "name": "Boeing",
-            "logo": "./images/BOE.png",
+            "logo": "/BOE.png",
             "iata_code": null,
             "icao_code": "BOE",
             "num_aircraft": 334
         },
         {
             "name": "Turkish Airlines",
-            "logo": "./images/THY.png",
+            "logo": "/THY.png",
             "iata_code": "TK",
             "icao_code": "THY",
             "num_aircraft": 334
         },
         {
             "name": "easyJet",
-            "logo": "./images/EZY.png",
+            "logo": "/EZY.png",
             "iata_code": "U2",
             "icao_code": "EZY",
             "num_aircraft": 324
         },
         {
             "name": "Lufthansa",
-            "logo": "./images/DLH.png",
+            "logo": "/DLH.png",
             "iata_code": "LH",
             "icao_code": "DLH",
             "num_aircraft": 311
         },
         {
             "name": "Air Canada",
-            "logo": "./images/ACA.png",
+            "logo": "/ACA.png",
             "iata_code": "AC",
             "icao_code": "ACA",
             "num_aircraft": 307
         },
         {
             "name": "IndiGo",
-            "logo": "./images/IGO.png",
+            "logo": "/IGO.png",
             "iata_code": "6E",
             "icao_code": "IGO",
             "num_aircraft": 297
         },
         {
             "name": "Alaska Airlines",
-            "logo": "./images/ASA.png",
+            "logo": "/ASA.png",
             "iata_code": "AS",
             "icao_code": "ASA",
             "num_aircraft": 296
         },
         {
             "name": "JetBlue Airways",
-            "logo": "./images/JBU.png",
+            "logo": "/JBU.png",
             "iata_code": "B6",
             "icao_code": "JBU",
             "num_aircraft": 296
         },
         {
             "name": "British Airways",
-            "logo": "./images/BAW.png",
+            "logo": "/BAW.png",
             "iata_code": "BA",
             "icao_code": "BAW",
             "num_aircraft": 291
         },
         {
             "name": "LATAM Airlines",
-            "logo": "./images/LAN.png",
+            "logo": "/LAN.png",
             "iata_code": "LA",
             "icao_code": "LAN",
             "num_aircraft": 291
         },
         {
             "name": "UPS",
-            "logo": "./images/UPS.png",
+            "logo": "/UPS.png",
             "iata_code": "5X",
             "icao_code": "UPS",
             "num_aircraft": 290
         },
         {
             "name": "Emirates",
-            "logo": "./images/UAE.png",
+            "logo": "/UAE.png",
             "iata_code": "EK",
             "icao_code": "UAE",
             "num_aircraft": 266
         },
         {
             "name": "Qantas",
-            "logo": "./images/QFA.png",
+            "logo": "/QFA.png",
             "iata_code": "QF",
             "icao_code": "QFA",
             "num_aircraft": 255
         },
         {
             "name": "Qatar Airways",
-            "logo": "./images/QTR.png",
+            "logo": "/QTR.png",
             "iata_code": "QR",
             "icao_code": "QTR",
             "num_aircraft": 244
         },
         {
             "name": "Air France",
-            "logo": "./images/AFR.png",
+            "logo": "/AFR.png",
             "iata_code": "AF",
             "icao_code": "AFR",
             "num_aircraft": 243
         },
         {
             "name": "All Nippon Airways",
-            "logo": "./images/ANA.png",
+            "logo": "/ANA.png",
             "iata_code": "NH",
             "icao_code": "ANA",
             "num_aircraft": 240
         },
         {
             "name": "AirAsia",
-            "logo": "./images/AXM.png",
+            "logo": "/AXM.png",
             "iata_code": "AK",
             "icao_code": "AXM",
             "num_aircraft": 239
         },
         {
             "name": "Hainan Airlines",
-            "logo": "./images/CHH.png",
+            "logo": "/CHH.png",
             "iata_code": "HU",
             "icao_code": "CHH",
             "num_aircraft": 223
         },
         {
             "name": "Shenzhen Airlines",
-            "logo": "./images/CSZ.png",
+            "logo": "/CSZ.png",
             "iata_code": "ZH",
             "icao_code": "CSZ",
             "num_aircraft": 220
         },
         {
             "name": "Flexjet",
-            "logo": "./images/LXJ.png",
+            "logo": "/LXJ.png",
             "iata_code": null,
             "icao_code": "LXJ",
             "num_aircraft": 213
         },
         {
             "name": "DHL",
-            "logo": "./images/DHK.png",
+            "logo": "/DHK.png",
             "iata_code": "D0",
             "icao_code": "DHK",
             "num_aircraft": 209
         },
         {
             "name": "Azul Linhas Aereas",
-            "logo": "./images/AZU.png",
+            "logo": "/AZU.png",
             "iata_code": "AD",
             "icao_code": "AZU",
             "num_aircraft": 198
         },
         {
             "name": "Spirit Airlines",
-            "logo": "./images/NKS.png",
+            "logo": "/NKS.png",
             "iata_code": "NK",
             "icao_code": "NKS",
             "num_aircraft": 197
         },
         {
             "name": "Sichuan Airlines",
-            "logo": "./images/CSC.png",
+            "logo": "/CSC.png",
             "iata_code": "3U",
             "icao_code": "CSC",
             "num_aircraft": 185
         },
         {
             "name": "Xiamen Air",
-            "logo": "./images/CXA.png",
+            "logo": "/CXA.png",
             "iata_code": "MF",
             "icao_code": "CXA",
             "num_aircraft": 184
         },
         {
             "name": "Cathay Pacific",
-            "logo": "./images/CPA.png",
+            "logo": "/CPA.png",
             "iata_code": "CX",
             "icao_code": "CPA",
             "num_aircraft": 177
         },
         {
             "name": "Wizz Air",
-            "logo": "./images/WZZ.png",
+            "logo": "/WZZ.png",
             "iata_code": "W6",
             "icao_code": "WZZ",
             "num_aircraft": 174
         },
         {
             "name": "Aeroflot",
-            "logo": "./images/AFL.png",
+            "logo": "/AFL.png",
             "iata_code": "SU",
             "icao_code": "AFL",
             "num_aircraft": 173
         },
         {
             "name": "KLM",
-            "logo": "./images/KLM.png",
+            "logo": "/KLM.png",
             "iata_code": "KL",
             "icao_code": "KLM",
             "num_aircraft": 172
         },
         {
             "name": "Korean Air",
-            "logo": "./images/KAL.png",
+            "logo": "/KAL.png",
             "iata_code": "KE",
             "icao_code": "KAL",
             "num_aircraft": 166
         },
         {
             "name": "WestJet",
-            "logo": "./images/WJA.png",
+            "logo": "/WJA.png",
             "iata_code": "WS",
             "icao_code": "WJA",
             "num_aircraft": 165
@@ -318,154 +318,154 @@
         },
         {
             "name": "Singapore Airlines",
-            "logo": "./images/SIA.png",
+            "logo": "/SIA.png",
             "iata_code": "SQ",
             "icao_code": "SIA",
             "num_aircraft": 158
         },
         {
             "name": "Saudia",
-            "logo": "./images/SVA.png",
+            "logo": "/SVA.png",
             "iata_code": "SV",
             "icao_code": "SVA",
             "num_aircraft": 157
         },
         {
             "name": "Aeromexico",
-            "logo": "./images/AMX.png",
+            "logo": "/AMX.png",
             "iata_code": "AM",
             "icao_code": "AMX",
             "num_aircraft": 151
         },
         {
             "name": "Oxford Aviation Academy",
-            "logo": "./images/OXF.png",
+            "logo": "/OXF.png",
             "iata_code": null,
             "icao_code": "OXF",
             "num_aircraft": 151
         },
         {
             "name": "Japan Airlines",
-            "logo": "./images/JAL.png",
+            "logo": "/JAL.png",
             "iata_code": "JL",
             "icao_code": "JAL",
             "num_aircraft": 150
         },
         {
             "name": "Avianca",
-            "logo": "./images/AVA.png",
+            "logo": "/AVA.png",
             "iata_code": "AV",
             "icao_code": "AVA",
             "num_aircraft": 147
         },
         {
             "name": "Shandong Airlines",
-            "logo": "./images/CDG.png",
+            "logo": "/CDG.png",
             "iata_code": "SC",
             "icao_code": "CDG",
             "num_aircraft": 145
         },
         {
             "name": "GOL Linhas Aereas",
-            "logo": "./images/GLO.png",
+            "logo": "/GLO.png",
             "iata_code": "G3",
             "icao_code": "GLO",
             "num_aircraft": 143
         },
         {
             "name": "Rossiya",
-            "logo": "./images/SDM.png",
+            "logo": "/SDM.png",
             "iata_code": "FV",
             "icao_code": "SDM",
             "num_aircraft": 135
         },
         {
             "name": "SAS",
-            "logo": "./images/SAS.png",
+            "logo": "/SAS.png",
             "iata_code": "SK",
             "icao_code": "SAS",
             "num_aircraft": 131
         },
         {
             "name": "Allegiant Air",
-            "logo": "./images/AAY.png",
+            "logo": "/AAY.png",
             "iata_code": "G4",
             "icao_code": "AAY",
             "num_aircraft": 129
         },
         {
             "name": "Frontier",
-            "logo": "./images/FFT.png",
+            "logo": "/FFT.png",
             "iata_code": "F9",
             "icao_code": "FFT",
             "num_aircraft": 126
         },
         {
             "name": "Vueling",
-            "logo": "./images/VLG.png",
+            "logo": "/VLG.png",
             "iata_code": "VY",
             "icao_code": "VLG",
             "num_aircraft": 126
         },
         {
             "name": "Ameriflight",
-            "logo": "./images/AMF.png",
+            "logo": "/AMF.png",
             "iata_code": "A8",
             "icao_code": "AMF",
             "num_aircraft": 125
         },
         {
             "name": "Ethiopian Airlines",
-            "logo": "./images/ETH.png",
+            "logo": "/ETH.png",
             "iata_code": "ET",
             "icao_code": "ETH",
             "num_aircraft": 125
         },
         {
             "name": "Volaris",
-            "logo": "./images/VOI.png",
+            "logo": "/VOI.png",
             "iata_code": "Y4",
             "icao_code": "VOI",
             "num_aircraft": 122
         },
         {
             "name": "Eurocopter Deutschland",
-            "logo": "./images/RDF.png",
+            "logo": "/RDF.png",
             "iata_code": null,
             "icao_code": "RDF",
             "num_aircraft": 121
         },
         {
             "name": "Iberia",
-            "logo": "./images/IBE.png",
+            "logo": "/IBE.png",
             "iata_code": "IB",
             "icao_code": "IBE",
             "num_aircraft": 121
         },
         {
             "name": "Spring Airlines",
-            "logo": "./images/CQH.png",
+            "logo": "/CQH.png",
             "iata_code": "9C",
             "icao_code": "CQH",
             "num_aircraft": 117
         },
         {
             "name": "TUI fly",
-            "logo": "./images/TUI.png",
+            "logo": "/TUI.png",
             "iata_code": "X3",
             "icao_code": "TUI",
             "num_aircraft": 117
         },
         {
             "name": "Lion Air",
-            "logo": "./images/LNI.png",
+            "logo": "/LNI.png",
             "iata_code": "JT",
             "icao_code": "LNI",
             "num_aircraft": 115
         },
         {
             "name": "Air India",
-            "logo": "./images/AIC.png",
+            "logo": "/AIC.png",
             "iata_code": "AI",
             "icao_code": "AIC",
             "num_aircraft": 114
@@ -479,91 +479,91 @@
         },
         {
             "name": "Pilatus Flugzeugwerke",
-            "logo": "./images/PCH.png",
+            "logo": "/PCH.png",
             "iata_code": null,
             "icao_code": "PCH",
             "num_aircraft": 112
         },
         {
             "name": "NetJets Europe",
-            "logo": "./images/NJE.png",
+            "logo": "/NJE.png",
             "iata_code": null,
             "icao_code": "NJE",
             "num_aircraft": 109
         },
         {
             "name": "Transavia",
-            "logo": "./images/TRA.png",
+            "logo": "/TRA.png",
             "iata_code": "HV",
             "icao_code": "TRA",
             "num_aircraft": 109
         },
         {
             "name": "Jetstar",
-            "logo": "./images/JST.png",
+            "logo": "/JST.png",
             "iata_code": "JQ",
             "icao_code": "JST",
             "num_aircraft": 108
         },
         {
             "name": "Air New Zealand",
-            "logo": "./images/ANZ.png",
+            "logo": "/ANZ.png",
             "iata_code": "NZ",
             "icao_code": "ANZ",
             "num_aircraft": 106
         },
         {
             "name": "Eurowings",
-            "logo": "./images/EWG.png",
+            "logo": "/EWG.png",
             "iata_code": "EW",
             "icao_code": "EWG",
             "num_aircraft": 106
         },
         {
             "name": "Cape Air",
-            "logo": "./images/KAP.png",
+            "logo": "/KAP.png",
             "iata_code": "9K",
             "icao_code": "KAP",
             "num_aircraft": 105
         },
         {
             "name": "Jet2",
-            "logo": "./images/EXS.png",
+            "logo": "/EXS.png",
             "iata_code": "LS",
             "icao_code": "EXS",
             "num_aircraft": 105
         },
         {
             "name": "S7 Airlines",
-            "logo": "./images/SBI.png",
+            "logo": "/SBI.png",
             "iata_code": "S7",
             "icao_code": "SBI",
             "num_aircraft": 103
         },
         {
             "name": "Shanghai Airlines",
-            "logo": "./images/CSH.png",
+            "logo": "/CSH.png",
             "iata_code": "FM",
             "icao_code": "CSH",
             "num_aircraft": 103
         },
         {
             "name": "TAP Air Portugal",
-            "logo": "./images/TAP.png",
+            "logo": "/TAP.png",
             "iata_code": "TP",
             "icao_code": "TAP",
             "num_aircraft": 102
         },
         {
             "name": "VietJet Air",
-            "logo": "./images/VJC.png",
+            "logo": "/VJC.png",
             "iata_code": "VJ",
             "icao_code": "VJC",
             "num_aircraft": 101
         },
         {
             "name": "Vietnam Airlines",
-            "logo": "./images/HVN.png",
+            "logo": "/HVN.png",
             "iata_code": "VN",
             "icao_code": "HVN",
             "num_aircraft": 101
@@ -577,259 +577,259 @@
         },
         {
             "name": "Virgin Australia",
-            "logo": "./images/VOZ.png",
+            "logo": "/VOZ.png",
             "iata_code": "VA",
             "icao_code": "VOZ",
             "num_aircraft": 99
         },
         {
             "name": "Wheels Up",
-            "logo": "./images/GAJ.png",
+            "logo": "/GAJ.png",
             "iata_code": null,
             "icao_code": "GAJ",
             "num_aircraft": 99
         },
         {
             "name": "Pegasus Airlines",
-            "logo": "./images/PGT.png",
+            "logo": "/PGT.png",
             "iata_code": "PC",
             "icao_code": "PGT",
             "num_aircraft": 98
         },
         {
             "name": "Batik Air",
-            "logo": "./images/BTK.png",
+            "logo": "/BTK.png",
             "iata_code": "ID",
             "icao_code": "BTK",
             "num_aircraft": 97
         },
         {
             "name": "Royal Canadian Air Force",
-            "logo": "./images/CFC.png",
+            "logo": "/CFC.png",
             "iata_code": null,
             "icao_code": "CFC",
             "num_aircraft": 97
         },
         {
             "name": "Embraer",
-            "logo": "./images/EMB.png",
+            "logo": "/EMB.png",
             "iata_code": null,
             "icao_code": "EMB",
             "num_aircraft": 95
         },
         {
             "name": "Bristow Helicopters",
-            "logo": "./images/BHL.png",
+            "logo": "/BHL.png",
             "iata_code": null,
             "icao_code": "BHL",
             "num_aircraft": 94
         },
         {
             "name": "Capital Airlines",
-            "logo": "./images/CBJ.png",
+            "logo": "/CBJ.png",
             "iata_code": "JD",
             "icao_code": "CBJ",
             "num_aircraft": 94
         },
         {
             "name": "China Airlines",
-            "logo": "./images/CAL.png",
+            "logo": "/CAL.png",
             "iata_code": "CI",
             "icao_code": "CAL",
             "num_aircraft": 93
         },
         {
             "name": "Jet Linx Aviation",
-            "logo": "./images/JTL.png",
+            "logo": "/JTL.png",
             "iata_code": "JL",
             "icao_code": "JTL",
             "num_aircraft": 92
         },
         {
             "name": "Etihad Airways",
-            "logo": "./images/ETD.png",
+            "logo": "/ETD.png",
             "iata_code": "EY",
             "icao_code": "ETD",
             "num_aircraft": 91
         },
         {
             "name": "EVA Air",
-            "logo": "./images/EVA.png",
+            "logo": "/EVA.png",
             "iata_code": "BR",
             "icao_code": "EVA",
             "num_aircraft": 91
         },
         {
             "name": "VistaJet",
-            "logo": "./images/VJT.png",
+            "logo": "/VJT.png",
             "iata_code": null,
             "icao_code": "VJT",
             "num_aircraft": 91
         },
         {
             "name": "Juneyao Air",
-            "logo": "./images/DKH.png",
+            "logo": "/DKH.png",
             "iata_code": "HO",
             "icao_code": "DKH",
             "num_aircraft": 89
         },
         {
             "name": "Swiss",
-            "logo": "./images/SWR.png",
+            "logo": "/SWR.png",
             "iata_code": "LX",
             "icao_code": "SWR",
             "num_aircraft": 89
         },
         {
             "name": "Copa Airlines",
-            "logo": "./images/CMP.png",
+            "logo": "/CMP.png",
             "iata_code": "CM",
             "icao_code": "CMP",
             "num_aircraft": 88
         },
         {
             "name": "flyExclusive",
-            "logo": "./images/JRE.png",
+            "logo": "/JRE.png",
             "iata_code": null,
             "icao_code": "JRE",
             "num_aircraft": 86
         },
         {
             "name": "Tianjin Airlines",
-            "logo": "./images/GCR.png",
+            "logo": "/GCR.png",
             "iata_code": "GS",
             "icao_code": "GCR",
             "num_aircraft": 84
         },
         {
             "name": "CHC Helicopter",
-            "logo": "./images/HMB.png",
+            "logo": "/HMB.png",
             "iata_code": null,
             "icao_code": "HMB",
             "num_aircraft": 82
         },
         {
             "name": "Finnair",
-            "logo": "./images/FIN.png",
+            "logo": "/FIN.png",
             "iata_code": "AY",
             "icao_code": "FIN",
             "num_aircraft": 81
         },
         {
             "name": "FlyDubai",
-            "logo": "./images/FDB.png",
+            "logo": "/FDB.png",
             "iata_code": "FZ",
             "icao_code": "FDB",
             "num_aircraft": 81
         },
         {
             "name": "Aerolineas Argentinas",
-            "logo": "./images/ARG.png",
+            "logo": "/ARG.png",
             "iata_code": "AR",
             "icao_code": "ARG",
             "num_aircraft": 80
         },
         {
             "name": "Asiana Airlines",
-            "logo": "./images/AAR.png",
+            "logo": "/AAR.png",
             "iata_code": "OZ",
             "icao_code": "AAR",
             "num_aircraft": 80
         },
         {
             "name": "SF Airlines",
-            "logo": "./images/CSS.png",
+            "logo": "/CSS.png",
             "iata_code": "O3",
             "icao_code": "CSS",
             "num_aircraft": 77
         },
         {
             "name": "Philippine Airlines",
-            "logo": "./images/PAL.png",
+            "logo": "/PAL.png",
             "iata_code": "PR",
             "icao_code": "PAL",
             "num_aircraft": 76
         },
         {
             "name": "JSX",
-            "logo": "./images/JSX.png",
+            "logo": "/JSX.png",
             "iata_code": "XE",
             "icao_code": "JSX",
             "num_aircraft": 75
         },
         {
             "name": "Norwegian",
-            "logo": "./images/NAX.png",
+            "logo": "/NAX.png",
             "iata_code": null,
             "icao_code": "NAX",
             "num_aircraft": 75
         },
         {
             "name": "Garuda Indonesia",
-            "logo": "./images/GIA.png",
+            "logo": "/GIA.png",
             "iata_code": "GA",
             "icao_code": "GIA",
             "num_aircraft": 73
         },
         {
             "name": "LOT",
-            "logo": "./images/LOT.png",
+            "logo": "/LOT.png",
             "iata_code": "LO",
             "icao_code": "LOT",
             "num_aircraft": 73
         },
         {
             "name": "Malaysia Airlines",
-            "logo": "./images/MAS.png",
+            "logo": "/MAS.png",
             "iata_code": "MH",
             "icao_code": "MAS",
             "num_aircraft": 73
         },
         {
             "name": "Alpine Air Express",
-            "logo": "./images/AIP.png",
+            "logo": "/AIP.png",
             "iata_code": "5A",
             "icao_code": "AIP",
             "num_aircraft": 72
         },
         {
             "name": "Aer Lingus",
-            "logo": "./images/EIN.png",
+            "logo": "/EIN.png",
             "iata_code": "EI",
             "icao_code": "EIN",
             "num_aircraft": 71
         },
         {
             "name": "VivaAerobus",
-            "logo": "./images/VIV.png",
+            "logo": "/VIV.png",
             "iata_code": "VB",
             "icao_code": "VIV",
             "num_aircraft": 71
         },
         {
             "name": "Wings Air",
-            "logo": "./images/WON.png",
+            "logo": "/WON.png",
             "iata_code": "IW",
             "icao_code": "WON",
             "num_aircraft": 71
         },
         {
             "name": "Cebu Pacific",
-            "logo": "./images/CEB.png",
+            "logo": "/CEB.png",
             "iata_code": "5J",
             "icao_code": "CEB",
             "num_aircraft": 70
         },
         {
             "name": "EgyptAir",
-            "logo": "./images/MSR.png",
+            "logo": "/MSR.png",
             "iata_code": "MS",
             "icao_code": "MSR",
             "num_aircraft": 70
         },
         {
             "name": "ITA Airways",
-            "logo": "./images/ITY.png",
+            "logo": "/ITY.png",
             "iata_code": "AZ",
             "icao_code": "ITY",
             "num_aircraft": 70
@@ -843,154 +843,154 @@
         },
         {
             "name": "Delta Private Jets",
-            "logo": "./images/DPJ.png",
+            "logo": "/DPJ.png",
             "iata_code": null,
             "icao_code": "DPJ",
             "num_aircraft": 69
         },
         {
             "name": "Chengdu Airlines",
-            "logo": "./images/UEA.png",
+            "logo": "/UEA.png",
             "iata_code": "EU",
             "icao_code": "UEA",
             "num_aircraft": 68
         },
         {
             "name": "Loong Air",
-            "logo": "./images/CDC.png",
+            "logo": "/CDC.png",
             "iata_code": "GJ",
             "icao_code": "CDC",
             "num_aircraft": 68
         },
         {
             "name": "UTair",
-            "logo": "./images/UTA.png",
+            "logo": "/UTA.png",
             "iata_code": "UT",
             "icao_code": "UTA",
             "num_aircraft": 68
         },
         {
             "name": "Conair",
-            "logo": "./images/FGD.png",
+            "logo": "/FGD.png",
             "iata_code": null,
             "icao_code": "FGD",
             "num_aircraft": 67
         },
         {
             "name": "Aeronaves TSM",
-            "logo": "./images/VTM.png",
+            "logo": "/VTM.png",
             "iata_code": null,
             "icao_code": "VTM",
             "num_aircraft": 65
         },
         {
             "name": "Air Arabia",
-            "logo": "./images/ABY.png",
+            "logo": "/ABY.png",
             "iata_code": "G9",
             "icao_code": "ABY",
             "num_aircraft": 65
         },
         {
             "name": "SpiceJet",
-            "logo": "./images/SEJ.png",
+            "logo": "/SEJ.png",
             "iata_code": "SG",
             "icao_code": "SEJ",
             "num_aircraft": 65
         },
         {
             "name": "China Express Airlines",
-            "logo": "./images/HXA.png",
+            "logo": "/HXA.png",
             "iata_code": "G5",
             "icao_code": "HXA",
             "num_aircraft": 64
         },
         {
             "name": "Scoot",
-            "logo": "./images/TGW.png",
+            "logo": "/TGW.png",
             "iata_code": "TR",
             "icao_code": "TGW",
             "num_aircraft": 64
         },
         {
             "name": "Trans Maldivian Airways",
-            "logo": "./images/TMW.png",
+            "logo": "/TMW.png",
             "iata_code": null,
             "icao_code": "TMW",
             "num_aircraft": 64
         },
         {
             "name": "Airlink",
-            "logo": "./images/LNK.png",
+            "logo": "/LNK.png",
             "iata_code": "4Z",
             "icao_code": "LNK",
             "num_aircraft": 63
         },
         {
             "name": "Austrian Airlines",
-            "logo": "./images/AUA.png",
+            "logo": "/AUA.png",
             "iata_code": "OS",
             "icao_code": "AUA",
             "num_aircraft": 63
         },
         {
             "name": "Executive Jet Management",
-            "logo": "./images/EJM.png",
+            "logo": "/EJM.png",
             "iata_code": null,
             "icao_code": "EJM",
             "num_aircraft": 63
         },
         {
             "name": "Rex",
-            "logo": "./images/RXA.png",
+            "logo": "/RXA.png",
             "iata_code": "ZL",
             "icao_code": "RXA",
             "num_aircraft": 63
         },
         {
             "name": "Rossiya - Special Flight Squadron",
-            "logo": "./images/RSD.png",
+            "logo": "/RSD.png",
             "iata_code": null,
             "icao_code": "RSD",
             "num_aircraft": 63
         },
         {
             "name": "ASL Airlines",
-            "logo": "./images/ABR.png",
+            "logo": "/ABR.png",
             "iata_code": null,
             "icao_code": "ABR",
             "num_aircraft": 62
         },
         {
             "name": "Hawaiian Airlines",
-            "logo": "./images/HAL.png",
+            "logo": "/HAL.png",
             "iata_code": "HA",
             "icao_code": "HAL",
             "num_aircraft": 62
         },
         {
             "name": "Mountain Aviation",
-            "logo": "./images/FTH.png",
+            "logo": "/FTH.png",
             "iata_code": null,
             "icao_code": "FTH",
             "num_aircraft": 62
         },
         {
             "name": "Vistara",
-            "logo": "./images/VTI.png",
+            "logo": "/VTI.png",
             "iata_code": "UK",
             "icao_code": "VTI",
             "num_aircraft": 61
         },
         {
             "name": "Aegean Airlines",
-            "logo": "./images/AEE.png",
+            "logo": "/AEE.png",
             "iata_code": "A3",
             "icao_code": "AEE",
             "num_aircraft": 59
         },
         {
             "name": "Atlas Air",
-            "logo": "./images/GTI.png",
+            "logo": "/GTI.png",
             "iata_code": "5Y",
             "icao_code": "GTI",
             "num_aircraft": 59
@@ -1004,63 +1004,63 @@
         },
         {
             "name": "Go First",
-            "logo": "./images/GOW.png",
+            "logo": "/GOW.png",
             "iata_code": "G8",
             "icao_code": "GOW",
             "num_aircraft": 59
         },
         {
             "name": "Citilink",
-            "logo": "./images/CTV.png",
+            "logo": "/CTV.png",
             "iata_code": "QG",
             "icao_code": "CTV",
             "num_aircraft": 58
         },
         {
             "name": "Air Algerie",
-            "logo": "./images/DAH.png",
+            "logo": "/DAH.png",
             "iata_code": "AH",
             "icao_code": "DAH",
             "num_aircraft": 56
         },
         {
             "name": "Lucky Air",
-            "logo": "./images/LKE.png",
+            "logo": "/LKE.png",
             "iata_code": "8L",
             "icao_code": "LKE",
             "num_aircraft": 56
         },
         {
             "name": "PlaneSense",
-            "logo": "./images/CNS.png",
+            "logo": "/CNS.png",
             "iata_code": null,
             "icao_code": "CNS",
             "num_aircraft": 56
         },
         {
             "name": "Air Europa",
-            "logo": "./images/AEA.png",
+            "logo": "/AEA.png",
             "iata_code": "UX",
             "icao_code": "AEA",
             "num_aircraft": 55
         },
         {
             "name": "Oman Air",
-            "logo": "./images/OMA.png",
+            "logo": "/OMA.png",
             "iata_code": "WY",
             "icao_code": "OMA",
             "num_aircraft": 55
         },
         {
             "name": "China United Airlines",
-            "logo": "./images/CUA.png",
+            "logo": "/CUA.png",
             "iata_code": "KN",
             "icao_code": "CUA",
             "num_aircraft": 54
         },
         {
             "name": "Thai Airways",
-            "logo": "./images/THA.png",
+            "logo": "/THA.png",
             "iata_code": "TG",
             "icao_code": "THA",
             "num_aircraft": 53
@@ -1081,84 +1081,84 @@
         },
         {
             "name": "Ural Airlines",
-            "logo": "./images/SVR.png",
+            "logo": "/SVR.png",
             "iata_code": "U6",
             "icao_code": "SVR",
             "num_aircraft": 52
         },
         {
             "name": "AirShare",
-            "logo": "./images/XSR.png",
+            "logo": "/XSR.png",
             "iata_code": null,
             "icao_code": "XSR",
             "num_aircraft": 51
         },
         {
             "name": "Alliance Airlines",
-            "logo": "./images/UTY.png",
+            "logo": "/UTY.png",
             "iata_code": "QQ",
             "icao_code": "UTY",
             "num_aircraft": 51
         },
         {
             "name": "Babcock MCS Onshore",
-            "logo": "./images/RHD.png",
+            "logo": "/RHD.png",
             "iata_code": null,
             "icao_code": "RHD",
             "num_aircraft": 51
         },
         {
             "name": "Buffalo Airways",
-            "logo": "./images/BFL.png",
+            "logo": "/BFL.png",
             "iata_code": "J0",
             "icao_code": "BFL",
             "num_aircraft": 51
         },
         {
             "name": "SkyWest Airlines",
-            "logo": "./images/SKW.png",
+            "logo": "/SKW.png",
             "iata_code": "OO",
             "icao_code": "SKW",
             "num_aircraft": 51
         },
         {
             "name": "SunExpress",
-            "logo": "./images/SXS.png",
+            "logo": "/SXS.png",
             "iata_code": "XQ",
             "icao_code": "SXS",
             "num_aircraft": 51
         },
         {
             "name": "Xo",
-            "logo": "./images/XOJ.png",
+            "logo": "/XOJ.png",
             "iata_code": null,
             "icao_code": "XOJ",
             "num_aircraft": 51
         },
         {
             "name": "Condor",
-            "logo": "./images/CFG.png",
+            "logo": "/CFG.png",
             "iata_code": "DE",
             "icao_code": "CFG",
             "num_aircraft": 50
         },
         {
             "name": "Royal Air Maroc",
-            "logo": "./images/RAM.png",
+            "logo": "/RAM.png",
             "iata_code": "AT",
             "icao_code": "RAM",
             "num_aircraft": 50
         },
         {
             "name": "Super Air Jet",
-            "logo": "./images/SJV.png",
+            "logo": "/SJV.png",
             "iata_code": "IU",
             "icao_code": "SJV",
             "num_aircraft": 49
         },
         {
             "name": "Flynas",
-            "logo": "./images/KNE.png",
+            "logo": "/KNE.png",
             "iata_code": "XY",
             "icao_code": "KNE",
             "num_aircraft": 48
@@ -1179,7 +1179,7 @@
         },
         {
             "name": "Air Hamburg",
-            "logo": "./images/AHO.png",
+            "logo": "/AHO.png",
             "iata_code": null,
             "icao_code": "AHO",
             "num_aircraft": 46
@@ -1200,56 +1200,56 @@
         },
         {
             "name": "Loganair",
-            "logo": "./images/LOG.png",
+            "logo": "/LOG.png",
             "iata_code": "LM",
             "icao_code": "LOG",
             "num_aircraft": 45
         },
         {
             "name": "Southern Airways Express",
-            "logo": "./images/FDY.png",
+            "logo": "/FDY.png",
             "iata_code": "9X",
             "icao_code": "FDY",
             "num_aircraft": 45
         },
         {
             "name": "Wideroe",
-            "logo": "./images/WIF.png",
+            "logo": "/WIF.png",
             "iata_code": "WF",
             "icao_code": "WIF",
             "num_aircraft": 45
         },
         {
             "name": "Babcock MCS Italia",
-            "logo": "./images/ELH.png",
+            "logo": "/ELH.png",
             "iata_code": null,
             "icao_code": "ELH",
             "num_aircraft": 44
         },
         {
             "name": "El Al",
-            "logo": "./images/ELY.png",
+            "logo": "/ELY.png",
             "iata_code": "LY",
             "icao_code": "ELY",
             "num_aircraft": 44
         },
         {
             "name": "Jet Edge",
-            "logo": "./images/EDG.png",
+            "logo": "/EDG.png",
             "iata_code": null,
             "icao_code": "EDG",
             "num_aircraft": 44
         },
         {
             "name": "SmartLynx",
-            "logo": "./images/ART.png",
+            "logo": "/ART.png",
             "iata_code": "6Y",
             "icao_code": "ART",
             "num_aircraft": 44
         },
         {
             "name": "Sun Country Airlines",
-            "logo": "./images/SCX.png",
+            "logo": "/SCX.png",
             "iata_code": "SY",
             "icao_code": "SCX",
             "num_aircraft": 44
@@ -1263,42 +1263,42 @@
         },
         {
             "name": "Bemidji Airlines",
-            "logo": "./images/BMJ.png",
+            "logo": "/BMJ.png",
             "iata_code": "CH",
             "icao_code": "BMJ",
             "num_aircraft": 42
         },
         {
             "name": "Brussels Airlines",
-            "logo": "./images/BEL.png",
+            "logo": "/BEL.png",
             "iata_code": "SN",
             "icao_code": "BEL",
             "num_aircraft": 41
         },
         {
             "name": "Gazpromavia",
-            "logo": "./images/GZP.png",
+            "logo": "/GZP.png",
             "iata_code": "4G",
             "icao_code": "GZP",
             "num_aircraft": 41
         },
         {
             "name": "Icelandair",
-            "logo": "./images/ICE.png",
+            "logo": "/ICE.png",
             "iata_code": "FI",
             "icao_code": "ICE",
             "num_aircraft": 41
         },
         {
             "name": "Pobeda",
-            "logo": "./images/PBD.png",
+            "logo": "/PBD.png",
             "iata_code": "DP",
             "icao_code": "PBD",
             "num_aircraft": 41
         },
         {
             "name": "Swiftair",
-            "logo": "./images/SWT.png",
+            "logo": "/SWT.png",
             "iata_code": "WT",
             "icao_code": "SWT",
             "num_aircraft": 41
@@ -1312,14 +1312,14 @@
         },
         {
             "name": "Volotea",
-            "logo": "./images/VOE.png",
+            "logo": "/VOE.png",
             "iata_code": "V7",
             "icao_code": "VOE",
             "num_aircraft": 41
         },
         {
             "name": "Air Canada Rouge",
-            "logo": "./images/ROU.png",
+            "logo": "/ROU.png",
             "iata_code": "RV",
             "icao_code": "ROU",
             "num_aircraft": 40
@@ -1333,56 +1333,56 @@
         },
         {
             "name": "Mahan Air",
-            "logo": "./images/IRM.png",
+            "logo": "/IRM.png",
             "iata_code": "W5",
             "icao_code": "IRM",
             "num_aircraft": 40
         },
         {
             "name": "Virgin Atlantic",
-            "logo": "./images/VIR.png",
+            "logo": "/VIR.png",
             "iata_code": "VS",
             "icao_code": "VIR",
             "num_aircraft": 40
         },
         {
             "name": "Air Baltic",
-            "logo": "./images/BTI.png",
+            "logo": "/BTI.png",
             "iata_code": "BT",
             "icao_code": "BTI",
             "num_aircraft": 39
         },
         {
             "name": "Iraqi Airways",
-            "logo": "./images/IAW.png",
+            "logo": "/IAW.png",
             "iata_code": "IA",
             "icao_code": "IAW",
             "num_aircraft": 39
         },
         {
             "name": "Smartwings",
-            "logo": "./images/TVS.png",
+            "logo": "/TVS.png",
             "iata_code": "QS",
             "icao_code": "TVS",
             "num_aircraft": 39
         },
         {
             "name": "Babcock MCS Espana",
-            "logo": "./images/INR.png",
+            "logo": "/INR.png",
             "iata_code": null,
             "icao_code": "INR",
             "num_aircraft": 38
         },
         {
             "name": "Bering Air",
-            "logo": "./images/BRG.png",
+            "logo": "/BRG.png",
             "iata_code": "8E",
             "icao_code": "BRG",
             "num_aircraft": 38
         },
         {
             "name": "Jeju Air",
-            "logo": "./images/JJA.png",
+            "logo": "/JJA.png",
             "iata_code": "7C",
             "icao_code": "JJA",
             "num_aircraft": 38
@@ -1396,77 +1396,77 @@
         },
         {
             "name": "Tibet Airlines",
-            "logo": "./images/TBA.png",
+            "logo": "/TBA.png",
             "iata_code": "TV",
             "icao_code": "TBA",
             "num_aircraft": 38
         },
         {
             "name": "United Nations",
-            "logo": "./images/UNO.png",
+            "logo": "/UNO.png",
             "iata_code": null,
             "icao_code": "UNO",
             "num_aircraft": 38
         },
         {
             "name": "Uzbekistan Airways",
-            "logo": "./images/UZB.png",
+            "logo": "/UZB.png",
             "iata_code": "HY",
             "icao_code": "UZB",
             "num_aircraft": 38
         },
         {
             "name": "Voyageur Airways",
-            "logo": "./images/VAL.png",
+            "logo": "/VAL.png",
             "iata_code": "VC",
             "icao_code": "VAL",
             "num_aircraft": 38
         },
         {
             "name": "West Air",
-            "logo": "./images/CHB.png",
+            "logo": "/CHB.png",
             "iata_code": "PN",
             "icao_code": "CHB",
             "num_aircraft": 38
         },
         {
             "name": "Corendon Airlines",
-            "logo": "./images/CAI.png",
+            "logo": "/CAI.png",
             "iata_code": "XC",
             "icao_code": "CAI",
             "num_aircraft": 37
         },
         {
             "name": "FlySafair",
-            "logo": "./images/SFR.png",
+            "logo": "/SFR.png",
             "iata_code": "FA",
             "icao_code": "SFR",
             "num_aircraft": 37
         },
         {
             "name": "Gulf Air",
-            "logo": "./images/GFA.png",
+            "logo": "/GFA.png",
             "iata_code": "GF",
             "icao_code": "GFA",
             "num_aircraft": 37
         },
         {
             "name": "Jetfly Aviation",
-            "logo": "./images/JFA.png",
+            "logo": "/JFA.png",
             "iata_code": null,
             "icao_code": "JFA",
             "num_aircraft": 37
         },
         {
             "name": "Porter Airlines",
-            "logo": "./images/POE.png",
+            "logo": "/POE.png",
             "iata_code": "P3",
             "icao_code": "POE",
             "num_aircraft": 37
         },
         {
             "name": "Sunwing Airlines",
-            "logo": "./images/SWG.png",
+            "logo": "/SWG.png",
             "iata_code": "WG",
             "icao_code": "SWG",
             "num_aircraft": 37
@@ -1487,7 +1487,7 @@
         },
         {
             "name": "Polish Medical Air Rescue",
-            "logo": "./images/LPR.png",
+            "logo": "/LPR.png",
             "iata_code": null,
             "icao_code": "LPR",
             "num_aircraft": 36
@@ -1501,119 +1501,119 @@
         },
         {
             "name": "Kenmore Air",
-            "logo": "./images/KEN.png",
+            "logo": "/KEN.png",
             "iata_code": "M5",
             "icao_code": "KEN",
             "num_aircraft": 35
         },
         {
             "name": "Kunming Airlines",
-            "logo": "./images/KNA.png",
+            "logo": "/KNA.png",
             "iata_code": "KY",
             "icao_code": "KNA",
             "num_aircraft": 35
         },
         {
             "name": "Peach",
-            "logo": "./images/APJ.png",
+            "logo": "/APJ.png",
             "iata_code": "MM",
             "icao_code": "APJ",
             "num_aircraft": 35
         },
         {
             "name": "Phoenix Air",
-            "logo": "./images/GRB.png",
+            "logo": "/GRB.png",
             "iata_code": "PH",
             "icao_code": "GRB",
             "num_aircraft": 35
         },
         {
             "name": "Air Cargo Carriers",
-            "logo": "./images/SNC.png",
+            "logo": "/SNC.png",
             "iata_code": "2Q",
             "icao_code": "SNC",
             "num_aircraft": 34
         },
         {
             "name": "Royal Air Freight",
-            "logo": "./images/RAX.png",
+            "logo": "/RAX.png",
             "iata_code": null,
             "icao_code": "RAX",
             "num_aircraft": 34
         },
         {
             "name": "Binter Canarias",
-            "logo": "./images/IBB.png",
+            "logo": "/IBB.png",
             "iata_code": "NT",
             "icao_code": "IBB",
             "num_aircraft": 33
         },
         {
             "name": "Canadian North",
-            "logo": "./images/AKT.png",
+            "logo": "/AKT.png",
             "iata_code": "5T",
             "icao_code": "AKT",
             "num_aircraft": 33
         },
         {
             "name": "China Postal Airlines",
-            "logo": "./images/CYZ.png",
+            "logo": "/CYZ.png",
             "iata_code": "CF",
             "icao_code": "CYZ",
             "num_aircraft": 33
         },
         {
             "name": "Chongqing Airlines",
-            "logo": "./images/CQN.png",
+            "logo": "/CQN.png",
             "iata_code": "OQ",
             "icao_code": "CQN",
             "num_aircraft": 33
         },
         {
             "name": "Kenya Airways",
-            "logo": "./images/KQA.png",
+            "logo": "/KQA.png",
             "iata_code": "KQ",
             "icao_code": "KQA",
             "num_aircraft": 33
         },
         {
             "name": "Kuwait Airways",
-            "logo": "./images/KAC.png",
+            "logo": "/KAC.png",
             "iata_code": "KU",
             "icao_code": "KAC",
             "num_aircraft": 33
         },
         {
             "name": "Qingdao Airlines",
-            "logo": "./images/QDA.png",
+            "logo": "/QDA.png",
             "iata_code": "QW",
             "icao_code": "QDA",
             "num_aircraft": 33
         },
         {
             "name": "West Atlantic",
-            "logo": "./images/NPT.png",
+            "logo": "/NPT.png",
             "iata_code": null,
             "icao_code": "NPT",
             "num_aircraft": 33
         },
         {
             "name": "Air Inuit",
-            "logo": "./images/AIE.png",
+            "logo": "/AIE.png",
             "iata_code": "3H",
             "icao_code": "AIE",
             "num_aircraft": 32
         },
         {
             "name": "Air Peace",
-            "logo": "./images/APK.png",
+            "logo": "/APK.png",
             "iata_code": "P4",
             "icao_code": "APK",
             "num_aircraft": 32
         },
         {
             "name": "Air Transat",
-            "logo": "./images/TSC.png",
+            "logo": "/TSC.png",
             "iata_code": "TS",
             "icao_code": "TSC",
             "num_aircraft": 32
@@ -1627,147 +1627,147 @@
         },
         {
             "name": "Air Astana",
-            "logo": "./images/KZR.png",
+            "logo": "/KZR.png",
             "iata_code": "KC",
             "icao_code": "KZR",
             "num_aircraft": 31
         },
         {
             "name": "Bamboo Airways",
-            "logo": "./images/BAV.png",
+            "logo": "/BAV.png",
             "iata_code": "QH",
             "icao_code": "BAV",
             "num_aircraft": 31
         },
         {
             "name": "Cargojet Airways",
-            "logo": "./images/CJT.png",
+            "logo": "/CJT.png",
             "iata_code": "W8",
             "icao_code": "CJT",
             "num_aircraft": 31
         },
         {
             "name": "Flight options",
-            "logo": "./images/OPT.png",
+            "logo": "/OPT.png",
             "iata_code": null,
             "icao_code": "OPT",
             "num_aircraft": 31
         },
         {
             "name": "Hong Kong Airlines",
-            "logo": "./images/CRK.png",
+            "logo": "/CRK.png",
             "iata_code": "HX",
             "icao_code": "CRK",
             "num_aircraft": 31
         },
         {
             "name": "iAero Airways",
-            "logo": "./images/SWQ.png",
+            "logo": "/SWQ.png",
             "iata_code": "WQ",
             "icao_code": "SWQ",
             "num_aircraft": 31
         },
         {
             "name": "Offshore Helicopter Services",
-            "logo": "./images/BND.png",
+            "logo": "/BND.png",
             "iata_code": null,
             "icao_code": "BND",
             "num_aircraft": 31
         },
         {
             "name": "Pakistan International Airlines",
-            "logo": "./images/PIA.png",
+            "logo": "/PIA.png",
             "iata_code": "PK",
             "icao_code": "PIA",
             "num_aircraft": 31
         },
         {
             "name": "Red Wings",
-            "logo": "./images/RWZ.png",
+            "logo": "/RWZ.png",
             "iata_code": "WZ",
             "icao_code": "RWZ",
             "num_aircraft": 31
         },
         {
             "name": "T'way Air",
-            "logo": "./images/TWB.png",
+            "logo": "/TWB.png",
             "iata_code": "TW",
             "icao_code": "TWB",
             "num_aircraft": 31
         },
         {
             "name": "AirSprint",
-            "logo": "./images/ASP.png",
+            "logo": "/ASP.png",
             "iata_code": null,
             "icao_code": "ASP",
             "num_aircraft": 30
         },
         {
             "name": "Avion Express",
-            "logo": "./images/NVD.png",
+            "logo": "/NVD.png",
             "iata_code": "X9",
             "icao_code": "NVD",
             "num_aircraft": 30
         },
         {
             "name": "Cargolux",
-            "logo": "./images/CLX.png",
+            "logo": "/CLX.png",
             "iata_code": "CV",
             "icao_code": "CLX",
             "num_aircraft": 30
         },
         {
             "name": "Freight Runners Express",
-            "logo": "./images/FRG.png",
+            "logo": "/FRG.png",
             "iata_code": null,
             "icao_code": "FRG",
             "num_aircraft": 30
         },
         {
             "name": "Iran Air",
-            "logo": "./images/IRA.png",
+            "logo": "/IRA.png",
             "iata_code": "IR",
             "icao_code": "IRA",
             "num_aircraft": 30
         },
         {
             "name": "RiseAir",
-            "logo": "./images/WEW.png",
+            "logo": "/WEW.png",
             "iata_code": "4T",
             "icao_code": "WEW",
             "num_aircraft": 30
         },
         {
             "name": "Skymark Airlines",
-            "logo": "./images/SKY.png",
+            "logo": "/SKY.png",
             "iata_code": "BC",
             "icao_code": "SKY",
             "num_aircraft": 30
         },
         {
             "name": "Air Cairo",
-            "logo": "./images/MSC.png",
+            "logo": "/MSC.png",
             "iata_code": "SM",
             "icao_code": "MSC",
             "num_aircraft": 29
         },
         {
             "name": "Bangkok Airways",
-            "logo": "./images/BKP.png",
+            "logo": "/BKP.png",
             "iata_code": "PG",
             "icao_code": "BKP",
             "num_aircraft": 29
         },
         {
             "name": "Hebei Airlines",
-            "logo": "./images/HBH.png",
+            "logo": "/HBH.png",
             "iata_code": "NS",
             "icao_code": "HBH",
             "num_aircraft": 29
         },
         {
             "name": "Lauda Europe",
-            "logo": "./images/LDA.png",
+            "logo": "/LDA.png",
             "iata_code": "LW",
             "icao_code": "LDA",
             "num_aircraft": 29
@@ -1781,91 +1781,98 @@
         },
         {
             "name": "Red Wing Aviation",
-            "logo": "./images/LAK.png",
+            "logo": "/LAK.png",
             "iata_code": null,
             "icao_code": "LAK",
             "num_aircraft": 29
         },
         {
             "name": "Yamal Airlines",
-            "logo": "./images/LLM.png",
+            "logo": "/LLM.png",
             "iata_code": "YC",
             "icao_code": "LLM",
             "num_aircraft": 29
         },
         {
             "name": "Air India Express",
-            "logo": "./images/AXB.png",
+            "logo": "/AXB.png",
             "iata_code": "IX",
             "icao_code": "AXB",
             "num_aircraft": 28
         },
         {
+            "name": "Air India Express",
+            "logo": "/AXB.png",
+            "iata_code": "I5",
+            "icao_code": "AXB",
+            "num_aircraft": 28
+        },
+        {
             "name": "AirNet",
-            "logo": "./images/USC.png",
+            "logo": "/USC.png",
             "iata_code": null,
             "icao_code": "USC",
             "num_aircraft": 28
         },
         {
             "name": "Breeze Airways",
-            "logo": "./images/MXY.png",
+            "logo": "/MXY.png",
             "iata_code": "MX",
             "icao_code": "MXY",
             "num_aircraft": 28
         },
         {
             "name": "Central Mountain Air",
-            "logo": "./images/GLR.png",
+            "logo": "/GLR.png",
             "iata_code": "9M",
             "icao_code": "GLR",
             "num_aircraft": 28
         },
         {
             "name": "Kalitta Air",
-            "logo": "./images/CKS.png",
+            "logo": "/CKS.png",
             "iata_code": "K4",
             "icao_code": "CKS",
             "num_aircraft": 28
         },
         {
             "name": "Noordzee Helikopters Vlaanderen",
-            "logo": "./images/NHX.png",
+            "logo": "/NHX.png",
             "iata_code": null,
             "icao_code": "NHX",
             "num_aircraft": 28
         },
         {
             "name": "Nordwind Airlines",
-            "logo": "./images/NWS.png",
+            "logo": "/NWS.png",
             "iata_code": "N4",
             "icao_code": "NWS",
             "num_aircraft": 28
         },
         {
             "name": "SCAT",
-            "logo": "./images/VSV.png",
+            "logo": "/VSV.png",
             "iata_code": "DV",
             "icao_code": "VSV",
             "num_aircraft": 28
         },
         {
             "name": "Sky Airline",
-            "logo": "./images/SKU.png",
+            "logo": "/SKU.png",
             "iata_code": "H2",
             "icao_code": "SKU",
             "num_aircraft": 28
         },
         {
             "name": "USA Jet Airlines",
-            "logo": "./images/JUS.png",
+            "logo": "/JUS.png",
             "iata_code": null,
             "icao_code": "JUS",
             "num_aircraft": 28
         },
         {
             "name": "Air Niugini",
-            "logo": "./images/ANG.png",
+            "logo": "/ANG.png",
             "iata_code": "PX",
             "icao_code": "ANG",
             "num_aircraft": 27
@@ -1879,42 +1886,42 @@
         },
         {
             "name": "Enter Air",
-            "logo": "./images/ENT.png",
+            "logo": "/ENT.png",
             "iata_code": "E4",
             "icao_code": "ENT",
             "num_aircraft": 27
         },
         {
             "name": "Fly 7",
-            "logo": "./images/FSF.png",
+            "logo": "/FSF.png",
             "iata_code": null,
             "icao_code": "FSF",
             "num_aircraft": 27
         },
         {
             "name": "Flyadeal",
-            "logo": "./images/FAD.png",
+            "logo": "/FAD.png",
             "iata_code": "F3",
             "icao_code": "FAD",
             "num_aircraft": 27
         },
         {
             "name": "Gestair",
-            "logo": "./images/GES.png",
+            "logo": "/GES.png",
             "iata_code": null,
             "icao_code": "GES",
             "num_aircraft": 27
         },
         {
             "name": "Jin Air",
-            "logo": "./images/JNA.png",
+            "logo": "/JNA.png",
             "iata_code": "LJ",
             "icao_code": "JNA",
             "num_aircraft": 27
         },
         {
             "name": "Royal Jordanian",
-            "logo": "./images/RJA.png",
+            "logo": "/RJA.png",
             "iata_code": "RJ",
             "icao_code": "RJA",
             "num_aircraft": 27
@@ -1928,49 +1935,49 @@
         },
         {
             "name": "Tunisair",
-            "logo": "./images/TAR.png",
+            "logo": "/TAR.png",
             "iata_code": "TU",
             "icao_code": "TAR",
             "num_aircraft": 27
         },
         {
             "name": "9 Air",
-            "logo": "./images/JYH.png",
+            "logo": "/JYH.png",
             "iata_code": "AQ",
             "icao_code": "JYH",
             "num_aircraft": 26
         },
         {
             "name": "Azerbaijan Airlines",
-            "logo": "./images/AHY.png",
+            "logo": "/AHY.png",
             "iata_code": "J2",
             "icao_code": "AHY",
             "num_aircraft": 26
         },
         {
             "name": "Donghai Airlines",
-            "logo": "./images/EPA.png",
+            "logo": "/EPA.png",
             "iata_code": "DZ",
             "icao_code": "EPA",
             "num_aircraft": 26
         },
         {
             "name": "Gama Aviation",
-            "logo": "./images/GMA.png",
+            "logo": "/GMA.png",
             "iata_code": null,
             "icao_code": "GMA",
             "num_aircraft": 26
         },
         {
             "name": "Hong Kong Express",
-            "logo": "./images/HKE.png",
+            "logo": "/HKE.png",
             "iata_code": "UO",
             "icao_code": "HKE",
             "num_aircraft": 26
         },
         {
             "name": "Maldivian",
-            "logo": "./images/DQA.png",
+            "logo": "/DQA.png",
             "iata_code": "Q2",
             "icao_code": "DQA",
             "num_aircraft": 26
@@ -1984,28 +1991,28 @@
         },
         {
             "name": "Okay Airways",
-            "logo": "./images/OKA.png",
+            "logo": "/OKA.png",
             "iata_code": "BK",
             "icao_code": "OKA",
             "num_aircraft": 26
         },
         {
             "name": "Quest Diagnostics",
-            "logo": "./images/LBQ.png",
+            "logo": "/LBQ.png",
             "iata_code": null,
             "icao_code": "LBQ",
             "num_aircraft": 26
         },
         {
             "name": "Sevenair",
-            "logo": "./images/RVP.png",
+            "logo": "/RVP.png",
             "iata_code": null,
             "icao_code": "RVP",
             "num_aircraft": 26
         },
         {
             "name": "Boliviana de Aviacion",
-            "logo": "./images/BOV.png",
+            "logo": "/BOV.png",
             "iata_code": "OB",
             "icao_code": "BOV",
             "num_aircraft": 25
@@ -2019,7 +2026,7 @@
         },
         {
             "name": "Contour Aviation",
-            "logo": "./images/VTE.png",
+            "logo": "/VTE.png",
             "iata_code": "LF",
             "icao_code": "VTE",
             "num_aircraft": 25
@@ -2033,77 +2040,77 @@
         },
         {
             "name": "Iberia Express",
-            "logo": "./images/IBS.png",
+            "logo": "/IBS.png",
             "iata_code": "I2",
             "icao_code": "IBS",
             "num_aircraft": 25
         },
         {
             "name": "MEA",
-            "logo": "./images/MEA.png",
+            "logo": "/MEA.png",
             "iata_code": "ME",
             "icao_code": "MEA",
             "num_aircraft": 25
         },
         {
             "name": "SriLankan Airlines",
-            "logo": "./images/ALK.png",
+            "logo": "/ALK.png",
             "iata_code": "UL",
             "icao_code": "ALK",
             "num_aircraft": 25
         },
         {
             "name": "Air Busan",
-            "logo": "./images/ABL.png",
+            "logo": "/ABL.png",
             "iata_code": "BX",
             "icao_code": "ABL",
             "num_aircraft": 24
         },
         {
             "name": "AirAsia X",
-            "logo": "./images/XAX.png",
+            "logo": "/XAX.png",
             "iata_code": "D7",
             "icao_code": "XAX",
             "num_aircraft": 24
         },
         {
             "name": "AirSERBIA",
-            "logo": "./images/ASL.png",
+            "logo": "/ASL.png",
             "iata_code": "JU",
             "icao_code": "ASL",
             "num_aircraft": 24
         },
         {
             "name": "Boutique Air",
-            "logo": "./images/BTQ.png",
+            "logo": "/BTQ.png",
             "iata_code": "4B",
             "icao_code": "BTQ",
             "num_aircraft": 24
         },
         {
             "name": "DAT",
-            "logo": "./images/DTR.png",
+            "logo": "/DTR.png",
             "iata_code": "DX",
             "icao_code": "DTR",
             "num_aircraft": 24
         },
         {
             "name": "JetSMART",
-            "logo": "./images/JAT.png",
+            "logo": "/JAT.png",
             "iata_code": "JA",
             "icao_code": "JAT",
             "num_aircraft": 24
         },
         {
             "name": "Kalitta Charters",
-            "logo": "./images/KFS.png",
+            "logo": "/KFS.png",
             "iata_code": "K9",
             "icao_code": "KFS",
             "num_aircraft": 24
         },
         {
             "name": "Tradewind Aviation",
-            "logo": "./images/GPD.png",
+            "logo": "/GPD.png",
             "iata_code": "TJ",
             "icao_code": "GPD",
             "num_aircraft": 24
@@ -2117,49 +2124,49 @@
         },
         {
             "name": "Flair Airlines",
-            "logo": "./images/FLE.png",
+            "logo": "/FLE.png",
             "iata_code": "F8",
             "icao_code": "FLE",
             "num_aircraft": 23
         },
         {
             "name": "Luxaviation Belgium",
-            "logo": "./images/AAB.png",
+            "logo": "/AAB.png",
             "iata_code": null,
             "icao_code": "AAB",
             "num_aircraft": 23
         },
         {
             "name": "Mesa Airlines",
-            "logo": "./images/ASH.png",
+            "logo": "/ASH.png",
             "iata_code": "YV",
             "icao_code": "ASH",
             "num_aircraft": 23
         },
         {
             "name": "Ruili Airlines",
-            "logo": "./images/RLH.png",
+            "logo": "/RLH.png",
             "iata_code": "DR",
             "icao_code": "RLH",
             "num_aircraft": 23
         },
         {
             "name": "Russia - Ministry of Emergency Situations (MChS)",
-            "logo": "./images/SUM.png",
+            "logo": "/SUM.png",
             "iata_code": null,
             "icao_code": "SUM",
             "num_aircraft": 23
         },
         {
             "name": "SKY express",
-            "logo": "./images/SEH.png",
+            "logo": "/SEH.png",
             "iata_code": "GQ",
             "icao_code": "SEH",
             "num_aircraft": 23
         },
         {
             "name": "Tarom",
-            "logo": "./images/ROT.png",
+            "logo": "/ROT.png",
             "iata_code": "RO",
             "icao_code": "ROT",
             "num_aircraft": 23
@@ -2173,56 +2180,56 @@
         },
         {
             "name": "Air Macau",
-            "logo": "./images/AMU.png",
+            "logo": "/AMU.png",
             "iata_code": "NX",
             "icao_code": "AMU",
             "num_aircraft": 22
         },
         {
             "name": "Alliance Air",
-            "logo": "./images/LLR.png",
+            "logo": "/LLR.png",
             "iata_code": "9I",
             "icao_code": "LLR",
             "num_aircraft": 22
         },
         {
             "name": "Azur Air",
-            "logo": "./images/AZV.png",
+            "logo": "/AZV.png",
             "iata_code": "ZF",
             "icao_code": "AZV",
             "num_aircraft": 22
         },
         {
             "name": "Biman Bangladesh Airlines",
-            "logo": "./images/BBC.png",
+            "logo": "/BBC.png",
             "iata_code": "BG",
             "icao_code": "BBC",
             "num_aircraft": 22
         },
         {
             "name": "Castle Aviation",
-            "logo": "./images/CSJ.png",
+            "logo": "/CSJ.png",
             "iata_code": null,
             "icao_code": "CSJ",
             "num_aircraft": 22
         },
         {
             "name": "EasyFly",
-            "logo": "./images/EFY.png",
+            "logo": "/EFY.png",
             "iata_code": "VE",
             "icao_code": "EFY",
             "num_aircraft": 22
         },
         {
             "name": "Eurowings Discover",
-            "logo": "./images/OCN.png",
+            "logo": "/OCN.png",
             "iata_code": "4Y",
             "icao_code": "OCN",
             "num_aircraft": 22
         },
         {
             "name": "FAI rent-a-jet",
-            "logo": "./images/IFA.png",
+            "logo": "/IFA.png",
             "iata_code": null,
             "icao_code": "IFA",
             "num_aircraft": 22
@@ -2236,7 +2243,7 @@
         },
         {
             "name": "Maersk Air Cargo",
-            "logo": "./images/SRR.png",
+            "logo": "/SRR.png",
             "iata_code": "DJ",
             "icao_code": "SRR",
             "num_aircraft": 22
@@ -2250,105 +2257,105 @@
         },
         {
             "name": "Silverhawk Aviation",
-            "logo": "./images/SLH.png",
+            "logo": "/SLH.png",
             "iata_code": null,
             "icao_code": "SLH",
             "num_aircraft": 22
         },
         {
             "name": "Sunwest Aviation",
-            "logo": "./images/CNK.png",
+            "logo": "/CNK.png",
             "iata_code": null,
             "icao_code": "CNK",
             "num_aircraft": 22
         },
         {
             "name": "Wasaya Airways",
-            "logo": "./images/WSG.png",
+            "logo": "/WSG.png",
             "iata_code": "WP",
             "icao_code": "WSG",
             "num_aircraft": 22
         },
         {
             "name": "2Excel Aviation",
-            "logo": "./images/BRO.png",
+            "logo": "/BRO.png",
             "iata_code": null,
             "icao_code": "BRO",
             "num_aircraft": 21
         },
         {
             "name": "Berry Aviation",
-            "logo": "./images/BYA.png",
+            "logo": "/BYA.png",
             "iata_code": null,
             "icao_code": "BYA",
             "num_aircraft": 21
         },
         {
             "name": "CemAir",
-            "logo": "./images/KEM.png",
+            "logo": "/KEM.png",
             "iata_code": "5Z",
             "icao_code": "KEM",
             "num_aircraft": 21
         },
         {
             "name": "Deer Jet",
-            "logo": "./images/DER.png",
+            "logo": "/DER.png",
             "iata_code": null,
             "icao_code": "DER",
             "num_aircraft": 21
         },
         {
             "name": "Fiji Airways",
-            "logo": "./images/FJI.png",
+            "logo": "/FJI.png",
             "iata_code": "FJ",
             "icao_code": "FJI",
             "num_aircraft": 21
         },
         {
             "name": "GlobeAir",
-            "logo": "./images/GAC.png",
+            "logo": "/GAC.png",
             "iata_code": null,
             "icao_code": "GAC",
             "num_aircraft": 21
         },
         {
             "name": "GX Airlines",
-            "logo": "./images/CBG.png",
+            "logo": "/CBG.png",
             "iata_code": "GX",
             "icao_code": "CBG",
             "num_aircraft": 21
         },
         {
             "name": "Key Lime Air",
-            "logo": "./images/LYM.png",
+            "logo": "/LYM.png",
             "iata_code": "KG",
             "icao_code": "LYM",
             "num_aircraft": 21
         },
         {
             "name": "Pilot Flight Academy",
-            "logo": "./images/PIP.png",
+            "logo": "/PIP.png",
             "iata_code": null,
             "icao_code": "PIP",
             "num_aircraft": 21
         },
         {
             "name": "Solairus Aviation",
-            "logo": "./images/TWY.png",
+            "logo": "/TWY.png",
             "iata_code": null,
             "icao_code": "TWY",
             "num_aircraft": 21
         },
         {
             "name": "Ukraine International Airlines",
-            "logo": "./images/AUI.png",
+            "logo": "/AUI.png",
             "iata_code": "PS",
             "icao_code": "AUI",
             "num_aircraft": 21
         },
         {
             "name": "Western Global Airlines",
-            "logo": "./images/WGN.png",
+            "logo": "/WGN.png",
             "iata_code": "KD",
             "icao_code": "WGN",
             "num_aircraft": 21
@@ -2362,14 +2369,14 @@
         },
         {
             "name": "Alaska Central Express",
-            "logo": "./images/AER.png",
+            "logo": "/AER.png",
             "iata_code": "KO",
             "icao_code": "AER",
             "num_aircraft": 20
         },
         {
             "name": "Arik Air",
-            "logo": "./images/ARA.png",
+            "logo": "/ARA.png",
             "iata_code": "W3",
             "icao_code": "ARA",
             "num_aircraft": 20
@@ -2383,14 +2390,14 @@
         },
         {
             "name": "Calstar",
-            "logo": "./images/CMD.png",
+            "logo": "/CMD.png",
             "iata_code": null,
             "icao_code": "CMD",
             "num_aircraft": 20
         },
         {
             "name": "Conviasa",
-            "logo": "./images/VCV.png",
+            "logo": "/VCV.png",
             "iata_code": "V0",
             "icao_code": "VCV",
             "num_aircraft": 20
@@ -2404,126 +2411,126 @@
         },
         {
             "name": "Luxair",
-            "logo": "./images/LGL.png",
+            "logo": "/LGL.png",
             "iata_code": "LG",
             "icao_code": "LGL",
             "num_aircraft": 20
         },
         {
             "name": "Ornge Air",
-            "logo": "./images/PUL.png",
+            "logo": "/PUL.png",
             "iata_code": null,
             "icao_code": "PUL",
             "num_aircraft": 20
         },
         {
             "name": "Pascan Aviation",
-            "logo": "./images/PSC.png",
+            "logo": "/PSC.png",
             "iata_code": "P6",
             "icao_code": "PSC",
             "num_aircraft": 20
         },
         {
             "name": "Ryan Air (USA)",
-            "logo": "./images/RYA.png",
+            "logo": "/RYA.png",
             "iata_code": "7S",
             "icao_code": "RYA",
             "num_aircraft": 20
         },
         {
             "name": "Thai Smile",
-            "logo": "./images/THD.png",
+            "logo": "/THD.png",
             "iata_code": "WE",
             "icao_code": "THD",
             "num_aircraft": 20
         },
         {
             "name": "Turkmenistan Airlines",
-            "logo": "./images/TUA.png",
+            "logo": "/TUA.png",
             "iata_code": "T5",
             "icao_code": "TUA",
             "num_aircraft": 20
         },
         {
             "name": "VeriJet",
-            "logo": "./images/WSP.png",
+            "logo": "/WSP.png",
             "iata_code": null,
             "icao_code": "WSP",
             "num_aircraft": 20
         },
         {
             "name": "Wiggins Airways",
-            "logo": "./images/WIG.png",
+            "logo": "/WIG.png",
             "iata_code": null,
             "icao_code": "WIG",
             "num_aircraft": 20
         },
         {
             "name": "Air Dolomiti",
-            "logo": "./images/DLA.png",
+            "logo": "/DLA.png",
             "iata_code": "EN",
             "icao_code": "DLA",
             "num_aircraft": 19
         },
         {
             "name": "Akasa Air",
-            "logo": "./images/AKJ.png",
+            "logo": "/AKJ.png",
             "iata_code": "QP",
             "icao_code": "AKJ",
             "num_aircraft": 19
         },
         {
             "name": "Alkan Air",
-            "logo": "./images/AKN.png",
+            "logo": "/AKN.png",
             "iata_code": null,
             "icao_code": "AKN",
             "num_aircraft": 19
         },
         {
             "name": "Aurora",
-            "logo": "./images/SHU.png",
+            "logo": "/SHU.png",
             "iata_code": "HZ",
             "icao_code": "SHU",
             "num_aircraft": 19
         },
         {
             "name": "Azimuth",
-            "logo": "./images/AZO.png",
+            "logo": "/AZO.png",
             "iata_code": "A4",
             "icao_code": "AZO",
             "num_aircraft": 19
         },
         {
             "name": "Iran Aseman Airlines",
-            "logo": "./images/IRC.png",
+            "logo": "/IRC.png",
             "iata_code": "EP",
             "icao_code": "IRC",
             "num_aircraft": 19
         },
         {
             "name": "Jazeera Airways",
-            "logo": "./images/JZR.png",
+            "logo": "/JZR.png",
             "iata_code": "J9",
             "icao_code": "JZR",
             "num_aircraft": 19
         },
         {
             "name": "Luxwing",
-            "logo": "./images/LWG.png",
+            "logo": "/LWG.png",
             "iata_code": "BN",
             "icao_code": "LWG",
             "num_aircraft": 19
         },
         {
             "name": "North Cariboo Air",
-            "logo": "./images/NCB.png",
+            "logo": "/NCB.png",
             "iata_code": null,
             "icao_code": "NCB",
             "num_aircraft": 19
         },
         {
             "name": "Pacific Coastal Airlines",
-            "logo": "./images/PCO.png",
+            "logo": "/PCO.png",
             "iata_code": "8P",
             "icao_code": "PCO",
             "num_aircraft": 19
@@ -2544,14 +2551,14 @@
         },
         {
             "name": "SprintAir",
-            "logo": "./images/SRN.png",
+            "logo": "/SRN.png",
             "iata_code": "P8",
             "icao_code": "SRN",
             "num_aircraft": 19
         },
         {
             "name": "Starlux",
-            "logo": "./images/SJX.png",
+            "logo": "/SJX.png",
             "iata_code": "JX",
             "icao_code": "SJX",
             "num_aircraft": 19
@@ -2572,7 +2579,7 @@
         },
         {
             "name": "TAAG Angola Airlines",
-            "logo": "./images/DTA.png",
+            "logo": "/DTA.png",
             "iata_code": "DT",
             "icao_code": "DTA",
             "num_aircraft": 19
@@ -2586,42 +2593,42 @@
         },
         {
             "name": "Toll Aviation",
-            "logo": "./images/TFX.png",
+            "logo": "/TFX.png",
             "iata_code": null,
             "icao_code": "TFX",
             "num_aircraft": 19
         },
         {
             "name": "US-Bangla Airlines",
-            "logo": "./images/UBG.png",
+            "logo": "/UBG.png",
             "iata_code": "BS",
             "icao_code": "UBG",
             "num_aircraft": 19
         },
         {
             "name": "Zimex Aviation",
-            "logo": "./images/IMX.png",
+            "logo": "/IMX.png",
             "iata_code": "XM",
             "icao_code": "IMX",
             "num_aircraft": 19
         },
         {
             "name": "Air Creebec",
-            "logo": "./images/CRQ.png",
+            "logo": "/CRQ.png",
             "iata_code": "YN",
             "icao_code": "CRQ",
             "num_aircraft": 18
         },
         {
             "name": "Amelia",
-            "logo": "./images/AIA.png",
+            "logo": "/AIA.png",
             "iata_code": "8R",
             "icao_code": "AIA",
             "num_aircraft": 18
         },
         {
             "name": "Colorful GuiZhou Airlines",
-            "logo": "./images/CGZ.png",
+            "logo": "/CGZ.png",
             "iata_code": "GY",
             "icao_code": "CGZ",
             "num_aircraft": 18
@@ -2635,21 +2642,21 @@
         },
         {
             "name": "Eastern Airlines",
-            "logo": "./images/EAL.png",
+            "logo": "/EAL.png",
             "iata_code": "2D",
             "icao_code": "EAL",
             "num_aircraft": 18
         },
         {
             "name": "European Air Charter",
-            "logo": "./images/BUC.png",
+            "logo": "/BUC.png",
             "iata_code": "H6",
             "icao_code": "BUC",
             "num_aircraft": 18
         },
         {
             "name": "Everts Air Alaska",
-            "logo": "./images/VTS.png",
+            "logo": "/VTS.png",
             "iata_code": "5V",
             "icao_code": "VTS",
             "num_aircraft": 18
@@ -2663,14 +2670,14 @@
         },
         {
             "name": "Japan Transocean Air",
-            "logo": "./images/JTA.png",
+            "logo": "/JTA.png",
             "iata_code": "NU",
             "icao_code": "JTA",
             "num_aircraft": 18
         },
         {
             "name": "Manta Air",
-            "logo": "./images/MAV.png",
+            "logo": "/MAV.png",
             "iata_code": "NR",
             "icao_code": "MAV",
             "num_aircraft": 18
@@ -2684,14 +2691,14 @@
         },
         {
             "name": "PAL Airlines",
-            "logo": "./images/PVL.png",
+            "logo": "/PVL.png",
             "iata_code": "PB",
             "icao_code": "PVL",
             "num_aircraft": 18
         },
         {
             "name": "Qatar Executive",
-            "logo": "./images/QQE.png",
+            "logo": "/QQE.png",
             "iata_code": "QE",
             "icao_code": "QQE",
             "num_aircraft": 18
@@ -2705,7 +2712,7 @@
         },
         {
             "name": "Valljet",
-            "logo": "./images/VLJ.png",
+            "logo": "/VLJ.png",
             "iata_code": null,
             "icao_code": "VLJ",
             "num_aircraft": 18
@@ -2719,49 +2726,49 @@
         },
         {
             "name": "ABX Air",
-            "logo": "./images/ABX.png",
+            "logo": "/ABX.png",
             "iata_code": "GB",
             "icao_code": "ABX",
             "num_aircraft": 17
         },
         {
             "name": "Advanced Air",
-            "logo": "./images/WSN.png",
+            "logo": "/WSN.png",
             "iata_code": "AN",
             "icao_code": "WSN",
             "num_aircraft": 17
         },
         {
             "name": "ATA Airlines",
-            "logo": "./images/TBZ.png",
+            "logo": "/TBZ.png",
             "iata_code": "I3",
             "icao_code": "TBZ",
             "num_aircraft": 17
         },
         {
             "name": "Caribbean Airlines",
-            "logo": "./images/BWA.png",
+            "logo": "/BWA.png",
             "iata_code": "BW",
             "icao_code": "BWA",
             "num_aircraft": 17
         },
         {
             "name": "Carson Air",
-            "logo": "./images/CRN.png",
+            "logo": "/CRN.png",
             "iata_code": null,
             "icao_code": "CRN",
             "num_aircraft": 17
         },
         {
             "name": "Chartright Air",
-            "logo": "./images/HRT.png",
+            "logo": "/HRT.png",
             "iata_code": null,
             "icao_code": "HRT",
             "num_aircraft": 17
         },
         {
             "name": "China Cargo Airlines",
-            "logo": "./images/CKK.png",
+            "logo": "/CKK.png",
             "iata_code": "CK",
             "icao_code": "CKK",
             "num_aircraft": 17
@@ -2775,7 +2782,7 @@
         },
         {
             "name": "Excellent Air",
-            "logo": "./images/ECA.png",
+            "logo": "/ECA.png",
             "iata_code": null,
             "icao_code": "ECA",
             "num_aircraft": 17
@@ -2789,35 +2796,35 @@
         },
         {
             "name": "Hinterland Aviation",
-            "logo": "./images/HND.png",
+            "logo": "/HND.png",
             "iata_code": "OI",
             "icao_code": "HND",
             "num_aircraft": 17
         },
         {
             "name": "InterCaribbean Airways",
-            "logo": "./images/IWY.png",
+            "logo": "/IWY.png",
             "iata_code": "JY",
             "icao_code": "IWY",
             "num_aircraft": 17
         },
         {
             "name": "LATAM Cargo",
-            "logo": "./images/LCO.png",
+            "logo": "/LCO.png",
             "iata_code": "UC",
             "icao_code": "LCO",
             "num_aircraft": 17
         },
         {
             "name": "Neos",
-            "logo": "./images/NOS.png",
+            "logo": "/NOS.png",
             "iata_code": "NO",
             "icao_code": "NOS",
             "num_aircraft": 17
         },
         {
             "name": "Pacific Coast Jet",
-            "logo": "./images/PXT.png",
+            "logo": "/PXT.png",
             "iata_code": null,
             "icao_code": "PXT",
             "num_aircraft": 17
@@ -2831,7 +2838,7 @@
         },
         {
             "name": "South African Airways",
-            "logo": "./images/SAA.png",
+            "logo": "/SAA.png",
             "iata_code": "SA",
             "icao_code": "SAA",
             "num_aircraft": 17
@@ -2845,35 +2852,35 @@
         },
         {
             "name": "Air China Cargo",
-            "logo": "./images/CAO.png",
+            "logo": "/CAO.png",
             "iata_code": null,
             "icao_code": "CAO",
             "num_aircraft": 16
         },
         {
             "name": "AirBridgeCargo Airlines",
-            "logo": "./images/ABW.png",
+            "logo": "/ABW.png",
             "iata_code": "RU",
             "icao_code": "ABW",
             "num_aircraft": 16
         },
         {
             "name": "Airlink",
-            "logo": "./images/JAR.png",
+            "logo": "/JAR.png",
             "iata_code": null,
             "icao_code": "JAR",
             "num_aircraft": 16
         },
         {
             "name": "Avelo Airlines",
-            "logo": "./images/VXP.png",
+            "logo": "/VXP.png",
             "iata_code": "XP",
             "icao_code": "VXP",
             "num_aircraft": 16
         },
         {
             "name": "Buddha Air",
-            "logo": "./images/BHA.png",
+            "logo": "/BHA.png",
             "iata_code": "U4",
             "icao_code": "BHA",
             "num_aircraft": 16
@@ -2887,21 +2894,21 @@
         },
         {
             "name": "Edelweiss Air",
-            "logo": "./images/EDW.png",
+            "logo": "/EDW.png",
             "iata_code": "WK",
             "icao_code": "EDW",
             "num_aircraft": 16
         },
         {
             "name": "Fuji Dream Airlines",
-            "logo": "./images/FDA.png",
+            "logo": "/FDA.png",
             "iata_code": "JH",
             "icao_code": "FDA",
             "num_aircraft": 16
         },
         {
             "name": "Fuzhou Airlines",
-            "logo": "./images/FZA.png",
+            "logo": "/FZA.png",
             "iata_code": "FU",
             "icao_code": "FZA",
             "num_aircraft": 16
@@ -2922,7 +2929,7 @@
         },
         {
             "name": "Helvetic Airways",
-            "logo": "./images/OAW.png",
+            "logo": "/OAW.png",
             "iata_code": "2L",
             "icao_code": "OAW",
             "num_aircraft": 16
@@ -2943,21 +2950,21 @@
         },
         {
             "name": "MASwings",
-            "logo": "./images/MWG.png",
+            "logo": "/MWG.png",
             "iata_code": "MY",
             "icao_code": "MWG",
             "num_aircraft": 16
         },
         {
             "name": "National Jet Express",
-            "logo": "./images/JTE.png",
+            "logo": "/JTE.png",
             "iata_code": "NC",
             "icao_code": "JTE",
             "num_aircraft": 16
         },
         {
             "name": "Nok Air",
-            "logo": "./images/NOK.png",
+            "logo": "/NOK.png",
             "iata_code": "DD",
             "icao_code": "NOK",
             "num_aircraft": 16
@@ -2999,35 +3006,35 @@
         },
         {
             "name": "Swoop",
-            "logo": "./images/WSW.png",
+            "logo": "/WSW.png",
             "iata_code": "WO",
             "icao_code": "WSW",
             "num_aircraft": 16
         },
         {
             "name": "Thrive",
-            "logo": "./images/TIV.png",
+            "logo": "/TIV.png",
             "iata_code": null,
             "icao_code": "TIV",
             "num_aircraft": 16
         },
         {
             "name": "Volga-Dnepr Airlines",
-            "logo": "./images/VDA.png",
+            "logo": "/VDA.png",
             "iata_code": "VI",
             "icao_code": "VDA",
             "num_aircraft": 16
         },
         {
             "name": "Zagros Airlines",
-            "logo": "./images/IZG.png",
+            "logo": "/IZG.png",
             "iata_code": "ZO",
             "icao_code": "IZG",
             "num_aircraft": 16
         },
         {
             "name": "Air Do",
-            "logo": "./images/ADO.png",
+            "logo": "/ADO.png",
             "iata_code": "HD",
             "icao_code": "ADO",
             "num_aircraft": 15
@@ -3041,7 +3048,7 @@
         },
         {
             "name": "Air X Charter",
-            "logo": "./images/AXY.png",
+            "logo": "/AXY.png",
             "iata_code": "AX",
             "icao_code": "AXY",
             "num_aircraft": 15
@@ -3055,21 +3062,21 @@
         },
         {
             "name": "Amerijet International",
-            "logo": "./images/AJT.png",
+            "logo": "/AJT.png",
             "iata_code": "M6",
             "icao_code": "AJT",
             "num_aircraft": 15
         },
         {
             "name": "Aviation Advisor",
-            "logo": "./images/LKF.png",
+            "logo": "/LKF.png",
             "iata_code": null,
             "icao_code": "LKF",
             "num_aircraft": 15
         },
         {
             "name": "BRA",
-            "logo": "./images/BRX.png",
+            "logo": "/BRX.png",
             "iata_code": "TF",
             "icao_code": "BRX",
             "num_aircraft": 15
@@ -3083,7 +3090,7 @@
         },
         {
             "name": "Grant Aviation",
-            "logo": "./images/GUN.png",
+            "logo": "/GUN.png",
             "iata_code": "GV",
             "icao_code": "GUN",
             "num_aircraft": 15
@@ -3097,7 +3104,7 @@
         },
         {
             "name": "Jiangxi Air",
-            "logo": "./images/CJX.png",
+            "logo": "/CJX.png",
             "iata_code": "RY",
             "icao_code": "CJX",
             "num_aircraft": 15
@@ -3111,7 +3118,7 @@
         },
         {
             "name": "Nam Air",
-            "logo": "./images/LKN.png",
+            "logo": "/LKN.png",
             "iata_code": "IN",
             "icao_code": "LKN",
             "num_aircraft": 15
@@ -3125,21 +3132,21 @@
         },
         {
             "name": "Paccair",
-            "logo": "./images/WIS.png",
+            "logo": "/WIS.png",
             "iata_code": null,
             "icao_code": "WIS",
             "num_aircraft": 15
         },
         {
             "name": "Qeshm Airlines",
-            "logo": "./images/QSM.png",
+            "logo": "/QSM.png",
             "iata_code": "QB",
             "icao_code": "QSM",
             "num_aircraft": 15
         },
         {
             "name": "Royal Brunei Airlines",
-            "logo": "./images/RBA.png",
+            "logo": "/RBA.png",
             "iata_code": "BI",
             "icao_code": "RBA",
             "num_aircraft": 15
@@ -3153,14 +3160,14 @@
         },
         {
             "name": "SkyLink Express",
-            "logo": "./images/SLQ.png",
+            "logo": "/SLQ.png",
             "iata_code": null,
             "icao_code": "SLQ",
             "num_aircraft": 15
         },
         {
             "name": "Suparna Airlines",
-            "logo": "./images/YZR.png",
+            "logo": "/YZR.png",
             "iata_code": "Y8",
             "icao_code": "YZR",
             "num_aircraft": 15
@@ -3174,35 +3181,35 @@
         },
         {
             "name": "Thai Lion Air",
-            "logo": "./images/TLM.png",
+            "logo": "/TLM.png",
             "iata_code": "SL",
             "icao_code": "TLM",
             "num_aircraft": 15
         },
         {
             "name": "Tigerair Taiwan",
-            "logo": "./images/TTW.png",
+            "logo": "/TTW.png",
             "iata_code": "IT",
             "icao_code": "TTW",
             "num_aircraft": 15
         },
         {
             "name": "UNI Air",
-            "logo": "./images/UIA.png",
+            "logo": "/UIA.png",
             "iata_code": "B7",
             "icao_code": "UIA",
             "num_aircraft": 15
         },
         {
             "name": "Urumqi Airlines",
-            "logo": "./images/CUH.png",
+            "logo": "/CUH.png",
             "iata_code": "UQ",
             "icao_code": "CUH",
             "num_aircraft": 15
         },
         {
             "name": "Volato",
-            "logo": "./images/TMB.png",
+            "logo": "/TMB.png",
             "iata_code": null,
             "icao_code": "TMB",
             "num_aircraft": 15
@@ -3216,42 +3223,42 @@
         },
         {
             "name": "Air Charter Scotland",
-            "logo": "./images/EDC.png",
+            "logo": "/EDC.png",
             "iata_code": null,
             "icao_code": "EDC",
             "num_aircraft": 14
         },
         {
             "name": "Air Chathams",
-            "logo": "./images/CVA.png",
+            "logo": "/CVA.png",
             "iata_code": "3C",
             "icao_code": "CVA",
             "num_aircraft": 14
         },
         {
             "name": "Air Corsica",
-            "logo": "./images/CCM.png",
+            "logo": "/CCM.png",
             "iata_code": "XK",
             "icao_code": "CCM",
             "num_aircraft": 14
         },
         {
             "name": "Air Greenland",
-            "logo": "./images/GRL.png",
+            "logo": "/GRL.png",
             "iata_code": "GL",
             "icao_code": "GRL",
             "num_aircraft": 14
         },
         {
             "name": "Air Nunavut",
-            "logo": "./images/BFF.png",
+            "logo": "/BFF.png",
             "iata_code": null,
             "icao_code": "BFF",
             "num_aircraft": 14
         },
         {
             "name": "Eastern Airways",
-            "logo": "./images/EZE.png",
+            "logo": "/EZE.png",
             "iata_code": "T3",
             "icao_code": "EZE",
             "num_aircraft": 14
@@ -3265,14 +3272,14 @@
         },
         {
             "name": "Heli Holland",
-            "logo": "./images/HHE.png",
+            "logo": "/HHE.png",
             "iata_code": null,
             "icao_code": "HHE",
             "num_aircraft": 14
         },
         {
             "name": "HTM Helicopter Travel Munich",
-            "logo": "./images/HTM.png",
+            "logo": "/HTM.png",
             "iata_code": null,
             "icao_code": "HTM",
             "num_aircraft": 14
@@ -3286,35 +3293,35 @@
         },
         {
             "name": "IBC Airways",
-            "logo": "./images/CSQ.png",
+            "logo": "/CSQ.png",
             "iata_code": "II",
             "icao_code": "CSQ",
             "num_aircraft": 14
         },
         {
             "name": "Jet Story",
-            "logo": "./images/JDI.png",
+            "logo": "/JDI.png",
             "iata_code": null,
             "icao_code": "JDI",
             "num_aircraft": 14
         },
         {
             "name": "JetNetherlands",
-            "logo": "./images/JNL.png",
+            "logo": "/JNL.png",
             "iata_code": null,
             "icao_code": "JNL",
             "num_aircraft": 14
         },
         {
             "name": "Northern Jet Management",
-            "logo": "./images/NJM.png",
+            "logo": "/NJM.png",
             "iata_code": null,
             "icao_code": "NJM",
             "num_aircraft": 14
         },
         {
             "name": "Nyxair",
-            "logo": "./images/NYX.png",
+            "logo": "/NYX.png",
             "iata_code": "OJ",
             "icao_code": "NYX",
             "num_aircraft": 14
@@ -3328,14 +3335,14 @@
         },
         {
             "name": "Olympic Air",
-            "logo": "./images/OAL.png",
+            "logo": "/OAL.png",
             "iata_code": "OA",
             "icao_code": "OAL",
             "num_aircraft": 14
         },
         {
             "name": "Pacific Airlines",
-            "logo": "./images/PIC.png",
+            "logo": "/PIC.png",
             "iata_code": "BL",
             "icao_code": "PIC",
             "num_aircraft": 14
@@ -3349,14 +3356,14 @@
         },
         {
             "name": "Silver Air",
-            "logo": "./images/SIS.png",
+            "logo": "/SIS.png",
             "iata_code": null,
             "icao_code": "SIS",
             "num_aircraft": 14
         },
         {
             "name": "Solaseed Air",
-            "logo": "./images/SNJ.png",
+            "logo": "/SNJ.png",
             "iata_code": "6J",
             "icao_code": "SNJ",
             "num_aircraft": 14
@@ -3377,35 +3384,35 @@
         },
         {
             "name": "West Coast Charters",
-            "logo": "./images/WCC.png",
+            "logo": "/WCC.png",
             "iata_code": null,
             "icao_code": "WCC",
             "num_aircraft": 14
         },
         {
             "name": "Western Aircraft",
-            "logo": "./images/STT.png",
+            "logo": "/STT.png",
             "iata_code": "ST",
             "icao_code": "STT",
             "num_aircraft": 14
         },
         {
             "name": "YTO Cargo Airlines",
-            "logo": "./images/HYT.png",
+            "logo": "/HYT.png",
             "iata_code": "YG",
             "icao_code": "HYT",
             "num_aircraft": 14
         },
         {
             "name": "AeroLogic",
-            "logo": "./images/BOX.png",
+            "logo": "/BOX.png",
             "iata_code": "3S",
             "icao_code": "BOX",
             "num_aircraft": 13
         },
         {
             "name": "Air Changan",
-            "logo": "./images/CGN.png",
+            "logo": "/CGN.png",
             "iata_code": "9H",
             "icao_code": "CGN",
             "num_aircraft": 13
@@ -3426,28 +3433,28 @@
         },
         {
             "name": "Air Tanzania",
-            "logo": "./images/ATC.png",
+            "logo": "/ATC.png",
             "iata_code": "TC",
             "icao_code": "ATC",
             "num_aircraft": 13
         },
         {
             "name": "AMC Aviation",
-            "logo": "./images/AMQ.png",
+            "logo": "/AMQ.png",
             "iata_code": null,
             "icao_code": "AMQ",
             "num_aircraft": 13
         },
         {
             "name": "Asky Airlines",
-            "logo": "./images/SKK.png",
+            "logo": "/SKK.png",
             "iata_code": "KP",
             "icao_code": "SKK",
             "num_aircraft": 13
         },
         {
             "name": "Atlas Air Service",
-            "logo": "./images/ATL.png",
+            "logo": "/ATL.png",
             "iata_code": null,
             "icao_code": "ATL",
             "num_aircraft": 13
@@ -3461,56 +3468,56 @@
         },
         {
             "name": "Babcock Scandinavian AirAmbulance",
-            "logo": "./images/DFL.png",
+            "logo": "/DFL.png",
             "iata_code": null,
             "icao_code": "DFL",
             "num_aircraft": 13
         },
         {
             "name": "Belavia",
-            "logo": "./images/BRU.png",
+            "logo": "/BRU.png",
             "iata_code": "B2",
             "icao_code": "BRU",
             "num_aircraft": 13
         },
         {
             "name": "Bluebird Nordic",
-            "logo": "./images/BBD.png",
+            "logo": "/BBD.png",
             "iata_code": "BO",
             "icao_code": "BBD",
             "num_aircraft": 13
         },
         {
             "name": "CITIC Offshore Helicopter",
-            "logo": "./images/CHC.png",
+            "logo": "/CHC.png",
             "iata_code": null,
             "icao_code": "CHC",
             "num_aircraft": 13
         },
         {
             "name": "Croatia Airlines",
-            "logo": "./images/CTN.png",
+            "logo": "/CTN.png",
             "iata_code": "OU",
             "icao_code": "CTN",
             "num_aircraft": 13
         },
         {
             "name": "Dalian Airlines",
-            "logo": "./images/CCD.png",
+            "logo": "/CCD.png",
             "iata_code": null,
             "icao_code": "CCD",
             "num_aircraft": 13
         },
         {
             "name": "Firefly",
-            "logo": "./images/FFM.png",
+            "logo": "/FFM.png",
             "iata_code": "FY",
             "icao_code": "FFM",
             "num_aircraft": 13
         },
         {
             "name": "Flexflight",
-            "logo": "./images/FXT.png",
+            "logo": "/FXT.png",
             "iata_code": "W2",
             "icao_code": "FXT",
             "num_aircraft": 13
@@ -3538,21 +3545,21 @@
         },
         {
             "name": "Freebird Airlines",
-            "logo": "./images/FHY.png",
+            "logo": "/FHY.png",
             "iata_code": "FH",
             "icao_code": "FHY",
             "num_aircraft": 13
         },
         {
             "name": "Global X",
-            "logo": "./images/GXA.png",
+            "logo": "/GXA.png",
             "iata_code": "G6",
             "icao_code": "GXA",
             "num_aircraft": 13
         },
         {
             "name": "Iran Airtour",
-            "logo": "./images/IRB.png",
+            "logo": "/IRB.png",
             "iata_code": "B9",
             "icao_code": "IRB",
             "num_aircraft": 13
@@ -3566,7 +3573,7 @@
         },
         {
             "name": "JetStream",
-            "logo": "./images/JSH.png",
+            "logo": "/JSH.png",
             "iata_code": null,
             "icao_code": "JSH",
             "num_aircraft": 13
@@ -3580,21 +3587,21 @@
         },
         {
             "name": "Lufthansa Cargo",
-            "logo": "./images/GEC.png",
+            "logo": "/GEC.png",
             "iata_code": null,
             "icao_code": "GEC",
             "num_aircraft": 13
         },
         {
             "name": "Northwestern Air",
-            "logo": "./images/PLR.png",
+            "logo": "/PLR.png",
             "iata_code": "J3",
             "icao_code": "PLR",
             "num_aircraft": 13
         },
         {
             "name": "Pel-Air",
-            "logo": "./images/PFY.png",
+            "logo": "/PFY.png",
             "iata_code": null,
             "icao_code": "PFY",
             "num_aircraft": 13
@@ -3615,35 +3622,35 @@
         },
         {
             "name": "Rusline",
-            "logo": "./images/RLU.png",
+            "logo": "/RLU.png",
             "iata_code": "7R",
             "icao_code": "RLU",
             "num_aircraft": 13
         },
         {
             "name": "RwandAir",
-            "logo": "./images/RWD.png",
+            "logo": "/RWD.png",
             "iata_code": "WB",
             "icao_code": "RWD",
             "num_aircraft": 13
         },
         {
             "name": "Satena",
-            "logo": "./images/NSE.png",
+            "logo": "/NSE.png",
             "iata_code": "9R",
             "icao_code": "NSE",
             "num_aircraft": 13
         },
         {
             "name": "Silk Way West Airlines",
-            "logo": "./images/AZG.png",
+            "logo": "/AZG.png",
             "iata_code": "7L",
             "icao_code": "AZG",
             "num_aircraft": 13
         },
         {
             "name": "Smartavia",
-            "logo": "./images/AUL.png",
+            "logo": "/AUL.png",
             "iata_code": "5N",
             "icao_code": "AUL",
             "num_aircraft": 13
@@ -3657,7 +3664,7 @@
         },
         {
             "name": "Sunclass Airlines",
-            "logo": "./images/VKG.png",
+            "logo": "/VKG.png",
             "iata_code": "DK",
             "icao_code": "VKG",
             "num_aircraft": 13
@@ -3671,14 +3678,14 @@
         },
         {
             "name": "Tassili Airlines",
-            "logo": "./images/DTH.png",
+            "logo": "/DTH.png",
             "iata_code": "SF",
             "icao_code": "DTH",
             "num_aircraft": 13
         },
         {
             "name": "Titan Airways",
-            "logo": "./images/AWC.png",
+            "logo": "/AWC.png",
             "iata_code": "ZT",
             "icao_code": "AWC",
             "num_aircraft": 13
@@ -3692,28 +3699,28 @@
         },
         {
             "name": "Twin Jet",
-            "logo": "./images/TJT.png",
+            "logo": "/TJT.png",
             "iata_code": "T7",
             "icao_code": "TJT",
             "num_aircraft": 13
         },
         {
             "name": "VoePass Linhas Aereas",
-            "logo": "./images/PTB.png",
+            "logo": "/PTB.png",
             "iata_code": "2Z",
             "icao_code": "PTB",
             "num_aircraft": 13
         },
         {
             "name": "Windrose Airlines",
-            "logo": "./images/WRC.png",
+            "logo": "/WRC.png",
             "iata_code": "7W",
             "icao_code": "WRC",
             "num_aircraft": 13
         },
         {
             "name": "Yakutia Airlines",
-            "logo": "./images/SYL.png",
+            "logo": "/SYL.png",
             "iata_code": "R3",
             "icao_code": "SYL",
             "num_aircraft": 13
@@ -3734,35 +3741,35 @@
         },
         {
             "name": "Air Alliance",
-            "logo": "./images/AYY.png",
+            "logo": "/AYY.png",
             "iata_code": null,
             "icao_code": "AYY",
             "num_aircraft": 12
         },
         {
             "name": "Air Caraibes",
-            "logo": "./images/FWI.png",
+            "logo": "/FWI.png",
             "iata_code": "TX",
             "icao_code": "FWI",
             "num_aircraft": 12
         },
         {
             "name": "Air Liaison",
-            "logo": "./images/LSJ.png",
+            "logo": "/LSJ.png",
             "iata_code": "DU",
             "icao_code": "LSJ",
             "num_aircraft": 12
         },
         {
             "name": "Air Transport International",
-            "logo": "./images/ATN.png",
+            "logo": "/ATN.png",
             "iata_code": "8C",
             "icao_code": "ATN",
             "num_aircraft": 12
         },
         {
             "name": "AirBlue",
-            "logo": "./images/ABQ.png",
+            "logo": "/ABQ.png",
             "iata_code": "PA",
             "icao_code": "ABQ",
             "num_aircraft": 12
@@ -3776,35 +3783,35 @@
         },
         {
             "name": "Avcon Jet",
-            "logo": "./images/AOJ.png",
+            "logo": "/AOJ.png",
             "iata_code": null,
             "icao_code": "AOJ",
             "num_aircraft": 12
         },
         {
             "name": "Aztec Airways",
-            "logo": "./images/AZY.png",
+            "logo": "/AZY.png",
             "iata_code": "AJ",
             "icao_code": "AZY",
             "num_aircraft": 12
         },
         {
             "name": "Babcock Scandinavian AirAmbulance",
-            "logo": "./images/BNO.png",
+            "logo": "/BNO.png",
             "iata_code": null,
             "icao_code": "BNO",
             "num_aircraft": 12
         },
         {
             "name": "Bioflight",
-            "logo": "./images/BIO.png",
+            "logo": "/BIO.png",
             "iata_code": null,
             "icao_code": "BIO",
             "num_aircraft": 12
         },
         {
             "name": "Cargo Air",
-            "logo": "./images/CGF.png",
+            "logo": "/CGF.png",
             "iata_code": null,
             "icao_code": "CGF",
             "num_aircraft": 12
@@ -3818,21 +3825,21 @@
         },
         {
             "name": "Flybondi",
-            "logo": "./images/FBZ.png",
+            "logo": "/FBZ.png",
             "iata_code": "FO",
             "icao_code": "FBZ",
             "num_aircraft": 12
         },
         {
             "name": "Hi Fly",
-            "logo": "./images/HFY.png",
+            "logo": "/HFY.png",
             "iata_code": "5K",
             "icao_code": "HFY",
             "num_aircraft": 12
         },
         {
             "name": "IrAero",
-            "logo": "./images/IAE.png",
+            "logo": "/IAE.png",
             "iata_code": "IO",
             "icao_code": "IAE",
             "num_aircraft": 12
@@ -3853,7 +3860,7 @@
         },
         {
             "name": "Luxaviation UK",
-            "logo": "./images/LNX.png",
+            "logo": "/LNX.png",
             "iata_code": null,
             "icao_code": "LNX",
             "num_aircraft": 12
@@ -3867,7 +3874,7 @@
         },
         {
             "name": "Max Aviation",
-            "logo": "./images/MAX.png",
+            "logo": "/MAX.png",
             "iata_code": null,
             "icao_code": "MAX",
             "num_aircraft": 12
@@ -3881,7 +3888,7 @@
         },
         {
             "name": "MHS Aviation",
-            "logo": "./images/MHV.png",
+            "logo": "/MHV.png",
             "iata_code": "M2",
             "icao_code": "MHV",
             "num_aircraft": 12
@@ -3902,21 +3909,21 @@
         },
         {
             "name": "SaxonAir",
-            "logo": "./images/SXN.png",
+            "logo": "/SXN.png",
             "iata_code": null,
             "icao_code": "SXN",
             "num_aircraft": 12
         },
         {
             "name": "Silver Airways",
-            "logo": "./images/SIL.png",
+            "logo": "/SIL.png",
             "iata_code": "3M",
             "icao_code": "SIL",
             "num_aircraft": 12
         },
         {
             "name": "SkyUp Airlines",
-            "logo": "./images/SQP.png",
+            "logo": "/SQP.png",
             "iata_code": "PQ",
             "icao_code": "SQP",
             "num_aircraft": 12
@@ -3930,7 +3937,7 @@
         },
         {
             "name": "Sun-Air",
-            "logo": "./images/SUS.png",
+            "logo": "/SUS.png",
             "iata_code": "EZ",
             "icao_code": "SUS",
             "num_aircraft": 12
@@ -3944,21 +3951,21 @@
         },
         {
             "name": "Tarco Aviation",
-            "logo": "./images/TQQ.png",
+            "logo": "/TQQ.png",
             "iata_code": "3T",
             "icao_code": "TQQ",
             "num_aircraft": 12
         },
         {
             "name": "Trans Guyana Airways",
-            "logo": "./images/TGY.png",
+            "logo": "/TGY.png",
             "iata_code": null,
             "icao_code": "TGY",
             "num_aircraft": 12
         },
         {
             "name": "Air Antilles",
-            "logo": "./images/GUY.png",
+            "logo": "/GUY.png",
             "iata_code": "3S",
             "icao_code": "GUY",
             "num_aircraft": 11
@@ -3972,21 +3979,21 @@
         },
         {
             "name": "Air Guilin",
-            "logo": "./images/CGH.png",
+            "logo": "/CGH.png",
             "iata_code": "GT",
             "icao_code": "CGH",
             "num_aircraft": 11
         },
         {
             "name": "Airpac Airlines",
-            "logo": "./images/APC.png",
+            "logo": "/APC.png",
             "iata_code": null,
             "icao_code": "APC",
             "num_aircraft": 11
         },
         {
             "name": "Amapola Flyg",
-            "logo": "./images/APF.png",
+            "logo": "/APF.png",
             "iata_code": "HP",
             "icao_code": "APF",
             "num_aircraft": 11
@@ -4000,7 +4007,7 @@
         },
         {
             "name": "Badr Airlines",
-            "logo": "./images/BDR.png",
+            "logo": "/BDR.png",
             "iata_code": "J4",
             "icao_code": "BDR",
             "num_aircraft": 11
@@ -4014,14 +4021,14 @@
         },
         {
             "name": "Chalair Aviation",
-            "logo": "./images/CLG.png",
+            "logo": "/CLG.png",
             "iata_code": "CE",
             "icao_code": "CLG",
             "num_aircraft": 11
         },
         {
             "name": "Chrono Aviation",
-            "logo": "./images/NDL.png",
+            "logo": "/NDL.png",
             "iata_code": "MB",
             "icao_code": "NDL",
             "num_aircraft": 11
@@ -4035,7 +4042,7 @@
         },
         {
             "name": "DC Aviation",
-            "logo": "./images/DCS.png",
+            "logo": "/DCS.png",
             "iata_code": null,
             "icao_code": "DCS",
             "num_aircraft": 11
@@ -4056,7 +4063,7 @@
         },
         {
             "name": "Grand Canyon Airlines",
-            "logo": "./images/CVU.png",
+            "logo": "/CVU.png",
             "iata_code": "YR",
             "icao_code": "CVU",
             "num_aircraft": 11
@@ -4077,14 +4084,14 @@
         },
         {
             "name": "Japan Air Commuter",
-            "logo": "./images/JAC.png",
+            "logo": "/JAC.png",
             "iata_code": "3X",
             "icao_code": "JAC",
             "num_aircraft": 11
         },
         {
             "name": "Jettime",
-            "logo": "./images/JTD.png",
+            "logo": "/JTD.png",
             "iata_code": null,
             "icao_code": "JTD",
             "num_aircraft": 11
@@ -4098,35 +4105,35 @@
         },
         {
             "name": "Labcorp",
-            "logo": "./images/SKQ.png",
+            "logo": "/SKQ.png",
             "iata_code": null,
             "icao_code": "SKQ",
             "num_aircraft": 11
         },
         {
             "name": "Lao Airlines",
-            "logo": "./images/LAO.png",
+            "logo": "/LAO.png",
             "iata_code": "QV",
             "icao_code": "LAO",
             "num_aircraft": 11
         },
         {
             "name": "Myanmar Airways International",
-            "logo": "./images/MMA.png",
+            "logo": "/MMA.png",
             "iata_code": "8M",
             "icao_code": "MMA",
             "num_aircraft": 11
         },
         {
             "name": "Nolinor Aviation",
-            "logo": "./images/NRL.png",
+            "logo": "/NRL.png",
             "iata_code": "N5",
             "icao_code": "NRL",
             "num_aircraft": 11
         },
         {
             "name": "Norse Atlantic Airways",
-            "logo": "./images/NBT.png",
+            "logo": "/NBT.png",
             "iata_code": "N0",
             "icao_code": "NBT",
             "num_aircraft": 11
@@ -4140,35 +4147,35 @@
         },
         {
             "name": "Pelita Air",
-            "logo": "./images/PAS.png",
+            "logo": "/PAS.png",
             "iata_code": "IP",
             "icao_code": "PAS",
             "num_aircraft": 11
         },
         {
             "name": "PNG Air",
-            "logo": "./images/TOK.png",
+            "logo": "/TOK.png",
             "iata_code": "CG",
             "icao_code": "TOK",
             "num_aircraft": 11
         },
         {
             "name": "Private Wings",
-            "logo": "./images/PWF.png",
+            "logo": "/PWF.png",
             "iata_code": "8W",
             "icao_code": "PWF",
             "num_aircraft": 11
         },
         {
             "name": "ProAir Aviation",
-            "logo": "./images/PAV.png",
+            "logo": "/PAV.png",
             "iata_code": null,
             "icao_code": "PAV",
             "num_aircraft": 11
         },
         {
             "name": "Ravn Alaska",
-            "logo": "./images/RVF.png",
+            "logo": "/RVF.png",
             "iata_code": "7H",
             "icao_code": "RVF",
             "num_aircraft": 11
@@ -4182,14 +4189,14 @@
         },
         {
             "name": "SalamAir",
-            "logo": "./images/OMS.png",
+            "logo": "/OMS.png",
             "iata_code": "OV",
             "icao_code": "OMS",
             "num_aircraft": 11
         },
         {
             "name": "Sierra West Airlines",
-            "logo": "./images/PKW.png",
+            "logo": "/PKW.png",
             "iata_code": null,
             "icao_code": "PKW",
             "num_aircraft": 11
@@ -4203,42 +4210,42 @@
         },
         {
             "name": "Starflyer",
-            "logo": "./images/SFJ.png",
+            "logo": "/SFJ.png",
             "iata_code": "7G",
             "icao_code": "SFJ",
             "num_aircraft": 11
         },
         {
             "name": "Sylt Air",
-            "logo": "./images/AWU.png",
+            "logo": "/AWU.png",
             "iata_code": "7E",
             "icao_code": "AWU",
             "num_aircraft": 11
         },
         {
             "name": "Ultimate Air Shuttle",
-            "logo": "./images/UJC.png",
+            "logo": "/UJC.png",
             "iata_code": "UE",
             "icao_code": "UJC",
             "num_aircraft": 11
         },
         {
             "name": "Air Koryo",
-            "logo": "./images/KOR.png",
+            "logo": "/KOR.png",
             "iata_code": "JS",
             "icao_code": "KOR",
             "num_aircraft": 10
         },
         {
             "name": "Air Mauritius",
-            "logo": "./images/MAU.png",
+            "logo": "/MAU.png",
             "iata_code": "MK",
             "icao_code": "MAU",
             "num_aircraft": 10
         },
         {
             "name": "Airbus Transport International",
-            "logo": "./images/BGA.png",
+            "logo": "/BGA.png",
             "iata_code": "4Y",
             "icao_code": "BGA",
             "num_aircraft": 10
@@ -4252,7 +4259,7 @@
         },
         {
             "name": "Airnorth",
-            "logo": "./images/ANO.png",
+            "logo": "/ANO.png",
             "iata_code": "TL",
             "icao_code": "ANO",
             "num_aircraft": 10
@@ -4266,28 +4273,28 @@
         },
         {
             "name": "Azur Air Ukraine",
-            "logo": "./images/UTN.png",
+            "logo": "/UTN.png",
             "iata_code": "QU",
             "icao_code": "UTN",
             "num_aircraft": 10
         },
         {
             "name": "CanWest Air",
-            "logo": "./images/CWA.png",
+            "logo": "/CWA.png",
             "iata_code": null,
             "icao_code": "CWA",
             "num_aircraft": 10
         },
         {
             "name": "Caspian Airlines",
-            "logo": "./images/CPN.png",
+            "logo": "/CPN.png",
             "iata_code": "RV",
             "icao_code": "CPN",
             "num_aircraft": 10
         },
         {
             "name": "Central Airlines",
-            "logo": "./images/HLF.png",
+            "logo": "/HLF.png",
             "iata_code": "I9",
             "icao_code": "HLF",
             "num_aircraft": 10
@@ -4301,7 +4308,7 @@
         },
         {
             "name": "Dreamline Aviation",
-            "logo": "./images/DLX.png",
+            "logo": "/DLX.png",
             "iata_code": null,
             "icao_code": "DLX",
             "num_aircraft": 10
@@ -4329,84 +4336,84 @@
         },
         {
             "name": "Ibex Airlines",
-            "logo": "./images/IBX.png",
+            "logo": "/IBX.png",
             "iata_code": "FW",
             "icao_code": "IBX",
             "num_aircraft": 10
         },
         {
             "name": "Jordan Aviation",
-            "logo": "./images/JAV.png",
+            "logo": "/JAV.png",
             "iata_code": "R5",
             "icao_code": "JAV",
             "num_aircraft": 10
         },
         {
             "name": "Kam Air",
-            "logo": "./images/KMF.png",
+            "logo": "/KMF.png",
             "iata_code": "RQ",
             "icao_code": "KMF",
             "num_aircraft": 10
         },
         {
             "name": "Kamaka Air",
-            "logo": "./images/KMK.png",
+            "logo": "/KMK.png",
             "iata_code": null,
             "icao_code": "KMK",
             "num_aircraft": 10
         },
         {
             "name": "Kish Air",
-            "logo": "./images/KIS.png",
+            "logo": "/KIS.png",
             "iata_code": null,
             "icao_code": "KIS",
             "num_aircraft": 10
         },
         {
             "name": "Max Air",
-            "logo": "./images/NGL.png",
+            "logo": "/NGL.png",
             "iata_code": "VM",
             "icao_code": "NGL",
             "num_aircraft": 10
         },
         {
             "name": "Myanmar National Airlines",
-            "logo": "./images/UBA.png",
+            "logo": "/UBA.png",
             "iata_code": "UB",
             "icao_code": "UBA",
             "num_aircraft": 10
         },
         {
             "name": "National Airlines",
-            "logo": "./images/NCR.png",
+            "logo": "/NCR.png",
             "iata_code": "N8",
             "icao_code": "NCR",
             "num_aircraft": 10
         },
         {
             "name": "NHC Northern Helicopter",
-            "logo": "./images/NHC.png",
+            "logo": "/NHC.png",
             "iata_code": null,
             "icao_code": "NHC",
             "num_aircraft": 10
         },
         {
             "name": "Northern Air Cargo",
-            "logo": "./images/NAC.png",
+            "logo": "/NAC.png",
             "iata_code": "NC",
             "icao_code": "NAC",
             "num_aircraft": 10
         },
         {
             "name": "Nouvelair Tunisie",
-            "logo": "./images/LBT.png",
+            "logo": "/LBT.png",
             "iata_code": "BJ",
             "icao_code": "LBT",
             "num_aircraft": 10
         },
         {
             "name": "Pegasus Elite Aviation",
-            "logo": "./images/PEG.png",
+            "logo": "/PEG.png",
             "iata_code": null,
             "icao_code": "PEG",
             "num_aircraft": 10
@@ -4427,7 +4434,7 @@
         },
         {
             "name": "Sansa",
-            "logo": "./images/LRS.png",
+            "logo": "/LRS.png",
             "iata_code": null,
             "icao_code": "LRS",
             "num_aircraft": 10
@@ -4448,7 +4455,7 @@
         },
         {
             "name": "Skytrans",
-            "logo": "./images/SKP.png",
+            "logo": "/SKP.png",
             "iata_code": "QN",
             "icao_code": "SKP",
             "num_aircraft": 10
@@ -4469,7 +4476,7 @@
         },
         {
             "name": "Trigana Air",
-            "logo": "./images/TGN.png",
+            "logo": "/TGN.png",
             "iata_code": "IL",
             "icao_code": "TGN",
             "num_aircraft": 10
@@ -4483,7 +4490,7 @@
         },
         {
             "name": "Vieques Air Link",
-            "logo": "./images/VES.png",
+            "logo": "/VES.png",
             "iata_code": "V4",
             "icao_code": "VES",
             "num_aircraft": 10
@@ -4497,7 +4504,7 @@
         },
         {
             "name": "World Atlantic Airlines",
-            "logo": "./images/WAL.png",
+            "logo": "/WAL.png",
             "iata_code": "WL",
             "icao_code": "WAL",
             "num_aircraft": 10
@@ -4525,7 +4532,7 @@
         },
         {
             "name": "Aeropartner",
-            "logo": "./images/DFC.png",
+            "logo": "/DFC.png",
             "iata_code": null,
             "icao_code": "DFC",
             "num_aircraft": 9
@@ -4539,70 +4546,70 @@
         },
         {
             "name": "Afriqiyah Airways",
-            "logo": "./images/AAW.png",
+            "logo": "/AAW.png",
             "iata_code": "8U",
             "icao_code": "AAW",
             "num_aircraft": 9
         },
         {
             "name": "Air Alsie",
-            "logo": "./images/MMD.png",
+            "logo": "/MMD.png",
             "iata_code": "6I",
             "icao_code": "MMD",
             "num_aircraft": 9
         },
         {
             "name": "Air Austral",
-            "logo": "./images/REU.png",
+            "logo": "/REU.png",
             "iata_code": "UU",
             "icao_code": "REU",
             "num_aircraft": 9
         },
         {
             "name": "Air Belgium",
-            "logo": "./images/ABB.png",
+            "logo": "/ABB.png",
             "iata_code": "KF",
             "icao_code": "ABB",
             "num_aircraft": 9
         },
         {
             "name": "Air Borealis",
-            "logo": "./images/LBR.png",
+            "logo": "/LBR.png",
             "iata_code": null,
             "icao_code": "LBR",
             "num_aircraft": 9
         },
         {
             "name": "Air China Inner Mongolia",
-            "logo": "./images/CNM.png",
+            "logo": "/CNM.png",
             "iata_code": null,
             "icao_code": "CNM",
             "num_aircraft": 9
         },
         {
             "name": "Air Cote d'Ivoire",
-            "logo": "./images/VRE.png",
+            "logo": "/VRE.png",
             "iata_code": "HF",
             "icao_code": "VRE",
             "num_aircraft": 9
         },
         {
             "name": "Air North",
-            "logo": "./images/ANT.png",
+            "logo": "/ANT.png",
             "iata_code": "4N",
             "icao_code": "ANT",
             "num_aircraft": 9
         },
         {
             "name": "Air Senegal",
-            "logo": "./images/SZN.png",
+            "logo": "/SZN.png",
             "iata_code": "HC",
             "icao_code": "SZN",
             "num_aircraft": 9
         },
         {
             "name": "Air Tahiti",
-            "logo": "./images/VTA.png",
+            "logo": "/VTA.png",
             "iata_code": "VT",
             "icao_code": "VTA",
             "num_aircraft": 9
@@ -4616,42 +4623,42 @@
         },
         {
             "name": "Aliserio",
-            "logo": "./images/TJD.png",
+            "logo": "/TJD.png",
             "iata_code": null,
             "icao_code": "TJD",
             "num_aircraft": 9
         },
         {
             "name": "American Jet International",
-            "logo": "./images/SCM.png",
+            "logo": "/SCM.png",
             "iata_code": null,
             "icao_code": "SCM",
             "num_aircraft": 9
         },
         {
             "name": "Arcus Air",
-            "logo": "./images/AZE.png",
+            "logo": "/AZE.png",
             "iata_code": null,
             "icao_code": "AZE",
             "num_aircraft": 9
         },
         {
             "name": "Astonjet",
-            "logo": "./images/ASJ.png",
+            "logo": "/ASJ.png",
             "iata_code": null,
             "icao_code": "ASJ",
             "num_aircraft": 9
         },
         {
             "name": "Atran",
-            "logo": "./images/VAS.png",
+            "logo": "/VAS.png",
             "iata_code": "V8",
             "icao_code": "VAS",
             "num_aircraft": 9
         },
         {
             "name": "Bahamasair",
-            "logo": "./images/BHS.png",
+            "logo": "/BHS.png",
             "iata_code": "UP",
             "icao_code": "BHS",
             "num_aircraft": 9
@@ -4665,14 +4672,14 @@
         },
         {
             "name": "Corsair",
-            "logo": "./images/CRL.png",
+            "logo": "/CRL.png",
             "iata_code": "SS",
             "icao_code": "CRL",
             "num_aircraft": 9
         },
         {
             "name": "Cubana",
-            "logo": "./images/CUB.png",
+            "logo": "/CUB.png",
             "iata_code": "CU",
             "icao_code": "CUB",
             "num_aircraft": 9
@@ -4686,7 +4693,7 @@
         },
         {
             "name": "Elite Airways",
-            "logo": "./images/MNU.png",
+            "logo": "/MNU.png",
             "iata_code": "7Q",
             "icao_code": "MNU",
             "num_aircraft": 9
@@ -4700,70 +4707,70 @@
         },
         {
             "name": "Flexjet Operations Malta",
-            "logo": "./images/FJO.png",
+            "logo": "/FJO.png",
             "iata_code": null,
             "icao_code": "FJO",
             "num_aircraft": 9
         },
         {
             "name": "Fly Baghdad",
-            "logo": "./images/FBA.png",
+            "logo": "/FBA.png",
             "iata_code": "IF",
             "icao_code": "FBA",
             "num_aircraft": 9
         },
         {
             "name": "FlyEgypt",
-            "logo": "./images/FEG.png",
+            "logo": "/FEG.png",
             "iata_code": "FT",
             "icao_code": "FEG",
             "num_aircraft": 9
         },
         {
             "name": "German Airways",
-            "logo": "./images/GER.png",
+            "logo": "/GER.png",
             "iata_code": "ZQ",
             "icao_code": "GER",
             "num_aircraft": 9
         },
         {
             "name": "Jet It",
-            "logo": "./images/JIT.png",
+            "logo": "/JIT.png",
             "iata_code": null,
             "icao_code": "JIT",
             "num_aircraft": 9
         },
         {
             "name": "Laser Airlines",
-            "logo": "./images/LER.png",
+            "logo": "/LER.png",
             "iata_code": "QL",
             "icao_code": "LER",
             "num_aircraft": 9
         },
         {
             "name": "Lift",
-            "logo": "./images/GBB.png",
+            "logo": "/GBB.png",
             "iata_code": "GE",
             "icao_code": "GBB",
             "num_aircraft": 9
         },
         {
             "name": "Mandarin Airlines",
-            "logo": "./images/MDA.png",
+            "logo": "/MDA.png",
             "iata_code": "AE",
             "icao_code": "MDA",
             "num_aircraft": 9
         },
         {
             "name": "MNG Airlines",
-            "logo": "./images/MNB.png",
+            "logo": "/MNB.png",
             "iata_code": "MB",
             "icao_code": "MNB",
             "num_aircraft": 9
         },
         {
             "name": "Motor Sich Airlines",
-            "logo": "./images/MSI.png",
+            "logo": "/MSI.png",
             "iata_code": "M9",
             "icao_code": "MSI",
             "num_aircraft": 9
@@ -4784,7 +4791,7 @@
         },
         {
             "name": "NordStar",
-            "logo": "./images/TYA.png",
+            "logo": "/TYA.png",
             "iata_code": "Y7",
             "icao_code": "TYA",
             "num_aircraft": 9
@@ -4819,14 +4826,14 @@
         },
         {
             "name": "Perimeter Aviation",
-            "logo": "./images/PAG.png",
+            "logo": "/PAG.png",
             "iata_code": "YP",
             "icao_code": "PAG",
             "num_aircraft": 9
         },
         {
             "name": "Play",
-            "logo": "./images/FPY.png",
+            "logo": "/FPY.png",
             "iata_code": "OG",
             "icao_code": "FPY",
             "num_aircraft": 9
@@ -4840,28 +4847,28 @@
         },
         {
             "name": "Sounds Air",
-            "logo": "./images/SDA.png",
+            "logo": "/SDA.png",
             "iata_code": "S8",
             "icao_code": "SDA",
             "num_aircraft": 9
         },
         {
             "name": "Sundair",
-            "logo": "./images/SDR.png",
+            "logo": "/SDR.png",
             "iata_code": "SR",
             "icao_code": "SDR",
             "num_aircraft": 9
         },
         {
             "name": "Surf Air",
-            "logo": "./images/URF.png",
+            "logo": "/URF.png",
             "iata_code": null,
             "icao_code": "URF",
             "num_aircraft": 9
         },
         {
             "name": "Time Air",
-            "logo": "./images/TIE.png",
+            "logo": "/TIE.png",
             "iata_code": null,
             "icao_code": "TIE",
             "num_aircraft": 9
@@ -4875,21 +4882,21 @@
         },
         {
             "name": "VW Air Service",
-            "logo": "./images/BTX.png",
+            "logo": "/BTX.png",
             "iata_code": null,
             "icao_code": "BTX",
             "num_aircraft": 9
         },
         {
             "name": "Wamos Air",
-            "logo": "./images/PLM.png",
+            "logo": "/PLM.png",
             "iata_code": "EB",
             "icao_code": "PLM",
             "num_aircraft": 9
         },
         {
             "name": "Wingo",
-            "logo": "./images/RPB.png",
+            "logo": "/RPB.png",
             "iata_code": "P5",
             "icao_code": "RPB",
             "num_aircraft": 9
@@ -4903,14 +4910,14 @@
         },
         {
             "name": "Africa World Airlines",
-            "logo": "./images/AFW.png",
+            "logo": "/AFW.png",
             "iata_code": "AW",
             "icao_code": "AFW",
             "num_aircraft": 8
         },
         {
             "name": "Air Century",
-            "logo": "./images/CEY.png",
+            "logo": "/CEY.png",
             "iata_code": "Y2",
             "icao_code": "CEY",
             "num_aircraft": 8
@@ -4924,7 +4931,7 @@
         },
         {
             "name": "Air Tindi",
-            "logo": "./images/TIN.png",
+            "logo": "/TIN.png",
             "iata_code": "8T",
             "icao_code": "TIN",
             "num_aircraft": 8
@@ -4945,14 +4952,14 @@
         },
         {
             "name": "Astral Aviation",
-            "logo": "./images/ACP.png",
+            "logo": "/ACP.png",
             "iata_code": "8V",
             "icao_code": "ACP",
             "num_aircraft": 8
         },
         {
             "name": "Aviastar-TU",
-            "logo": "./images/TUP.png",
+            "logo": "/TUP.png",
             "iata_code": "4B",
             "icao_code": "TUP",
             "num_aircraft": 8
@@ -4966,35 +4973,35 @@
         },
         {
             "name": "Azores Airlines",
-            "logo": "./images/RZO.png",
+            "logo": "/RZO.png",
             "iata_code": "S4",
             "icao_code": "RZO",
             "num_aircraft": 8
         },
         {
             "name": "Bul Air",
-            "logo": "./images/BVL.png",
+            "logo": "/BVL.png",
             "iata_code": "LB",
             "icao_code": "BVL",
             "num_aircraft": 8
         },
         {
             "name": "Bulgaria Air",
-            "logo": "./images/LZB.png",
+            "logo": "/LZB.png",
             "iata_code": "FB",
             "icao_code": "LZB",
             "num_aircraft": 8
         },
         {
             "name": "Buzz",
-            "logo": "./images/RYS.png",
+            "logo": "/RYS.png",
             "iata_code": "RR",
             "icao_code": "RYS",
             "num_aircraft": 8
         },
         {
             "name": "Eagle Creek Aviation",
-            "logo": "./images/EGC.png",
+            "logo": "/EGC.png",
             "iata_code": null,
             "icao_code": "EGC",
             "num_aircraft": 8
@@ -5022,21 +5029,21 @@
         },
         {
             "name": "Heron Aviation",
-            "logo": "./images/HRN.png",
+            "logo": "/HRN.png",
             "iata_code": null,
             "icao_code": "HRN",
             "num_aircraft": 8
         },
         {
             "name": "International Jet Management",
-            "logo": "./images/IJM.png",
+            "logo": "/IJM.png",
             "iata_code": null,
             "icao_code": "IJM",
             "num_aircraft": 8
         },
         {
             "name": "Jambojet",
-            "logo": "./images/JMA.png",
+            "logo": "/JMA.png",
             "iata_code": "JM",
             "icao_code": "JMA",
             "num_aircraft": 8
@@ -5050,28 +5057,28 @@
         },
         {
             "name": "Libyan Airlines",
-            "logo": "./images/LAA.png",
+            "logo": "/LAA.png",
             "iata_code": "LN",
             "icao_code": "LAA",
             "num_aircraft": 8
         },
         {
             "name": "Midwest Aviation",
-            "logo": "./images/DZR.png",
+            "logo": "/DZR.png",
             "iata_code": null,
             "icao_code": "DZR",
             "num_aircraft": 8
         },
         {
             "name": "Midwest Aviation Division",
-            "logo": "./images/MWT.png",
+            "logo": "/MWT.png",
             "iata_code": null,
             "icao_code": "MWT",
             "num_aircraft": 8
         },
         {
             "name": "My Indo Airlines",
-            "logo": "./images/MYU.png",
+            "logo": "/MYU.png",
             "iata_code": "2Y",
             "icao_code": "MYU",
             "num_aircraft": 8
@@ -5085,28 +5092,28 @@
         },
         {
             "name": "New England Airlines",
-            "logo": "./images/NEA.png",
+            "logo": "/NEA.png",
             "iata_code": "EJ",
             "icao_code": "NEA",
             "num_aircraft": 8
         },
         {
             "name": "Nippon Cargo Airlines",
-            "logo": "./images/NCA.png",
+            "logo": "/NCA.png",
             "iata_code": "KZ",
             "icao_code": "NCA",
             "num_aircraft": 8
         },
         {
             "name": "North Flying",
-            "logo": "./images/NFA.png",
+            "logo": "/NFA.png",
             "iata_code": null,
             "icao_code": "NFA",
             "num_aircraft": 8
         },
         {
             "name": "Panorama Aviation",
-            "logo": "./images/PNO.png",
+            "logo": "/PNO.png",
             "iata_code": null,
             "icao_code": "PNO",
             "num_aircraft": 8
@@ -5141,21 +5148,21 @@
         },
         {
             "name": "Sepehran Airlines",
-            "logo": "./images/SHI.png",
+            "logo": "/SHI.png",
             "iata_code": "IS",
             "icao_code": "SHI",
             "num_aircraft": 8
         },
         {
             "name": "Severstal Aircompany",
-            "logo": "./images/SSF.png",
+            "logo": "/SSF.png",
             "iata_code": "D2",
             "icao_code": "SSF",
             "num_aircraft": 8
         },
         {
             "name": "Shree Airlines",
-            "logo": "./images/SHA.png",
+            "logo": "/SHA.png",
             "iata_code": "N9",
             "icao_code": "SHA",
             "num_aircraft": 8
@@ -5169,7 +5176,7 @@
         },
         {
             "name": "Skybus",
-            "logo": "./images/IOS.png",
+            "logo": "/IOS.png",
             "iata_code": null,
             "icao_code": "IOS",
             "num_aircraft": 8
@@ -5183,21 +5190,21 @@
         },
         {
             "name": "Somon Air",
-            "logo": "./images/SMR.png",
+            "logo": "/SMR.png",
             "iata_code": "SZ",
             "icao_code": "SMR",
             "num_aircraft": 8
         },
         {
             "name": "Sparfell Luftfahrt",
-            "logo": "./images/LDX.png",
+            "logo": "/LDX.png",
             "iata_code": null,
             "icao_code": "LDX",
             "num_aircraft": 8
         },
         {
             "name": "Spring Japan",
-            "logo": "./images/SJO.png",
+            "logo": "/SJO.png",
             "iata_code": "IJ",
             "icao_code": "SJO",
             "num_aircraft": 8
@@ -5218,14 +5225,14 @@
         },
         {
             "name": "Syrian Air",
-            "logo": "./images/SYR.png",
+            "logo": "/SYR.png",
             "iata_code": "RB",
             "icao_code": "SYR",
             "num_aircraft": 8
         },
         {
             "name": "UVT Aero",
-            "logo": "./images/UVT.png",
+            "logo": "/UVT.png",
             "iata_code": "RT",
             "icao_code": "UVT",
             "num_aircraft": 8
@@ -5239,28 +5246,28 @@
         },
         {
             "name": "Zenflight",
-            "logo": "./images/XEN.png",
+            "logo": "/XEN.png",
             "iata_code": null,
             "icao_code": "XEN",
             "num_aircraft": 8
         },
         {
             "name": "Aero",
-            "logo": "./images/NIG.png",
+            "logo": "/NIG.png",
             "iata_code": "N2",
             "icao_code": "NIG",
             "num_aircraft": 7
         },
         {
             "name": "Air Malta",
-            "logo": "./images/AMC.png",
+            "logo": "/AMC.png",
             "iata_code": "KM",
             "icao_code": "AMC",
             "num_aircraft": 7
         },
         {
             "name": "Air Seychelles",
-            "logo": "./images/SEY.png",
+            "logo": "/SEY.png",
             "iata_code": "HM",
             "icao_code": "SEY",
             "num_aircraft": 7
@@ -5274,28 +5281,28 @@
         },
         {
             "name": "Airhub Airlines",
-            "logo": "./images/GJM.png",
+            "logo": "/GJM.png",
             "iata_code": "RE",
             "icao_code": "GJM",
             "num_aircraft": 7
         },
         {
             "name": "AirSmart",
-            "logo": "./images/XSM.png",
+            "logo": "/XSM.png",
             "iata_code": null,
             "icao_code": "XSM",
             "num_aircraft": 7
         },
         {
             "name": "Airwing",
-            "logo": "./images/NWG.png",
+            "logo": "/NWG.png",
             "iata_code": null,
             "icao_code": "NWG",
             "num_aircraft": 7
         },
         {
             "name": "AIS Airlines",
-            "logo": "./images/PNX.png",
+            "logo": "/PNX.png",
             "iata_code": null,
             "icao_code": "PNX",
             "num_aircraft": 7
@@ -5309,7 +5316,7 @@
         },
         {
             "name": "Antonov Airlines",
-            "logo": "./images/ADB.png",
+            "logo": "/ADB.png",
             "iata_code": null,
             "icao_code": "ADB",
             "num_aircraft": 7
@@ -5323,14 +5330,14 @@
         },
         {
             "name": "Aurigny Air Services",
-            "logo": "./images/AUR.png",
+            "logo": "/AUR.png",
             "iata_code": "GR",
             "icao_code": "AUR",
             "num_aircraft": 7
         },
         {
             "name": "Azman Air",
-            "logo": "./images/AZM.png",
+            "logo": "/AZM.png",
             "iata_code": "ZQ",
             "icao_code": "AZM",
             "num_aircraft": 7
@@ -5351,42 +5358,42 @@
         },
         {
             "name": "Caicos Express Airways",
-            "logo": "./images/CXE.png",
+            "logo": "/CXE.png",
             "iata_code": "9Q",
             "icao_code": "CXE",
             "num_aircraft": 7
         },
         {
             "name": "Cambodia Angkor Air",
-            "logo": "./images/KHV.png",
+            "logo": "/KHV.png",
             "iata_code": "K6",
             "icao_code": "KHV",
             "num_aircraft": 7
         },
         {
             "name": "Cavok Air",
-            "logo": "./images/CVK.png",
+            "logo": "/CVK.png",
             "iata_code": null,
             "icao_code": "CVK",
             "num_aircraft": 7
         },
         {
             "name": "Cayman Airways",
-            "logo": "./images/CAY.png",
+            "logo": "/CAY.png",
             "iata_code": "KX",
             "icao_code": "CAY",
             "num_aircraft": 7
         },
         {
             "name": "Coastal Aviation",
-            "logo": "./images/CSV.png",
+            "logo": "/CSV.png",
             "iata_code": "CQ",
             "icao_code": "CSV",
             "num_aircraft": 7
         },
         {
             "name": "Dana Air",
-            "logo": "./images/DAN.png",
+            "logo": "/DAN.png",
             "iata_code": "9J",
             "icao_code": "DAN",
             "num_aircraft": 7
@@ -5400,14 +5407,14 @@
         },
         {
             "name": "EJM Europe",
-            "logo": "./images/JME.png",
+            "logo": "/JME.png",
             "iata_code": null,
             "icao_code": "JME",
             "num_aircraft": 7
         },
         {
             "name": "European Flight Service",
-            "logo": "./images/EUW.png",
+            "logo": "/EUW.png",
             "iata_code": null,
             "icao_code": "EUW",
             "num_aircraft": 7
@@ -5421,14 +5428,14 @@
         },
         {
             "name": "Flexjet Europe",
-            "logo": "./images/FLJ.png",
+            "logo": "/FLJ.png",
             "iata_code": null,
             "icao_code": "FLJ",
             "num_aircraft": 7
         },
         {
             "name": "FlyOne",
-            "logo": "./images/FIA.png",
+            "logo": "/FIA.png",
             "iata_code": "5F",
             "icao_code": "FIA",
             "num_aircraft": 7
@@ -5442,14 +5449,14 @@
         },
         {
             "name": "Guna Airlines",
-            "logo": "./images/GUA.png",
+            "logo": "/GUA.png",
             "iata_code": null,
             "icao_code": "GUA",
             "num_aircraft": 7
         },
         {
             "name": "Heli Service International",
-            "logo": "./images/HSO.png",
+            "logo": "/HSO.png",
             "iata_code": null,
             "icao_code": "HSO",
             "num_aircraft": 7
@@ -5463,14 +5470,14 @@
         },
         {
             "name": "Heston Airlines",
-            "logo": "./images/HST.png",
+            "logo": "/HST.png",
             "iata_code": "HN",
             "icao_code": "HST",
             "num_aircraft": 7
         },
         {
             "name": "Jonair",
-            "logo": "./images/JON.png",
+            "logo": "/JON.png",
             "iata_code": null,
             "icao_code": "JON",
             "num_aircraft": 7
@@ -5512,7 +5519,7 @@
         },
         {
             "name": "Meraj Airlines",
-            "logo": "./images/MRJ.png",
+            "logo": "/MRJ.png",
             "iata_code": null,
             "icao_code": "MRJ",
             "num_aircraft": 7
@@ -5526,63 +5533,63 @@
         },
         {
             "name": "MIAT Mongolian Airlines",
-            "logo": "./images/MGL.png",
+            "logo": "/MGL.png",
             "iata_code": "OM",
             "icao_code": "MGL",
             "num_aircraft": 7
         },
         {
             "name": "Nile Air",
-            "logo": "./images/NIA.png",
+            "logo": "/NIA.png",
             "iata_code": "NP",
             "icao_code": "NIA",
             "num_aircraft": 7
         },
         {
             "name": "Novoair",
-            "logo": "./images/NVQ.png",
+            "logo": "/NVQ.png",
             "iata_code": "VQ",
             "icao_code": "NVQ",
             "num_aircraft": 7
         },
         {
             "name": "Omni Air Transport",
-            "logo": "./images/DRL.png",
+            "logo": "/DRL.png",
             "iata_code": null,
             "icao_code": "DRL",
             "num_aircraft": 7
         },
         {
             "name": "Pegas Fly",
-            "logo": "./images/KAR.png",
+            "logo": "/KAR.png",
             "iata_code": "EO",
             "icao_code": "KAR",
             "num_aircraft": 7
         },
         {
             "name": "Plus Ultra",
-            "logo": "./images/PUE.png",
+            "logo": "/PUE.png",
             "iata_code": "PU",
             "icao_code": "PUE",
             "num_aircraft": 7
         },
         {
             "name": "Poste Air Cargo",
-            "logo": "./images/MSA.png",
+            "logo": "/MSA.png",
             "iata_code": "M4",
             "icao_code": "MSA",
             "num_aircraft": 7
         },
         {
             "name": "Precision Air",
-            "logo": "./images/PRF.png",
+            "logo": "/PRF.png",
             "iata_code": "PW",
             "icao_code": "PRF",
             "num_aircraft": 7
         },
         {
             "name": "Priester Aviation",
-            "logo": "./images/PWA.png",
+            "logo": "/PWA.png",
             "iata_code": null,
             "icao_code": "PWA",
             "num_aircraft": 7
@@ -5603,7 +5610,7 @@
         },
         {
             "name": "SATA Air Acores",
-            "logo": "./images/SAT.png",
+            "logo": "/SAT.png",
             "iata_code": "SP",
             "icao_code": "SAT",
             "num_aircraft": 7
@@ -5617,35 +5624,35 @@
         },
         {
             "name": "Serene Air",
-            "logo": "./images/SEP.png",
+            "logo": "/SEP.png",
             "iata_code": "ER",
             "icao_code": "SEP",
             "num_aircraft": 7
         },
         {
             "name": "Silver Cloud Air",
-            "logo": "./images/SCR.png",
+            "logo": "/SCR.png",
             "iata_code": null,
             "icao_code": "SCR",
             "num_aircraft": 7
         },
         {
             "name": "SKYhigh Dominicana",
-            "logo": "./images/SHH.png",
+            "logo": "/SHH.png",
             "iata_code": "DO",
             "icao_code": "SHH",
             "num_aircraft": 7
         },
         {
             "name": "Star Wings",
-            "logo": "./images/STQ.png",
+            "logo": "/STQ.png",
             "iata_code": null,
             "icao_code": "STQ",
             "num_aircraft": 7
         },
         {
             "name": "Starlink Aviation",
-            "logo": "./images/TLK.png",
+            "logo": "/TLK.png",
             "iata_code": "Q4",
             "icao_code": "TLK",
             "num_aircraft": 7
@@ -5659,28 +5666,28 @@
         },
         {
             "name": "Sweden - Swedish Maritime Administration",
-            "logo": "./images/HMF.png",
+            "logo": "/HMF.png",
             "iata_code": null,
             "icao_code": "HMF",
             "num_aircraft": 7
         },
         {
             "name": "Tyrol Air Ambulance",
-            "logo": "./images/TYW.png",
+            "logo": "/TYW.png",
             "iata_code": null,
             "icao_code": "TYW",
             "num_aircraft": 7
         },
         {
             "name": "Voluxis",
-            "logo": "./images/VXS.png",
+            "logo": "/VXS.png",
             "iata_code": null,
             "icao_code": "VXS",
             "num_aircraft": 7
         },
         {
             "name": "Wiking Helikopter Service",
-            "logo": "./images/WHS.png",
+            "logo": "/WHS.png",
             "iata_code": null,
             "icao_code": "WHS",
             "num_aircraft": 7
@@ -5694,14 +5701,14 @@
         },
         {
             "name": "748 Air Services",
-            "logo": "./images/IHO.png",
+            "logo": "/IHO.png",
             "iata_code": "FE",
             "icao_code": "IHO",
             "num_aircraft": 6
         },
         {
             "name": "AerCaribe",
-            "logo": "./images/ACL.png",
+            "logo": "/ACL.png",
             "iata_code": "JK",
             "icao_code": "ACL",
             "num_aircraft": 6
@@ -5736,28 +5743,28 @@
         },
         {
             "name": "Air KBZ",
-            "logo": "./images/KBZ.png",
+            "logo": "/KBZ.png",
             "iata_code": "K7",
             "icao_code": "KBZ",
             "num_aircraft": 6
         },
         {
             "name": "Air Libya",
-            "logo": "./images/TLR.png",
+            "logo": "/TLR.png",
             "iata_code": "7I",
             "icao_code": "TLR",
             "num_aircraft": 6
         },
         {
             "name": "Air Seoul",
-            "logo": "./images/ASV.png",
+            "logo": "/ASV.png",
             "iata_code": "RS",
             "icao_code": "ASV",
             "num_aircraft": 6
         },
         {
             "name": "Aircalin",
-            "logo": "./images/ACI.png",
+            "logo": "/ACI.png",
             "iata_code": "SB",
             "icao_code": "ACI",
             "num_aircraft": 6
@@ -5778,42 +5785,42 @@
         },
         {
             "name": "AlbaStar",
-            "logo": "./images/LAV.png",
+            "logo": "/LAV.png",
             "iata_code": "AP",
             "icao_code": "LAV",
             "num_aircraft": 6
         },
         {
             "name": "AlMasria Universal Airlines",
-            "logo": "./images/LMU.png",
+            "logo": "/LMU.png",
             "iata_code": "UJ",
             "icao_code": "LMU",
             "num_aircraft": 6
         },
         {
             "name": "Aloha Air Cargo",
-            "logo": "./images/AAH.png",
+            "logo": "/AAH.png",
             "iata_code": "KH",
             "icao_code": "AAH",
             "num_aircraft": 6
         },
         {
             "name": "Atlantic Airways",
-            "logo": "./images/FLI.png",
+            "logo": "/FLI.png",
             "iata_code": "RC",
             "icao_code": "FLI",
             "num_aircraft": 6
         },
         {
             "name": "Avia Traffic",
-            "logo": "./images/AVJ.png",
+            "logo": "/AVJ.png",
             "iata_code": "YK",
             "icao_code": "AVJ",
             "num_aircraft": 6
         },
         {
             "name": "Avianca Cargo",
-            "logo": "./images/TPA.png",
+            "logo": "/TPA.png",
             "iata_code": "QT",
             "icao_code": "TPA",
             "num_aircraft": 6
@@ -5827,7 +5834,7 @@
         },
         {
             "name": "Baker Aviation",
-            "logo": "./images/KOW.png",
+            "logo": "/KOW.png",
             "iata_code": null,
             "icao_code": "KOW",
             "num_aircraft": 6
@@ -5841,21 +5848,21 @@
         },
         {
             "name": "Bestfly Aruba",
-            "logo": "./images/BFY.png",
+            "logo": "/BFY.png",
             "iata_code": null,
             "icao_code": "BFY",
             "num_aircraft": 6
         },
         {
             "name": "Blue Dart Aviation",
-            "logo": "./images/BDA.png",
+            "logo": "/BDA.png",
             "iata_code": "BZ",
             "icao_code": "BDA",
             "num_aircraft": 6
         },
         {
             "name": "Bonza",
-            "logo": "./images/BNZ.png",
+            "logo": "/BNZ.png",
             "iata_code": "AB",
             "icao_code": "BNZ",
             "num_aircraft": 6
@@ -5869,14 +5876,14 @@
         },
         {
             "name": "Cambodia Airways",
-            "logo": "./images/KME.png",
+            "logo": "/KME.png",
             "iata_code": "KR",
             "icao_code": "KME",
             "num_aircraft": 6
         },
         {
             "name": "CanaryFly",
-            "logo": "./images/CNF.png",
+            "logo": "/CNF.png",
             "iata_code": "PM",
             "icao_code": "CNF",
             "num_aircraft": 6
@@ -5890,7 +5897,7 @@
         },
         {
             "name": "Chrono Jet",
-            "logo": "./images/MBK.png",
+            "logo": "/MBK.png",
             "iata_code": "MB",
             "icao_code": "MBK",
             "num_aircraft": 6
@@ -5904,14 +5911,14 @@
         },
         {
             "name": "Comlux Aviation",
-            "logo": "./images/CLA.png",
+            "logo": "/CLA.png",
             "iata_code": null,
             "icao_code": "CLA",
             "num_aircraft": 6
         },
         {
             "name": "Divi Divi Air",
-            "logo": "./images/DVR.png",
+            "logo": "/DVR.png",
             "iata_code": "3R",
             "icao_code": "DVR",
             "num_aircraft": 6
@@ -5932,7 +5939,7 @@
         },
         {
             "name": "Emperor Aviation",
-            "logo": "./images/EMM.png",
+            "logo": "/EMM.png",
             "iata_code": null,
             "icao_code": "EMM",
             "num_aircraft": 6
@@ -5946,7 +5953,7 @@
         },
         {
             "name": "Estafeta",
-            "logo": "./images/ESF.png",
+            "logo": "/ESF.png",
             "iata_code": "E7",
             "icao_code": "ESF",
             "num_aircraft": 6
@@ -5960,28 +5967,28 @@
         },
         {
             "name": "Fastjet",
-            "logo": "./images/FJW.png",
+            "logo": "/FJW.png",
             "iata_code": "FN",
             "icao_code": "FJW",
             "num_aircraft": 6
         },
         {
             "name": "Fly Tyrol",
-            "logo": "./images/FTY.png",
+            "logo": "/FTY.png",
             "iata_code": null,
             "icao_code": "FTY",
             "num_aircraft": 6
         },
         {
             "name": "FlyGTA Airlines",
-            "logo": "./images/TOR.png",
+            "logo": "/TOR.png",
             "iata_code": "SX",
             "icao_code": "TOR",
             "num_aircraft": 6
         },
         {
             "name": "French Bee",
-            "logo": "./images/FBU.png",
+            "logo": "/FBU.png",
             "iata_code": "BF",
             "icao_code": "FBU",
             "num_aircraft": 6
@@ -5995,14 +6002,14 @@
         },
         {
             "name": "Hera Flight",
-            "logo": "./images/HER.png",
+            "logo": "/HER.png",
             "iata_code": null,
             "icao_code": "HER",
             "num_aircraft": 6
         },
         {
             "name": "HiSky",
-            "logo": "./images/HYM.png",
+            "logo": "/HYM.png",
             "iata_code": "H7",
             "icao_code": "HYM",
             "num_aircraft": 6
@@ -6016,35 +6023,35 @@
         },
         {
             "name": "Intel Air Shuttle",
-            "logo": "./images/HGT.png",
+            "logo": "/HGT.png",
             "iata_code": null,
             "icao_code": "HGT",
             "num_aircraft": 6
         },
         {
             "name": "Israir Airlines",
-            "logo": "./images/ISR.png",
+            "logo": "/ISR.png",
             "iata_code": "6H",
             "icao_code": "ISR",
             "num_aircraft": 6
         },
         {
             "name": "JetRight",
-            "logo": "./images/JRT.png",
+            "logo": "/JRT.png",
             "iata_code": null,
             "icao_code": "JRT",
             "num_aircraft": 6
         },
         {
             "name": "Jetways Airlines",
-            "logo": "./images/JWX.png",
+            "logo": "/JWX.png",
             "iata_code": "WU",
             "icao_code": "JWX",
             "num_aircraft": 6
         },
         {
             "name": "LAS Cargo",
-            "logo": "./images/LAU.png",
+            "logo": "/LAU.png",
             "iata_code": "4L",
             "icao_code": "LAU",
             "num_aircraft": 6
@@ -6065,21 +6072,21 @@
         },
         {
             "name": "Lynx Air",
-            "logo": "./images/DAT.png",
+            "logo": "/DAT.png",
             "iata_code": "Y9",
             "icao_code": "DAT",
             "num_aircraft": 6
         },
         {
             "name": "Malta Air",
-            "logo": "./images/MAY.png",
+            "logo": "/MAY.png",
             "iata_code": null,
             "icao_code": "MAY",
             "num_aircraft": 6
         },
         {
             "name": "mas",
-            "logo": "./images/MAA.png",
+            "logo": "/MAA.png",
             "iata_code": "M7",
             "icao_code": "MAA",
             "num_aircraft": 6
@@ -6100,7 +6107,7 @@
         },
         {
             "name": "Monacair",
-            "logo": "./images/MCR.png",
+            "logo": "/MCR.png",
             "iata_code": "QM",
             "icao_code": "MCR",
             "num_aircraft": 6
@@ -6135,7 +6142,7 @@
         },
         {
             "name": "Presidential Aviation",
-            "logo": "./images/PRD.png",
+            "logo": "/PRD.png",
             "iata_code": null,
             "icao_code": "PRD",
             "num_aircraft": 6
@@ -6149,14 +6156,14 @@
         },
         {
             "name": "Proflight Zambia",
-            "logo": "./images/PFZ.png",
+            "logo": "/PFZ.png",
             "iata_code": "P0",
             "icao_code": "PFZ",
             "num_aircraft": 6
         },
         {
             "name": "RAF-Avia",
-            "logo": "./images/MTL.png",
+            "logo": "/MTL.png",
             "iata_code": "MT",
             "icao_code": "MTL",
             "num_aircraft": 6
@@ -6198,14 +6205,14 @@
         },
         {
             "name": "Silk Way Airlines",
-            "logo": "./images/AZQ.png",
+            "logo": "/AZQ.png",
             "iata_code": "ZP",
             "icao_code": "AZQ",
             "num_aircraft": 6
         },
         {
             "name": "Smart Jet",
-            "logo": "./images/SAH.png",
+            "logo": "/SAH.png",
             "iata_code": null,
             "icao_code": "SAH",
             "num_aircraft": 6
@@ -6226,28 +6233,28 @@
         },
         {
             "name": "Sriwijaya Air",
-            "logo": "./images/SJY.png",
+            "logo": "/SJY.png",
             "iata_code": "SJ",
             "icao_code": "SJY",
             "num_aircraft": 6
         },
         {
             "name": "St Barth Commuter",
-            "logo": "./images/SBU.png",
+            "logo": "/SBU.png",
             "iata_code": "PV",
             "icao_code": "SBU",
             "num_aircraft": 6
         },
         {
             "name": "Svenskt Ambulansflyg",
-            "logo": "./images/SWE.png",
+            "logo": "/SWE.png",
             "iata_code": null,
             "icao_code": "SWE",
             "num_aircraft": 6
         },
         {
             "name": "Taban Airlines",
-            "logo": "./images/TBN.png",
+            "logo": "/TBN.png",
             "iata_code": null,
             "icao_code": "TBN",
             "num_aircraft": 6
@@ -6268,7 +6275,7 @@
         },
         {
             "name": "TAR Aerolineas",
-            "logo": "./images/LCT.png",
+            "logo": "/LCT.png",
             "iata_code": "YQ",
             "icao_code": "LCT",
             "num_aircraft": 6
@@ -6289,21 +6296,21 @@
         },
         {
             "name": "Tyrolean Jets & Services",
-            "logo": "./images/TJS.png",
+            "logo": "/TJS.png",
             "iata_code": null,
             "icao_code": "TJS",
             "num_aircraft": 6
         },
         {
             "name": "Uganda Airlines",
-            "logo": "./images/UGD.png",
+            "logo": "/UGD.png",
             "iata_code": "UR",
             "icao_code": "UGD",
             "num_aircraft": 6
         },
         {
             "name": "Ultra Air",
-            "logo": "./images/ULS.png",
+            "logo": "/ULS.png",
             "iata_code": "U0",
             "icao_code": "ULS",
             "num_aircraft": 6
@@ -6317,14 +6324,14 @@
         },
         {
             "name": "Warbelows Air Ventures",
-            "logo": "./images/WAV.png",
+            "logo": "/WAV.png",
             "iata_code": "4W",
             "icao_code": "WAV",
             "num_aircraft": 6
         },
         {
             "name": "Western Air",
-            "logo": "./images/WST.png",
+            "logo": "/WST.png",
             "iata_code": "WU",
             "icao_code": "WST",
             "num_aircraft": 6
@@ -6345,7 +6352,7 @@
         },
         {
             "name": "Aeroitalia",
-            "logo": "./images/AEZ.png",
+            "logo": "/AEZ.png",
             "iata_code": "XZ",
             "icao_code": "AEZ",
             "num_aircraft": 5
@@ -6359,14 +6366,14 @@
         },
         {
             "name": "AeroUnion",
-            "logo": "./images/TNO.png",
+            "logo": "/TNO.png",
             "iata_code": "6R",
             "icao_code": "TNO",
             "num_aircraft": 5
         },
         {
             "name": "Air Atlanta Icelandic",
-            "logo": "./images/ABD.png",
+            "logo": "/ABD.png",
             "iata_code": "CC",
             "icao_code": "ABD",
             "num_aircraft": 5
@@ -6380,7 +6387,7 @@
         },
         {
             "name": "Air Incheon",
-            "logo": "./images/AIH.png",
+            "logo": "/AIH.png",
             "iata_code": "KJ",
             "icao_code": "AIH",
             "num_aircraft": 5
@@ -6401,21 +6408,21 @@
         },
         {
             "name": "AirACT",
-            "logo": "./images/RUN.png",
+            "logo": "/RUN.png",
             "iata_code": "9T",
             "icao_code": "RUN",
             "num_aircraft": 5
         },
         {
             "name": "Airest",
-            "logo": "./images/AEG.png",
+            "logo": "/AEG.png",
             "iata_code": null,
             "icao_code": "AEG",
             "num_aircraft": 5
         },
         {
             "name": "AirExplore",
-            "logo": "./images/AXE.png",
+            "logo": "/AXE.png",
             "iata_code": "ED",
             "icao_code": "AXE",
             "num_aircraft": 5
@@ -6436,21 +6443,21 @@
         },
         {
             "name": "AirSial",
-            "logo": "./images/SIF.png",
+            "logo": "/SIF.png",
             "iata_code": "PF",
             "icao_code": "SIF",
             "num_aircraft": 5
         },
         {
             "name": "Alrosa",
-            "logo": "./images/DRU.png",
+            "logo": "/DRU.png",
             "iata_code": "6R",
             "icao_code": "DRU",
             "num_aircraft": 5
         },
         {
             "name": "Andes Lineas Aereas",
-            "logo": "./images/ANS.png",
+            "logo": "/ANS.png",
             "iata_code": null,
             "icao_code": "ANS",
             "num_aircraft": 5
@@ -6464,21 +6471,21 @@
         },
         {
             "name": "Arajet",
-            "logo": "./images/DWI.png",
+            "logo": "/DWI.png",
             "iata_code": "DM",
             "icao_code": "DWI",
             "num_aircraft": 5
         },
         {
             "name": "Arkia Israeli Airlines",
-            "logo": "./images/AIZ.png",
+            "logo": "/AIZ.png",
             "iata_code": "IZ",
             "icao_code": "AIZ",
             "num_aircraft": 5
         },
         {
             "name": "Asia Pacific Airlines",
-            "logo": "./images/MGE.png",
+            "logo": "/MGE.png",
             "iata_code": "P9",
             "icao_code": "MGE",
             "num_aircraft": 5
@@ -6520,14 +6527,14 @@
         },
         {
             "name": "Bestfly Cabo Verde",
-            "logo": "./images/BCV.png",
+            "logo": "/BCV.png",
             "iata_code": "3B",
             "icao_code": "BCV",
             "num_aircraft": 5
         },
         {
             "name": "Blue Islands",
-            "logo": "./images/BCI.png",
+            "logo": "/BCI.png",
             "iata_code": "SI",
             "icao_code": "BCI",
             "num_aircraft": 5
@@ -6548,35 +6555,35 @@
         },
         {
             "name": "Calafia Airlines",
-            "logo": "./images/CFV.png",
+            "logo": "/CFV.png",
             "iata_code": "A7",
             "icao_code": "CFV",
             "num_aircraft": 5
         },
         {
             "name": "Calm Air",
-            "logo": "./images/CAV.png",
+            "logo": "/CAV.png",
             "iata_code": "MO",
             "icao_code": "CAV",
             "num_aircraft": 5
         },
         {
             "name": "Ceiba Intercontinental",
-            "logo": "./images/CEL.png",
+            "logo": "/CEL.png",
             "iata_code": "C2",
             "icao_code": "CEL",
             "num_aircraft": 5
         },
         {
             "name": "Connect Airlines",
-            "logo": "./images/WZM.png",
+            "logo": "/WZM.png",
             "iata_code": "MW",
             "icao_code": "WZM",
             "num_aircraft": 5
         },
         {
             "name": "Cygnus Air",
-            "logo": "./images/RGN.png",
+            "logo": "/RGN.png",
             "iata_code": null,
             "icao_code": "RGN",
             "num_aircraft": 5
@@ -6597,35 +6604,35 @@
         },
         {
             "name": "Druk Air",
-            "logo": "./images/DRK.png",
+            "logo": "/DRK.png",
             "iata_code": "KB",
             "icao_code": "DRK",
             "num_aircraft": 5
         },
         {
             "name": "EgyptAir Cargo",
-            "logo": "./images/MSX.png",
+            "logo": "/MSX.png",
             "iata_code": null,
             "icao_code": "MSX",
             "num_aircraft": 5
         },
         {
             "name": "EuroAtlantic Airways",
-            "logo": "./images/MMZ.png",
+            "logo": "/MMZ.png",
             "iata_code": "YU",
             "icao_code": "MMZ",
             "num_aircraft": 5
         },
         {
             "name": "Fenix Air Charter",
-            "logo": "./images/FNX.png",
+            "logo": "/FNX.png",
             "iata_code": null,
             "icao_code": "FNX",
             "num_aircraft": 5
         },
         {
             "name": "FlyPelican",
-            "logo": "./images/FRE.png",
+            "logo": "/FRE.png",
             "iata_code": "FP",
             "icao_code": "FRE",
             "num_aircraft": 5
@@ -6653,14 +6660,14 @@
         },
         {
             "name": "Georgian Airways",
-            "logo": "./images/TGZ.png",
+            "logo": "/TGZ.png",
             "iata_code": "A9",
             "icao_code": "TGZ",
             "num_aircraft": 5
         },
         {
             "name": "Hong Kong Air Cargo",
-            "logo": "./images/HKC.png",
+            "logo": "/HKC.png",
             "iata_code": "RH",
             "icao_code": "HKC",
             "num_aircraft": 5
@@ -6674,28 +6681,28 @@
         },
         {
             "name": "I-Fly",
-            "logo": "./images/RSY.png",
+            "logo": "/RSY.png",
             "iata_code": "F7",
             "icao_code": "RSY",
             "num_aircraft": 5
         },
         {
             "name": "Iberojet",
-            "logo": "./images/EVE.png",
+            "logo": "/EVE.png",
             "iata_code": "E9",
             "icao_code": "EVE",
             "num_aircraft": 5
         },
         {
             "name": "Izhavia",
-            "logo": "./images/IZA.png",
+            "logo": "/IZA.png",
             "iata_code": "I8",
             "icao_code": "IZA",
             "num_aircraft": 5
         },
         {
             "name": "Jet Aviation Flight Services",
-            "logo": "./images/JAS.png",
+            "logo": "/JAS.png",
             "iata_code": null,
             "icao_code": "JAS",
             "num_aircraft": 5
@@ -6716,7 +6723,7 @@
         },
         {
             "name": "Jetkontor",
-            "logo": "./images/JKH.png",
+            "logo": "/JKH.png",
             "iata_code": null,
             "icao_code": "JKH",
             "num_aircraft": 5
@@ -6737,14 +6744,14 @@
         },
         {
             "name": "Kelowna Flightcraft Air",
-            "logo": "./images/KFA.png",
+            "logo": "/KFA.png",
             "iata_code": "FK",
             "icao_code": "KFA",
             "num_aircraft": 5
         },
         {
             "name": "Lanmei Airlines",
-            "logo": "./images/MKR.png",
+            "logo": "/MKR.png",
             "iata_code": "LQ",
             "icao_code": "MKR",
             "num_aircraft": 5
@@ -6765,21 +6772,21 @@
         },
         {
             "name": "LongJiang Airlines",
-            "logo": "./images/SNG.png",
+            "logo": "/SNG.png",
             "iata_code": "LT",
             "icao_code": "SNG",
             "num_aircraft": 5
         },
         {
             "name": "Lufttransport",
-            "logo": "./images/LTR.png",
+            "logo": "/LTR.png",
             "iata_code": null,
             "icao_code": "LTR",
             "num_aircraft": 5
         },
         {
             "name": "Makers Air",
-            "logo": "./images/WMA.png",
+            "logo": "/WMA.png",
             "iata_code": null,
             "icao_code": "WMA",
             "num_aircraft": 5
@@ -6793,21 +6800,21 @@
         },
         {
             "name": "MYAirline",
-            "logo": "./images/MYM.png",
+            "logo": "/MYM.png",
             "iata_code": "Z9",
             "icao_code": "MYM",
             "num_aircraft": 5
         },
         {
             "name": "Nauru Airlines",
-            "logo": "./images/RON.png",
+            "logo": "/RON.png",
             "iata_code": "ON",
             "icao_code": "RON",
             "num_aircraft": 5
         },
         {
             "name": "Nepal Airlines",
-            "logo": "./images/RNA.png",
+            "logo": "/RNA.png",
             "iata_code": "RA",
             "icao_code": "RNA",
             "num_aircraft": 5
@@ -6821,7 +6828,7 @@
         },
         {
             "name": "Northeastern Aviation Corporation",
-            "logo": "./images/NEW.png",
+            "logo": "/NEW.png",
             "iata_code": null,
             "icao_code": "NEW",
             "num_aircraft": 5
@@ -6856,7 +6863,7 @@
         },
         {
             "name": "Polar Air Cargo",
-            "logo": "./images/PAC.png",
+            "logo": "/PAC.png",
             "iata_code": "PO",
             "icao_code": "PAC",
             "num_aircraft": 5
@@ -6870,14 +6877,14 @@
         },
         {
             "name": "Qazaq Air",
-            "logo": "./images/QAZ.png",
+            "logo": "/QAZ.png",
             "iata_code": "IQ",
             "icao_code": "QAZ",
             "num_aircraft": 5
         },
         {
             "name": "Raya Airways",
-            "logo": "./images/RMY.png",
+            "logo": "/RMY.png",
             "iata_code": "TH",
             "icao_code": "RMY",
             "num_aircraft": 5
@@ -6891,7 +6898,7 @@
         },
         {
             "name": "Sky Cana",
-            "logo": "./images/SNA.png",
+            "logo": "/SNA.png",
             "iata_code": "RD",
             "icao_code": "SNA",
             "num_aircraft": 5
@@ -6912,7 +6919,7 @@
         },
         {
             "name": "Star Air",
-            "logo": "./images/SDG.png",
+            "logo": "/SDG.png",
             "iata_code": "S5",
             "icao_code": "SDG",
             "num_aircraft": 5
@@ -6933,7 +6940,7 @@
         },
         {
             "name": "Tailwind Airlines",
-            "logo": "./images/TWI.png",
+            "logo": "/TWI.png",
             "iata_code": "TI",
             "icao_code": "TWI",
             "num_aircraft": 5
@@ -6947,14 +6954,14 @@
         },
         {
             "name": "Toyo Aviation",
-            "logo": "./images/TOY.png",
+            "logo": "/TOY.png",
             "iata_code": null,
             "icao_code": "TOY",
             "num_aircraft": 5
         },
         {
             "name": "Transaviabaltika",
-            "logo": "./images/KTB.png",
+            "logo": "/KTB.png",
             "iata_code": null,
             "icao_code": "KTB",
             "num_aircraft": 5
@@ -6968,70 +6975,70 @@
         },
         {
             "name": "TransNusa",
-            "logo": "./images/TNU.png",
+            "logo": "/TNU.png",
             "iata_code": "8B",
             "icao_code": "TNU",
             "num_aircraft": 5
         },
         {
             "name": "Tus Airways",
-            "logo": "./images/CYF.png",
+            "logo": "/CYF.png",
             "iata_code": "U8",
             "icao_code": "CYF",
             "num_aircraft": 5
         },
         {
             "name": "Varesh Airlines",
-            "logo": "./images/VRH.png",
+            "logo": "/VRH.png",
             "iata_code": null,
             "icao_code": "VRH",
             "num_aircraft": 5
         },
         {
             "name": "Vasco",
-            "logo": "./images/VFC.png",
+            "logo": "/VFC.png",
             "iata_code": "0V",
             "icao_code": "VFC",
             "num_aircraft": 5
         },
         {
             "name": "Westair Aviation",
-            "logo": "./images/WAA.png",
+            "logo": "/WAA.png",
             "iata_code": "WV",
             "icao_code": "WAA",
             "num_aircraft": 5
         },
         {
             "name": "Windrose Air Jetcharter",
-            "logo": "./images/QGA.png",
+            "logo": "/QGA.png",
             "iata_code": null,
             "icao_code": "QGA",
             "num_aircraft": 5
         },
         {
             "name": "Yemenia",
-            "logo": "./images/IYE.png",
+            "logo": "/IYE.png",
             "iata_code": "IY",
             "icao_code": "IYE",
             "num_aircraft": 5
         },
         {
             "name": "Yeti Airlines",
-            "logo": "./images/NYT.png",
+            "logo": "/NYT.png",
             "iata_code": "YT",
             "icao_code": "NYT",
             "num_aircraft": 5
         },
         {
             "name": "Zenith Aviation",
-            "logo": "./images/BZE.png",
+            "logo": "/BZE.png",
             "iata_code": null,
             "icao_code": "BZE",
             "num_aircraft": 5
         },
         {
             "name": "ZIPAIR",
-            "logo": "./images/TZP.png",
+            "logo": "/TZP.png",
             "iata_code": "ZG",
             "icao_code": "TZP",
             "num_aircraft": 5
@@ -7059,42 +7066,42 @@
         },
         {
             "name": "Aerovis Airlines",
-            "logo": "./images/VIZ.png",
+            "logo": "/VIZ.png",
             "iata_code": null,
             "icao_code": "VIZ",
             "num_aircraft": 4
         },
         {
             "name": "Air Burkina",
-            "logo": "./images/VBW.png",
+            "logo": "/VBW.png",
             "iata_code": "2J",
             "icao_code": "VBW",
             "num_aircraft": 4
         },
         {
             "name": "Air Caledonie",
-            "logo": "./images/TPC.png",
+            "logo": "/TPC.png",
             "iata_code": "TY",
             "icao_code": "TPC",
             "num_aircraft": 4
         },
         {
             "name": "Air Horizont",
-            "logo": "./images/HAT.png",
+            "logo": "/HAT.png",
             "iata_code": "HT",
             "icao_code": "HAT",
             "num_aircraft": 4
         },
         {
             "name": "Air Madagascar",
-            "logo": "./images/MDG.png",
+            "logo": "/MDG.png",
             "iata_code": "MD",
             "icao_code": "MDG",
             "num_aircraft": 4
         },
         {
             "name": "Air Moldova",
-            "logo": "./images/MLD.png",
+            "logo": "/MLD.png",
             "iata_code": "9U",
             "icao_code": "MLD",
             "num_aircraft": 4
@@ -7108,21 +7115,21 @@
         },
         {
             "name": "Air Tahiti Nui",
-            "logo": "./images/THT.png",
+            "logo": "/THT.png",
             "iata_code": "TN",
             "icao_code": "THT",
             "num_aircraft": 4
         },
         {
             "name": "Air Thanlwin",
-            "logo": "./images/RTL.png",
+            "logo": "/RTL.png",
             "iata_code": "ST",
             "icao_code": "RTL",
             "num_aircraft": 4
         },
         {
             "name": "Air Urga",
-            "logo": "./images/URG.png",
+            "logo": "/URG.png",
             "iata_code": "3N",
             "icao_code": "URG",
             "num_aircraft": 4
@@ -7136,14 +7143,14 @@
         },
         {
             "name": "AirSWIFT",
-            "logo": "./images/ATX.png",
+            "logo": "/ATX.png",
             "iata_code": "T6",
             "icao_code": "ATX",
             "num_aircraft": 4
         },
         {
             "name": "AirTanker",
-            "logo": "./images/TOW.png",
+            "logo": "/TOW.png",
             "iata_code": "9L",
             "icao_code": "TOW",
             "num_aircraft": 4
@@ -7157,7 +7164,7 @@
         },
         {
             "name": "Allied Air",
-            "logo": "./images/AJK.png",
+            "logo": "/AJK.png",
             "iata_code": "4W",
             "icao_code": "AJK",
             "num_aircraft": 4
@@ -7171,14 +7178,14 @@
         },
         {
             "name": "Amas",
-            "logo": "./images/AZN.png",
+            "logo": "/AZN.png",
             "iata_code": "Z8",
             "icao_code": "AZN",
             "num_aircraft": 4
         },
         {
             "name": "AMC Airlines",
-            "logo": "./images/AMV.png",
+            "logo": "/AMV.png",
             "iata_code": null,
             "icao_code": "AMV",
             "num_aircraft": 4
@@ -7199,7 +7206,7 @@
         },
         {
             "name": "Ariana Afghan Airlines",
-            "logo": "./images/AFG.png",
+            "logo": "/AFG.png",
             "iata_code": "FG",
             "icao_code": "AFG",
             "num_aircraft": 4
@@ -7234,21 +7241,21 @@
         },
         {
             "name": "Avcon Jet Malta",
-            "logo": "./images/VCJ.png",
+            "logo": "/VCJ.png",
             "iata_code": null,
             "icao_code": "VCJ",
             "num_aircraft": 4
         },
         {
             "name": "Aviacon Zitotrans",
-            "logo": "./images/AZS.png",
+            "logo": "/AZS.png",
             "iata_code": "ZR",
             "icao_code": "AZS",
             "num_aircraft": 4
         },
         {
             "name": "Avior Airlines",
-            "logo": "./images/ROI.png",
+            "logo": "/ROI.png",
             "iata_code": "9V",
             "icao_code": "ROI",
             "num_aircraft": 4
@@ -7262,14 +7269,14 @@
         },
         {
             "name": "Berniq Airways",
-            "logo": "./images/BNL.png",
+            "logo": "/BNL.png",
             "iata_code": "NB",
             "icao_code": "BNL",
             "num_aircraft": 4
         },
         {
             "name": "BH Air",
-            "logo": "./images/BGH.png",
+            "logo": "/BGH.png",
             "iata_code": "8H",
             "icao_code": "BGH",
             "num_aircraft": 4
@@ -7283,35 +7290,35 @@
         },
         {
             "name": "Business Wings",
-            "logo": "./images/JMP.png",
+            "logo": "/JMP.png",
             "iata_code": null,
             "icao_code": "JMP",
             "num_aircraft": 4
         },
         {
             "name": "Capital Air Ambulance",
-            "logo": "./images/EGL.png",
+            "logo": "/EGL.png",
             "iata_code": null,
             "icao_code": "EGL",
             "num_aircraft": 4
         },
         {
             "name": "Chair Airlines",
-            "logo": "./images/GSW.png",
+            "logo": "/GSW.png",
             "iata_code": "GM",
             "icao_code": "GSW",
             "num_aircraft": 4
         },
         {
             "name": "Challenge Airlines",
-            "logo": "./images/CHG.png",
+            "logo": "/CHG.png",
             "iata_code": "X7",
             "icao_code": "CHG",
             "num_aircraft": 4
         },
         {
             "name": "Charter Jets",
-            "logo": "./images/LTC.png",
+            "logo": "/LTC.png",
             "iata_code": null,
             "icao_code": "LTC",
             "num_aircraft": 4
@@ -7367,7 +7374,7 @@
         },
         {
             "name": "Eagle Air Iceland",
-            "logo": "./images/FEI.png",
+            "logo": "/FEI.png",
             "iata_code": null,
             "icao_code": "FEI",
             "num_aircraft": 4
@@ -7381,14 +7388,14 @@
         },
         {
             "name": "EATIS",
-            "logo": "./images/SRK.png",
+            "logo": "/SRK.png",
             "iata_code": null,
             "icao_code": "SRK",
             "num_aircraft": 4
         },
         {
             "name": "EcoJet",
-            "logo": "./images/ECO.png",
+            "logo": "/ECO.png",
             "iata_code": "8J",
             "icao_code": "ECO",
             "num_aircraft": 4
@@ -7409,21 +7416,21 @@
         },
         {
             "name": "EZ Air",
-            "logo": "./images/EZR.png",
+            "logo": "/EZR.png",
             "iata_code": "7Z",
             "icao_code": "EZR",
             "num_aircraft": 4
         },
         {
             "name": "Flightline",
-            "logo": "./images/FTL.png",
+            "logo": "/FTL.png",
             "iata_code": null,
             "icao_code": "FTL",
             "num_aircraft": 4
         },
         {
             "name": "Fly Gangwon",
-            "logo": "./images/FGW.png",
+            "logo": "/FGW.png",
             "iata_code": "4V",
             "icao_code": "FGW",
             "num_aircraft": 4
@@ -7451,21 +7458,21 @@
         },
         {
             "name": "Fly540",
-            "logo": "./images/FFV.png",
+            "logo": "/FFV.png",
             "iata_code": "5H",
             "icao_code": "FFV",
             "num_aircraft": 4
         },
         {
             "name": "FlyMe",
-            "logo": "./images/VQI.png",
+            "logo": "/VQI.png",
             "iata_code": "VP",
             "icao_code": "VQI",
             "num_aircraft": 4
         },
         {
             "name": "GetJet Airlines",
-            "logo": "./images/GJT.png",
+            "logo": "/GJT.png",
             "iata_code": "GW",
             "icao_code": "GJT",
             "num_aircraft": 4
@@ -7507,14 +7514,14 @@
         },
         {
             "name": "Himalaya Airlines",
-            "logo": "./images/HIM.png",
+            "logo": "/HIM.png",
             "iata_code": "H9",
             "icao_code": "HIM",
             "num_aircraft": 4
         },
         {
             "name": "Ibom Air",
-            "logo": "./images/IAN.png",
+            "logo": "/IAN.png",
             "iata_code": "QI",
             "icao_code": "IAN",
             "num_aircraft": 4
@@ -7535,7 +7542,7 @@
         },
         {
             "name": "JC Airlines",
-            "logo": "./images/JCC.png",
+            "logo": "/JCC.png",
             "iata_code": "QD",
             "icao_code": "JCC",
             "num_aircraft": 4
@@ -7549,7 +7556,7 @@
         },
         {
             "name": "K-Mile Air",
-            "logo": "./images/KMI.png",
+            "logo": "/KMI.png",
             "iata_code": "8K",
             "icao_code": "KMI",
             "num_aircraft": 4
@@ -7570,14 +7577,14 @@
         },
         {
             "name": "Legend Airlines",
-            "logo": "./images/LAL.png",
+            "logo": "/LAL.png",
             "iata_code": null,
             "icao_code": "LAL",
             "num_aircraft": 4
         },
         {
             "name": "Libyan Wings",
-            "logo": "./images/LWA.png",
+            "logo": "/LWA.png",
             "iata_code": "YL",
             "icao_code": "LWA",
             "num_aircraft": 4
@@ -7654,7 +7661,7 @@
         },
         {
             "name": "Netjets UK",
-            "logo": "./images/NJU.png",
+            "logo": "/NJU.png",
             "iata_code": null,
             "icao_code": "NJU",
             "num_aircraft": 4
@@ -7703,7 +7710,7 @@
         },
         {
             "name": "Privilege Style",
-            "logo": "./images/PVG.png",
+            "logo": "/PVG.png",
             "iata_code": "P6",
             "icao_code": "PVG",
             "num_aircraft": 4
@@ -7717,7 +7724,7 @@
         },
         {
             "name": "Qanot Sharq",
-            "logo": "./images/QNT.png",
+            "logo": "/QNT.png",
             "iata_code": "HH",
             "icao_code": "QNT",
             "num_aircraft": 4
@@ -7731,7 +7738,7 @@
         },
         {
             "name": "Republic Airways",
-            "logo": "./images/RPA.png",
+            "logo": "/RPA.png",
             "iata_code": "YX",
             "icao_code": "RPA",
             "num_aircraft": 4
@@ -7752,7 +7759,7 @@
         },
         {
             "name": "SkyAlps",
-            "logo": "./images/SWU.png",
+            "logo": "/SWU.png",
             "iata_code": "BQ",
             "icao_code": "SWU",
             "num_aircraft": 4
@@ -7773,7 +7780,7 @@
         },
         {
             "name": "St Barth Executive",
-            "logo": "./images/STB.png",
+            "logo": "/STB.png",
             "iata_code": null,
             "icao_code": "STB",
             "num_aircraft": 4
@@ -7787,14 +7794,14 @@
         },
         {
             "name": "Trade Air",
-            "logo": "./images/TDR.png",
+            "logo": "/TDR.png",
             "iata_code": "C3",
             "icao_code": "TDR",
             "num_aircraft": 4
         },
         {
             "name": "Trans Air Congo",
-            "logo": "./images/TSG.png",
+            "logo": "/TSG.png",
             "iata_code": "Q8",
             "icao_code": "TSG",
             "num_aircraft": 4
@@ -7808,7 +7815,7 @@
         },
         {
             "name": "Tsaradia",
-            "logo": "./images/TDS.png",
+            "logo": "/TDS.png",
             "iata_code": "TZ",
             "icao_code": "TDS",
             "num_aircraft": 4
@@ -7822,7 +7829,7 @@
         },
         {
             "name": "Van Air Europe",
-            "logo": "./images/VAA.png",
+            "logo": "/VAA.png",
             "iata_code": "V9",
             "icao_code": "VAA",
             "num_aircraft": 4
@@ -7836,14 +7843,14 @@
         },
         {
             "name": "Winair",
-            "logo": "./images/WIA.png",
+            "logo": "/WIA.png",
             "iata_code": "WM",
             "icao_code": "WIA",
             "num_aircraft": 4
         },
         {
             "name": "21 Air",
-            "logo": "./images/CSB.png",
+            "logo": "/CSB.png",
             "iata_code": "2I",
             "icao_code": "CSB",
             "num_aircraft": 3
@@ -7878,21 +7885,21 @@
         },
         {
             "name": "Afrijet",
-            "logo": "./images/ABS.png",
+            "logo": "/ABS.png",
             "iata_code": "J7",
             "icao_code": "ABS",
             "num_aircraft": 3
         },
         {
             "name": "Air Anka",
-            "logo": "./images/TAH.png",
+            "logo": "/TAH.png",
             "iata_code": "TZ",
             "icao_code": "TAH",
             "num_aircraft": 3
         },
         {
             "name": "Air Astra",
-            "logo": "./images/AWA.png",
+            "logo": "/AWA.png",
             "iata_code": "2A",
             "icao_code": "AWA",
             "num_aircraft": 3
@@ -7906,7 +7913,7 @@
         },
         {
             "name": "Air Botswana",
-            "logo": "./images/BOT.png",
+            "logo": "/BOT.png",
             "iata_code": "BP",
             "icao_code": "BOT",
             "num_aircraft": 3
@@ -7920,70 +7927,70 @@
         },
         {
             "name": "Air Montenegro",
-            "logo": "./images/MNE.png",
+            "logo": "/MNE.png",
             "iata_code": null,
             "icao_code": "MNE",
             "num_aircraft": 3
         },
         {
             "name": "Air Nostrum",
-            "logo": "./images/ANE.png",
+            "logo": "/ANE.png",
             "iata_code": "YW",
             "icao_code": "ANE",
             "num_aircraft": 3
         },
         {
             "name": "Air Panama",
-            "logo": "./images/PST.png",
+            "logo": "/PST.png",
             "iata_code": "7P",
             "icao_code": "PST",
             "num_aircraft": 3
         },
         {
             "name": "Air Premia",
-            "logo": "./images/APZ.png",
+            "logo": "/APZ.png",
             "iata_code": "YP",
             "icao_code": "APZ",
             "num_aircraft": 3
         },
         {
             "name": "Air Wisconsin",
-            "logo": "./images/AWI.png",
+            "logo": "/AWI.png",
             "iata_code": "ZW",
             "icao_code": "AWI",
             "num_aircraft": 3
         },
         {
             "name": "Air Zimbabwe",
-            "logo": "./images/AZW.png",
+            "logo": "/AZW.png",
             "iata_code": "UM",
             "icao_code": "AZW",
             "num_aircraft": 3
         },
         {
             "name": "Airstream",
-            "logo": "./images/AQS.png",
+            "logo": "/AQS.png",
             "iata_code": null,
             "icao_code": "AQS",
             "num_aircraft": 3
         },
         {
             "name": "Albawings",
-            "logo": "./images/AWT.png",
+            "logo": "/AWT.png",
             "iata_code": "2B",
             "icao_code": "AWT",
             "num_aircraft": 3
         },
         {
             "name": "Armenia Airways",
-            "logo": "./images/AMW.png",
+            "logo": "/AMW.png",
             "iata_code": "6A",
             "icao_code": "AMW",
             "num_aircraft": 3
         },
         {
             "name": "Aruba Airlines",
-            "logo": "./images/ARU.png",
+            "logo": "/ARU.png",
             "iata_code": "AG",
             "icao_code": "ARU",
             "num_aircraft": 3
@@ -7997,14 +8004,14 @@
         },
         {
             "name": "BinAir",
-            "logo": "./images/BID.png",
+            "logo": "/BID.png",
             "iata_code": null,
             "icao_code": "BID",
             "num_aircraft": 3
         },
         {
             "name": "Bluebird Airways",
-            "logo": "./images/BBG.png",
+            "logo": "/BBG.png",
             "iata_code": "BZ",
             "icao_code": "BBG",
             "num_aircraft": 3
@@ -8039,7 +8046,7 @@
         },
         {
             "name": "Carpatair",
-            "logo": "./images/KRP.png",
+            "logo": "/KRP.png",
             "iata_code": "V3",
             "icao_code": "KRP",
             "num_aircraft": 3
@@ -8053,14 +8060,14 @@
         },
         {
             "name": "Cham Wings Airlines",
-            "logo": "./images/SAW.png",
+            "logo": "/SAW.png",
             "iata_code": "6Q",
             "icao_code": "SAW",
             "num_aircraft": 3
         },
         {
             "name": "Cityjet",
-            "logo": "./images/BCY.png",
+            "logo": "/BCY.png",
             "iata_code": "WX",
             "icao_code": "BCY",
             "num_aircraft": 3
@@ -8088,7 +8095,7 @@
         },
         {
             "name": "Copenhagen Airtaxi",
-            "logo": "./images/CAT.png",
+            "logo": "/CAT.png",
             "iata_code": null,
             "icao_code": "CAT",
             "num_aircraft": 3
@@ -8102,7 +8109,7 @@
         },
         {
             "name": "Eastar Jet",
-            "logo": "./images/ESR.png",
+            "logo": "/ESR.png",
             "iata_code": "ZE",
             "icao_code": "ESR",
             "num_aircraft": 3
@@ -8137,14 +8144,14 @@
         },
         {
             "name": "Equair",
-            "logo": "./images/EQX.png",
+            "logo": "/EQX.png",
             "iata_code": "HN",
             "icao_code": "EQX",
             "num_aircraft": 3
         },
         {
             "name": "Estelar",
-            "logo": "./images/ETR.png",
+            "logo": "/ETR.png",
             "iata_code": "ES",
             "icao_code": "ETR",
             "num_aircraft": 3
@@ -8172,14 +8179,14 @@
         },
         {
             "name": "Express Air Cargo",
-            "logo": "./images/XRC.png",
+            "logo": "/XRC.png",
             "iata_code": "7A",
             "icao_code": "XRC",
             "num_aircraft": 3
         },
         {
             "name": "Eznis Airways",
-            "logo": "./images/EZA.png",
+            "logo": "/EZA.png",
             "iata_code": "MG",
             "icao_code": "EZA",
             "num_aircraft": 3
@@ -8193,28 +8200,28 @@
         },
         {
             "name": "FitsAir",
-            "logo": "./images/EXV.png",
+            "logo": "/EXV.png",
             "iata_code": "8D",
             "icao_code": "EXV",
             "num_aircraft": 3
         },
         {
             "name": "Fly AllWays",
-            "logo": "./images/EDR.png",
+            "logo": "/EDR.png",
             "iata_code": "8W",
             "icao_code": "EDR",
             "num_aircraft": 3
         },
         {
             "name": "Fly Jinnah",
-            "logo": "./images/FJL.png",
+            "logo": "/FJL.png",
             "iata_code": "9P",
             "icao_code": "FJL",
             "num_aircraft": 3
         },
         {
             "name": "FlyBig",
-            "logo": "./images/FLG.png",
+            "logo": "/FLG.png",
             "iata_code": "S9",
             "icao_code": "FLG",
             "num_aircraft": 3
@@ -8270,7 +8277,7 @@
         },
         {
             "name": "Grand China Air",
-            "logo": "./images/GDC.png",
+            "logo": "/GDC.png",
             "iata_code": "CN",
             "icao_code": "GDC",
             "num_aircraft": 3
@@ -8284,7 +8291,7 @@
         },
         {
             "name": "Green Africa Airways",
-            "logo": "./images/GWG.png",
+            "logo": "/GWG.png",
             "iata_code": "Q9",
             "icao_code": "GWG",
             "num_aircraft": 3
@@ -8305,7 +8312,7 @@
         },
         {
             "name": "Hahn Air",
-            "logo": "./images/HHN.png",
+            "logo": "/HHN.png",
             "iata_code": "HR",
             "icao_code": "HHN",
             "num_aircraft": 3
@@ -8333,7 +8340,7 @@
         },
         {
             "name": "Hibernian Airlines",
-            "logo": "./images/HBN.png",
+            "logo": "/HBN.png",
             "iata_code": "HG",
             "icao_code": "HBN",
             "num_aircraft": 3
@@ -8347,14 +8354,14 @@
         },
         {
             "name": "Hunnu Air",
-            "logo": "./images/MML.png",
+            "logo": "/MML.png",
             "iata_code": "MR",
             "icao_code": "MML",
             "num_aircraft": 3
         },
         {
             "name": "Hydro Quebec",
-            "logo": "./images/HYD.png",
+            "logo": "/HYD.png",
             "iata_code": "0Q",
             "icao_code": "HYD",
             "num_aircraft": 3
@@ -8375,7 +8382,7 @@
         },
         {
             "name": "Jetsuite Air",
-            "logo": "./images/RSP.png",
+            "logo": "/RSP.png",
             "iata_code": null,
             "icao_code": "RSP",
             "num_aircraft": 3
@@ -8410,35 +8417,35 @@
         },
         {
             "name": "La Costena",
-            "logo": "./images/NIS.png",
+            "logo": "/NIS.png",
             "iata_code": null,
             "icao_code": "NIS",
             "num_aircraft": 3
         },
         {
             "name": "LAM",
-            "logo": "./images/LAM.png",
+            "logo": "/LAM.png",
             "iata_code": "TM",
             "icao_code": "LAM",
             "num_aircraft": 3
         },
         {
             "name": "LIAT",
-            "logo": "./images/LIA.png",
+            "logo": "/LIA.png",
             "iata_code": "LI",
             "icao_code": "LIA",
             "num_aircraft": 3
         },
         {
             "name": "Mann Yadanarpon Airlines",
-            "logo": "./images/MYP.png",
+            "logo": "/MYP.png",
             "iata_code": "7Y",
             "icao_code": "MYP",
             "num_aircraft": 3
         },
         {
             "name": "Mauritania Airlines International",
-            "logo": "./images/MAI.png",
+            "logo": "/MAI.png",
             "iata_code": "L6",
             "icao_code": "MAI",
             "num_aircraft": 3
@@ -8459,14 +8466,14 @@
         },
         {
             "name": "Nesma Airlines",
-            "logo": "./images/NMA.png",
+            "logo": "/NMA.png",
             "iata_code": "NE",
             "icao_code": "NMA",
             "num_aircraft": 3
         },
         {
             "name": "Nordica",
-            "logo": "./images/NDA.png",
+            "logo": "/NDA.png",
             "iata_code": "ND",
             "icao_code": "NDA",
             "num_aircraft": 3
@@ -8494,14 +8501,14 @@
         },
         {
             "name": "Pan Europeenne Air Service",
-            "logo": "./images/PEA.png",
+            "logo": "/PEA.png",
             "iata_code": null,
             "icao_code": "PEA",
             "num_aircraft": 3
         },
         {
             "name": "Paranair",
-            "logo": "./images/AZP.png",
+            "logo": "/AZP.png",
             "iata_code": "ZP",
             "icao_code": "AZP",
             "num_aircraft": 3
@@ -8515,14 +8522,14 @@
         },
         {
             "name": "Pineapple Air",
-            "logo": "./images/PNP.png",
+            "logo": "/PNP.png",
             "iata_code": null,
             "icao_code": "PNP",
             "num_aircraft": 3
         },
         {
             "name": "Platoon Aviation",
-            "logo": "./images/PTN.png",
+            "logo": "/PTN.png",
             "iata_code": null,
             "icao_code": "PTN",
             "num_aircraft": 3
@@ -8536,7 +8543,7 @@
         },
         {
             "name": "Red Air",
-            "logo": "./images/REA.png",
+            "logo": "/REA.png",
             "iata_code": "L5",
             "icao_code": "REA",
             "num_aircraft": 3
@@ -8557,7 +8564,7 @@
         },
         {
             "name": "Rimbun Air",
-            "logo": "./images/OEY.png",
+            "logo": "/OEY.png",
             "iata_code": "RI",
             "icao_code": "OEY",
             "num_aircraft": 3
@@ -8571,7 +8578,7 @@
         },
         {
             "name": "Rutaca Airlines",
-            "logo": "./images/RUC.png",
+            "logo": "/RUC.png",
             "iata_code": "5R",
             "icao_code": "RUC",
             "num_aircraft": 3
@@ -8613,7 +8620,7 @@
         },
         {
             "name": "Silesia Air",
-            "logo": "./images/SUA.png",
+            "logo": "/SUA.png",
             "iata_code": null,
             "icao_code": "SUA",
             "num_aircraft": 3
@@ -8627,7 +8634,7 @@
         },
         {
             "name": "Sky Angkor Airlines",
-            "logo": "./images/SWM.png",
+            "logo": "/SWM.png",
             "iata_code": "ZA",
             "icao_code": "SWM",
             "num_aircraft": 3
@@ -8655,7 +8662,7 @@
         },
         {
             "name": "Sparfell France",
-            "logo": "./images/MIM.png",
+            "logo": "/MIM.png",
             "iata_code": null,
             "icao_code": "MIM",
             "num_aircraft": 3
@@ -8683,21 +8690,21 @@
         },
         {
             "name": "Sunlight Air",
-            "logo": "./images/RLB.png",
+            "logo": "/RLB.png",
             "iata_code": "2R",
             "icao_code": "RLB",
             "num_aircraft": 3
         },
         {
             "name": "Swiss Air-Ambulance",
-            "logo": "./images/SAZ.png",
+            "logo": "/SAZ.png",
             "iata_code": null,
             "icao_code": "SAZ",
             "num_aircraft": 3
         },
         {
             "name": "Tez Jet Airlines",
-            "logo": "./images/TEZ.png",
+            "logo": "/TEZ.png",
             "iata_code": null,
             "icao_code": "TEZ",
             "num_aircraft": 3
@@ -8718,28 +8725,28 @@
         },
         {
             "name": "Trans Island Airways",
-            "logo": "./images/GGT.png",
+            "logo": "/GGT.png",
             "iata_code": null,
             "icao_code": "GGT",
             "num_aircraft": 3
         },
         {
             "name": "Transair",
-            "logo": "./images/GTS.png",
+            "logo": "/GTS.png",
             "iata_code": "R2",
             "icao_code": "GTS",
             "num_aircraft": 3
         },
         {
             "name": "Turpial Airlines",
-            "logo": "./images/VTU.png",
+            "logo": "/VTU.png",
             "iata_code": "T9",
             "icao_code": "VTU",
             "num_aircraft": 3
         },
         {
             "name": "ULS Airlines Cargo",
-            "logo": "./images/KZU.png",
+            "logo": "/KZU.png",
             "iata_code": "GO",
             "icao_code": "KZU",
             "num_aircraft": 3
@@ -8753,7 +8760,7 @@
         },
         {
             "name": "Venezolana",
-            "logo": "./images/VNE.png",
+            "logo": "/VNE.png",
             "iata_code": null,
             "icao_code": "VNE",
             "num_aircraft": 3
@@ -8781,7 +8788,7 @@
         },
         {
             "name": "White",
-            "logo": "./images/WHT.png",
+            "logo": "/WHT.png",
             "iata_code": "WI",
             "icao_code": "WHT",
             "num_aircraft": 3
@@ -8795,7 +8802,7 @@
         },
         {
             "name": "World2Fly",
-            "logo": "./images/WFL.png",
+            "logo": "/WFL.png",
             "iata_code": "2W",
             "icao_code": "WFL",
             "num_aircraft": 3
@@ -8809,14 +8816,14 @@
         },
         {
             "name": "Xfly",
-            "logo": "./images/EST.png",
+            "logo": "/EST.png",
             "iata_code": "EE",
             "icao_code": "EST",
             "num_aircraft": 3
         },
         {
             "name": "YanAir",
-            "logo": "./images/ANR.png",
+            "logo": "/ANR.png",
             "iata_code": "YE",
             "icao_code": "ANR",
             "num_aircraft": 3
@@ -8844,7 +8851,7 @@
         },
         {
             "name": "Aero K",
-            "logo": "./images/EOK.png",
+            "logo": "/EOK.png",
             "iata_code": "RF",
             "icao_code": "EOK",
             "num_aircraft": 2
@@ -8858,7 +8865,7 @@
         },
         {
             "name": "African Express Airways",
-            "logo": "./images/AXK.png",
+            "logo": "/AXK.png",
             "iata_code": "XU",
             "icao_code": "AXK",
             "num_aircraft": 2
@@ -8872,21 +8879,21 @@
         },
         {
             "name": "Air Albania",
-            "logo": "./images/ABN.png",
+            "logo": "/ABN.png",
             "iata_code": "ZB",
             "icao_code": "ABN",
             "num_aircraft": 2
         },
         {
             "name": "Air Bucharest",
-            "logo": "./images/BUR.png",
+            "logo": "/BUR.png",
             "iata_code": null,
             "icao_code": "BUR",
             "num_aircraft": 2
         },
         {
             "name": "Air Choice One",
-            "logo": "./images/ACO.png",
+            "logo": "/ACO.png",
             "iata_code": "3E",
             "icao_code": "ACO",
             "num_aircraft": 2
@@ -8914,35 +8921,35 @@
         },
         {
             "name": "Air Kiribati",
-            "logo": "./images/AKL.png",
+            "logo": "/AKL.png",
             "iata_code": "IK",
             "icao_code": "AKL",
             "num_aircraft": 2
         },
         {
             "name": "Air Mediterranean",
-            "logo": "./images/MAR.png",
+            "logo": "/MAR.png",
             "iata_code": "MV",
             "icao_code": "MAR",
             "num_aircraft": 2
         },
         {
             "name": "Air Moana",
-            "logo": "./images/NTR.png",
+            "logo": "/NTR.png",
             "iata_code": "NM",
             "icao_code": "NTR",
             "num_aircraft": 2
         },
         {
             "name": "Air Saint-Pierre",
-            "logo": "./images/SPM.png",
+            "logo": "/SPM.png",
             "iata_code": "PJ",
             "icao_code": "SPM",
             "num_aircraft": 2
         },
         {
             "name": "Air Vanuatu",
-            "logo": "./images/AVN.png",
+            "logo": "/AVN.png",
             "iata_code": "NF",
             "icao_code": "AVN",
             "num_aircraft": 2
@@ -8956,7 +8963,7 @@
         },
         {
             "name": "Aircompany Armenia",
-            "logo": "./images/NGT.png",
+            "logo": "/NGT.png",
             "iata_code": "RM",
             "icao_code": "NGT",
             "num_aircraft": 2
@@ -9019,7 +9026,7 @@
         },
         {
             "name": "Alpine Flightservice",
-            "logo": "./images/FSE.png",
+            "logo": "/FSE.png",
             "iata_code": null,
             "icao_code": "FSE",
             "num_aircraft": 2
@@ -9033,7 +9040,7 @@
         },
         {
             "name": "Angara Airlines",
-            "logo": "./images/AGU.png",
+            "logo": "/AGU.png",
             "iata_code": "2G",
             "icao_code": "AGU",
             "num_aircraft": 2
@@ -9054,14 +9061,14 @@
         },
         {
             "name": "Bairline",
-            "logo": "./images/BRJ.png",
+            "logo": "/BRJ.png",
             "iata_code": null,
             "icao_code": "BRJ",
             "num_aircraft": 2
         },
         {
             "name": "Bassaka Air",
-            "logo": "./images/BSX.png",
+            "logo": "/BSX.png",
             "iata_code": "5B",
             "icao_code": "BSX",
             "num_aircraft": 2
@@ -9075,21 +9082,21 @@
         },
         {
             "name": "Bhutan Airlines",
-            "logo": "./images/BTN.png",
+            "logo": "/BTN.png",
             "iata_code": "B3",
             "icao_code": "BTN",
             "num_aircraft": 2
         },
         {
             "name": "Blue Air",
-            "logo": "./images/BLA.png",
+            "logo": "/BLA.png",
             "iata_code": "0B",
             "icao_code": "BLA",
             "num_aircraft": 2
         },
         {
             "name": "Bravo Airways",
-            "logo": "./images/BAY.png",
+            "logo": "/BAY.png",
             "iata_code": null,
             "icao_code": "BAY",
             "num_aircraft": 2
@@ -9103,35 +9110,35 @@
         },
         {
             "name": "Buraq Air",
-            "logo": "./images/BRQ.png",
+            "logo": "/BRQ.png",
             "iata_code": "UZ",
             "icao_code": "BRQ",
             "num_aircraft": 2
         },
         {
             "name": "Cabo Verde Airlines",
-            "logo": "./images/TCV.png",
+            "logo": "/TCV.png",
             "iata_code": "VR",
             "icao_code": "TCV",
             "num_aircraft": 2
         },
         {
             "name": "Camair-Co",
-            "logo": "./images/CRC.png",
+            "logo": "/CRC.png",
             "iata_code": "QC",
             "icao_code": "CRC",
             "num_aircraft": 2
         },
         {
             "name": "Camex Airlines",
-            "logo": "./images/CMS.png",
+            "logo": "/CMS.png",
             "iata_code": "Z7",
             "icao_code": "CMS",
             "num_aircraft": 2
         },
         {
             "name": "Cardig Air",
-            "logo": "./images/CAD.png",
+            "logo": "/CAD.png",
             "iata_code": null,
             "icao_code": "CAD",
             "num_aircraft": 2
@@ -9145,14 +9152,14 @@
         },
         {
             "name": "Conquest Air",
-            "logo": "./images/QAI.png",
+            "logo": "/QAI.png",
             "iata_code": "C4",
             "icao_code": "QAI",
             "num_aircraft": 2
         },
         {
             "name": "Cyprus Airways",
-            "logo": "./images/CYP.png",
+            "logo": "/CYP.png",
             "iata_code": "CY",
             "icao_code": "CYP",
             "num_aircraft": 2
@@ -9166,14 +9173,14 @@
         },
         {
             "name": "Dubai Air Wing",
-            "logo": "./images/DUB.png",
+            "logo": "/DUB.png",
             "iata_code": null,
             "icao_code": "DUB",
             "num_aircraft": 2
         },
         {
             "name": "EWA Air",
-            "logo": "./images/EWR.png",
+            "logo": "/EWR.png",
             "iata_code": "ZD",
             "icao_code": "EWR",
             "num_aircraft": 2
@@ -9194,14 +9201,14 @@
         },
         {
             "name": "Feuerwehr-Flugdienst Niedersachsen",
-            "logo": "./images/FFD.png",
+            "logo": "/FFD.png",
             "iata_code": null,
             "icao_code": "FFD",
             "num_aircraft": 2
         },
         {
             "name": "Flight Calibration Services",
-            "logo": "./images/FCK.png",
+            "logo": "/FCK.png",
             "iata_code": null,
             "icao_code": "FCK",
             "num_aircraft": 2
@@ -9229,7 +9236,7 @@
         },
         {
             "name": "Fly Oya",
-            "logo": "./images/OYA.png",
+            "logo": "/OYA.png",
             "iata_code": "YI",
             "icao_code": "OYA",
             "num_aircraft": 2
@@ -9292,7 +9299,7 @@
         },
         {
             "name": "IndiaOne Air",
-            "logo": "./images/IOA.png",
+            "logo": "/IOA.png",
             "iata_code": "I7",
             "icao_code": "IOA",
             "num_aircraft": 2
@@ -9313,14 +9320,14 @@
         },
         {
             "name": "Jetair Caribbean",
-            "logo": "./images/JRC.png",
+            "logo": "/JRC.png",
             "iata_code": "4J",
             "icao_code": "JRC",
             "num_aircraft": 2
         },
         {
             "name": "Jetbee Czech",
-            "logo": "./images/JBC.png",
+            "logo": "/JBC.png",
             "iata_code": null,
             "icao_code": "JBC",
             "num_aircraft": 2
@@ -9355,14 +9362,14 @@
         },
         {
             "name": "La Compagnie",
-            "logo": "./images/DJT.png",
+            "logo": "/DJT.png",
             "iata_code": "B0",
             "icao_code": "DJT",
             "num_aircraft": 2
         },
         {
             "name": "Lao Skyway",
-            "logo": "./images/LLL.png",
+            "logo": "/LLL.png",
             "iata_code": "LK",
             "icao_code": "LLL",
             "num_aircraft": 2
@@ -9390,21 +9397,21 @@
         },
         {
             "name": "Luxaviation E.A",
-            "logo": "./images/LMJ.png",
+            "logo": "/LMJ.png",
             "iata_code": null,
             "icao_code": "LMJ",
             "num_aircraft": 2
         },
         {
             "name": "Luxaviation Germany",
-            "logo": "./images/LXG.png",
+            "logo": "/LXG.png",
             "iata_code": null,
             "icao_code": "LXG",
             "num_aircraft": 2
         },
         {
             "name": "Malawian Airlines",
-            "logo": "./images/MWI.png",
+            "logo": "/MWI.png",
             "iata_code": "3W",
             "icao_code": "MWI",
             "num_aircraft": 2
@@ -9418,14 +9425,14 @@
         },
         {
             "name": "Miami Air International",
-            "logo": "./images/BSK.png",
+            "logo": "/BSK.png",
             "iata_code": "LL",
             "icao_code": "BSK",
             "num_aircraft": 2
         },
         {
             "name": "MyWay Airlines",
-            "logo": "./images/MYW.png",
+            "logo": "/MYW.png",
             "iata_code": "MJ",
             "icao_code": "MYW",
             "num_aircraft": 2
@@ -9439,7 +9446,7 @@
         },
         {
             "name": "Novair",
-            "logo": "./images/NVR.png",
+            "logo": "/NVR.png",
             "iata_code": "N9",
             "icao_code": "NVR",
             "num_aircraft": 2
@@ -9460,14 +9467,14 @@
         },
         {
             "name": "PAL Aerospace",
-            "logo": "./images/SPR.png",
+            "logo": "/SPR.png",
             "iata_code": null,
             "icao_code": "SPR",
             "num_aircraft": 2
         },
         {
             "name": "Pivot Airlines",
-            "logo": "./images/GGN.png",
+            "logo": "/GGN.png",
             "iata_code": "ZX",
             "icao_code": "GGN",
             "num_aircraft": 2
@@ -9495,14 +9502,14 @@
         },
         {
             "name": "Rotana Jet",
-            "logo": "./images/RJD.png",
+            "logo": "/RJD.png",
             "iata_code": "RG",
             "icao_code": "RJD",
             "num_aircraft": 2
         },
         {
             "name": "Samoa Airways",
-            "logo": "./images/PAO.png",
+            "logo": "/PAO.png",
             "iata_code": "OL",
             "icao_code": "PAO",
             "num_aircraft": 2
@@ -9530,14 +9537,14 @@
         },
         {
             "name": "SKS Airways",
-            "logo": "./images/SJB.png",
+            "logo": "/SJB.png",
             "iata_code": "KI",
             "icao_code": "SJB",
             "num_aircraft": 2
         },
         {
             "name": "Sky Lease Cargo",
-            "logo": "./images/KYE.png",
+            "logo": "/KYE.png",
             "iata_code": "GG",
             "icao_code": "KYE",
             "num_aircraft": 2
@@ -9558,28 +9565,28 @@
         },
         {
             "name": "SkyJet Airlines",
-            "logo": "./images/MSJ.png",
+            "logo": "/MSJ.png",
             "iata_code": "M8",
             "icao_code": "MSJ",
             "num_aircraft": 2
         },
         {
             "name": "Skyservice Business Aviation",
-            "logo": "./images/SYB.png",
+            "logo": "/SYB.png",
             "iata_code": null,
             "icao_code": "SYB",
             "num_aircraft": 2
         },
         {
             "name": "Skytaxi",
-            "logo": "./images/IGA.png",
+            "logo": "/IGA.png",
             "iata_code": "TE",
             "icao_code": "IGA",
             "num_aircraft": 2
         },
         {
             "name": "Southern Air Charter",
-            "logo": "./images/SOA.png",
+            "logo": "/SOA.png",
             "iata_code": "PL",
             "icao_code": "SOA",
             "num_aircraft": 2
@@ -9600,7 +9607,7 @@
         },
         {
             "name": "Sudan Airways",
-            "logo": "./images/SUD.png",
+            "logo": "/SUD.png",
             "iata_code": "SD",
             "icao_code": "SUD",
             "num_aircraft": 2
@@ -9621,7 +9628,7 @@
         },
         {
             "name": "Syphax Airlines",
-            "logo": "./images/SYA.png",
+            "logo": "/SYA.png",
             "iata_code": "Y3",
             "icao_code": "SYA",
             "num_aircraft": 2
@@ -9663,7 +9670,7 @@
         },
         {
             "name": "Tunisair Express",
-            "logo": "./images/TUX.png",
+            "logo": "/TUX.png",
             "iata_code": "UG",
             "icao_code": "TUX",
             "num_aircraft": 2
@@ -9677,7 +9684,7 @@
         },
         {
             "name": "Ukraine Air Alliance",
-            "logo": "./images/UKL.png",
+            "logo": "/UKL.png",
             "iata_code": null,
             "icao_code": "UKL",
             "num_aircraft": 2
@@ -9691,14 +9698,14 @@
         },
         {
             "name": "UR Airlines",
-            "logo": "./images/UBD.png",
+            "logo": "/UBD.png",
             "iata_code": "UD",
             "icao_code": "UBD",
             "num_aircraft": 2
         },
         {
             "name": "ValueJet",
-            "logo": "./images/FVJ.png",
+            "logo": "/FVJ.png",
             "iata_code": "VK",
             "icao_code": "FVJ",
             "num_aircraft": 2
@@ -9740,7 +9747,7 @@
         },
         {
             "name": "Air Manas",
-            "logo": "./images/MBB.png",
+            "logo": "/MBB.png",
             "iata_code": "ZM",
             "icao_code": "MBB",
             "num_aircraft": 1
@@ -9761,7 +9768,7 @@
         },
         {
             "name": "AirPink",
-            "logo": "./images/PNK.png",
+            "logo": "/PNK.png",
             "iata_code": null,
             "icao_code": "PNK",
             "num_aircraft": 1
@@ -9796,7 +9803,7 @@
         },
         {
             "name": "Anda Air",
-            "logo": "./images/SSV.png",
+            "logo": "/SSV.png",
             "iata_code": "DM",
             "icao_code": "SSV",
             "num_aircraft": 1
@@ -9810,7 +9817,7 @@
         },
         {
             "name": "APG Airlines",
-            "logo": "./images/RIV.png",
+            "logo": "/RIV.png",
             "iata_code": "GP",
             "icao_code": "RIV",
             "num_aircraft": 1
@@ -9831,14 +9838,14 @@
         },
         {
             "name": "Avanti Air",
-            "logo": "./images/ATV.png",
+            "logo": "/ATV.png",
             "iata_code": null,
             "icao_code": "ATV",
             "num_aircraft": 1
         },
         {
             "name": "Avcon Jet San Marino",
-            "logo": "./images/VAJ.png",
+            "logo": "/VAJ.png",
             "iata_code": null,
             "icao_code": "VAJ",
             "num_aircraft": 1
@@ -9852,7 +9859,7 @@
         },
         {
             "name": "Babcock MCS Portugal",
-            "logo": "./images/BBO.png",
+            "logo": "/BBO.png",
             "iata_code": null,
             "icao_code": "BBO",
             "num_aircraft": 1
@@ -9880,7 +9887,7 @@
         },
         {
             "name": "CargoLogicAir",
-            "logo": "./images/CLU.png",
+            "logo": "/CLU.png",
             "iata_code": "P3",
             "icao_code": "CLU",
             "num_aircraft": 1
@@ -9894,7 +9901,7 @@
         },
         {
             "name": "Comlux Aruba",
-            "logo": "./images/CXB.png",
+            "logo": "/CXB.png",
             "iata_code": "CS",
             "icao_code": "CXB",
             "num_aircraft": 1
@@ -9908,28 +9915,28 @@
         },
         {
             "name": "Cristalux",
-            "logo": "./images/AUZ.png",
+            "logo": "/AUZ.png",
             "iata_code": "Z7",
             "icao_code": "AUZ",
             "num_aircraft": 1
         },
         {
             "name": "CSI Aviation",
-            "logo": "./images/CSI.png",
+            "logo": "/CSI.png",
             "iata_code": null,
             "icao_code": "CSI",
             "num_aircraft": 1
         },
         {
             "name": "Czech Airlines",
-            "logo": "./images/CSA.png",
+            "logo": "/CSA.png",
             "iata_code": "OK",
             "icao_code": "CSA",
             "num_aircraft": 1
         },
         {
             "name": "Daallo Airlines",
-            "logo": "./images/DAO.png",
+            "logo": "/DAO.png",
             "iata_code": "D3",
             "icao_code": "DAO",
             "num_aircraft": 1
@@ -9978,14 +9985,14 @@
         },
         {
             "name": "Envoy Air",
-            "logo": "./images/ENY.png",
+            "logo": "/ENY.png",
             "iata_code": "MQ",
             "icao_code": "ENY",
             "num_aircraft": 1
         },
         {
             "name": "ExpressJet Airlines",
-            "logo": "./images/BTA.png",
+            "logo": "/BTA.png",
             "iata_code": "XE",
             "icao_code": "BTA",
             "num_aircraft": 1
@@ -9999,14 +10006,14 @@
         },
         {
             "name": "Fleet Air International",
-            "logo": "./images/FRF.png",
+            "logo": "/FRF.png",
             "iata_code": null,
             "icao_code": "FRF",
             "num_aircraft": 1
         },
         {
             "name": "Flightlink",
-            "logo": "./images/FLZ.png",
+            "logo": "/FLZ.png",
             "iata_code": "YS",
             "icao_code": "FLZ",
             "num_aircraft": 1
@@ -10020,7 +10027,7 @@
         },
         {
             "name": "Fly Angola",
-            "logo": "./images/FLA.png",
+            "logo": "/FLA.png",
             "iata_code": "EQ",
             "icao_code": "FLA",
             "num_aircraft": 1
@@ -10076,7 +10083,7 @@
         },
         {
             "name": "Icar Air",
-            "logo": "./images/RAC.png",
+            "logo": "/RAC.png",
             "iata_code": null,
             "icao_code": "RAC",
             "num_aircraft": 1
@@ -10097,7 +10104,7 @@
         },
         {
             "name": "Jet Airways",
-            "logo": "./images/JAI.png",
+            "logo": "/JAI.png",
             "iata_code": "9W",
             "icao_code": "JAI",
             "num_aircraft": 1
@@ -10118,7 +10125,7 @@
         },
         {
             "name": "Keewatin Air",
-            "logo": "./images/KEW.png",
+            "logo": "/KEW.png",
             "iata_code": "FK",
             "icao_code": "KEW",
             "num_aircraft": 1
@@ -10139,7 +10146,7 @@
         },
         {
             "name": "Lydd Air",
-            "logo": "./images/LYD.png",
+            "logo": "/LYD.png",
             "iata_code": null,
             "icao_code": "LYD",
             "num_aircraft": 1
@@ -10167,21 +10174,21 @@
         },
         {
             "name": "Map Linhas Aereas",
-            "logo": "./images/PAM.png",
+            "logo": "/PAM.png",
             "iata_code": "7M",
             "icao_code": "PAM",
             "num_aircraft": 1
         },
         {
             "name": "Martinair Holland",
-            "logo": "./images/MPH.png",
+            "logo": "/MPH.png",
             "iata_code": "MP",
             "icao_code": "MPH",
             "num_aircraft": 1
         },
         {
             "name": "Mel Air",
-            "logo": "./images/MDO.png",
+            "logo": "/MDO.png",
             "iata_code": "5M",
             "icao_code": "MDO",
             "num_aircraft": 1
@@ -10216,7 +10223,7 @@
         },
         {
             "name": "Nova Airways",
-            "logo": "./images/NOV.png",
+            "logo": "/NOV.png",
             "iata_code": null,
             "icao_code": "NOV",
             "num_aircraft": 1
@@ -10230,7 +10237,7 @@
         },
         {
             "name": "Omni Air International",
-            "logo": "./images/OAE.png",
+            "logo": "/OAE.png",
             "iata_code": "OY",
             "icao_code": "OAE",
             "num_aircraft": 1
@@ -10258,7 +10265,7 @@
         },
         {
             "name": "People's",
-            "logo": "./images/PEV.png",
+            "logo": "/PEV.png",
             "iata_code": "PE",
             "icao_code": "PEV",
             "num_aircraft": 1
@@ -10300,7 +10307,7 @@
         },
         {
             "name": "Shuttle America",
-            "logo": "./images/TCF.png",
+            "logo": "/TCF.png",
             "iata_code": "S5",
             "icao_code": "TCF",
             "num_aircraft": 1
@@ -10314,7 +10321,7 @@
         },
         {
             "name": "Sirius Aero",
-            "logo": "./images/CIG.png",
+            "logo": "/CIG.png",
             "iata_code": "SA",
             "icao_code": "CIG",
             "num_aircraft": 1
@@ -10328,35 +10335,35 @@
         },
         {
             "name": "Skyside",
-            "logo": "./images/SKV.png",
+            "logo": "/SKV.png",
             "iata_code": null,
             "icao_code": "SKV",
             "num_aircraft": 1
         },
         {
             "name": "Solinair",
-            "logo": "./images/SOP.png",
+            "logo": "/SOP.png",
             "iata_code": "ZS",
             "icao_code": "SOP",
             "num_aircraft": 1
         },
         {
             "name": "Sterling Airways",
-            "logo": "./images/SRY.png",
+            "logo": "/SRY.png",
             "iata_code": "VC",
             "icao_code": "SRY",
             "num_aircraft": 1
         },
         {
             "name": "Sundt Air",
-            "logo": "./images/MDT.png",
+            "logo": "/MDT.png",
             "iata_code": null,
             "icao_code": "MDT",
             "num_aircraft": 1
         },
         {
             "name": "Surinam Airways",
-            "logo": "./images/SLM.png",
+            "logo": "/SLM.png",
             "iata_code": "PY",
             "icao_code": "SLM",
             "num_aircraft": 1
@@ -10370,7 +10377,7 @@
         },
         {
             "name": "TAB Cargo",
-            "logo": "./images/BOL.png",
+            "logo": "/BOL.png",
             "iata_code": "2L",
             "icao_code": "BOL",
             "num_aircraft": 1
@@ -10391,7 +10398,7 @@
         },
         {
             "name": "TUI Airlines Belgium",
-            "logo": "./images/JAF.png",
+            "logo": "/JAF.png",
             "iata_code": "TB",
             "icao_code": "JAF",
             "num_aircraft": 1
@@ -10412,7 +10419,7 @@
         },
         {
             "name": "Zambia Airways",
-            "logo": "./images/AZB.png",
+            "logo": "/AZB.png",
             "iata_code": "ZN",
             "icao_code": "AZB",
             "num_aircraft": 1
@@ -10643,3 +10650,8 @@
         }
     ]
 }
+
+export default function airlineRecord(iataCode) {
+    return airlines.data.find(airBrand => iataCode === airBrand.iata_code);
+  }
+  
