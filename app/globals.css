@@ -764,3 +764,24 @@ input::-webkit-inner-spin-button {
 .results-view::-webkit-scrollbar{
     width: 0;
 }
+/*  Login page css */
+
+.MainContiner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.half-partition{
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20%;
+}

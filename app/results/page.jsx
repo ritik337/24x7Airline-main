@@ -18,13 +18,15 @@ const result = () => {
     "type": params.get("type"),
     "curr": params.get("curr")
   }
+  const [distnce,setDistance] = useState(0)
   const [flightData, setflightData] = useState([])
   const requestFordata = async () => {
     try {
       const url = "http://localhost:8080/api/searchflight"
       let response = await fetch(url, { method: 'POST', body: JSON.stringify(data) })
       let flights = await response.json()
-      setflightData(flights.data)
+      setflightData(flights)
+      setDistance(flights[0].distance)
       console.log(flights)
     } catch (error) {
       console.error(error)
@@ -67,7 +69,7 @@ const result = () => {
           </div>
       </div>
     </div>
-    <div className="table-center-cont sectionHalf-lg"> 200KM</div>
+    <div className="table-center-cont sectionHalf-lg"> {distnce} KM</div>
     <div className="table-right-cont sectionHalf">
     <div className="location-from">
           <div className="location-flag">
@@ -100,6 +102,7 @@ const result = () => {
               return <Card key={index} data={flight} />
             })
           }
+          {/* <Card/> */}
         </div>
       </div>
     </div>

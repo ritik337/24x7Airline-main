@@ -16,7 +16,20 @@ export async function POST(request) {
       });
 
       let data = await response.json()
-      return NextResponse.json(data)
+      const uniqueArray = data.data.filter((value, index, self) =>
+        index === self.findIndex((t) => t.price === value.price && t.bags_price[1] === value.bags_price[1])
+      );
+    
+      const NullSeatFilter = []
+    
+    uniqueArray.map((flight,index)=>{
+        if (flight.availability.seats != null){
+            NullSeatFilter.push(flight)
+        }else{
+    
+        }
+      })
+      return NextResponse.json(data.data = NullSeatFilter)
     } catch (error) {
       console.error('Error:', error);
       return error
